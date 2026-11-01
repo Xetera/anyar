@@ -1,0 +1,5983 @@
+{
+  "categories": {
+    "battle": {
+      "label": "Battles & conquests",
+      "color": "#b3261e",
+      "icon": "swords"
+    },
+    "raid": {
+      "label": "Raids",
+      "color": "#e07a1f",
+      "icon": "flame"
+    },
+    "base": {
+      "label": "Bases & staging",
+      "color": "#6d2e7a",
+      "icon": "flag"
+    },
+    "politics": {
+      "label": "Politics",
+      "color": "#2c5f9e",
+      "icon": "hall"
+    },
+    "industry": {
+      "label": "Industry & resources",
+      "color": "#4e7d2b",
+      "icon": "hammer"
+    },
+    "story": {
+      "label": "Story",
+      "color": "#c99a1a",
+      "icon": "star"
+    },
+    "geography": {
+      "label": "Lands & peoples",
+      "color": "#7b6650",
+      "icon": "mountain"
+    },
+    "sea": {
+      "label": "Sea & trade",
+      "color": "#1f7f8f",
+      "icon": "anchor"
+    },
+    "voyage": {
+      "label": "Voyages",
+      "color": "#6b5238",
+      "icon": "route"
+    },
+    "march": {
+      "label": "Marches & campaigns",
+      "color": "#6b6b1f",
+      "icon": "march"
+    },
+    "arrival": {
+      "label": "Earth castaways found",
+      "color": "#c2185b",
+      "icon": "person",
+      "persistent": true
+    },
+    "egg": {
+      "label": "Flagorn eggs",
+      "color": "#3949ab",
+      "icon": "egg",
+      "persistent": true
+    }
+  },
+  "powers": {
+    "narthon": {
+      "label": "Narthon",
+      "adj": "Narthani",
+      "color": "#a8201a"
+    },
+    "fuomon": {
+      "label": "Fuomon",
+      "adj": "Fuomi",
+      "color": "#1d5f9e"
+    },
+    "caedellium": {
+      "label": "Caedellium",
+      "adj": "Caedelli",
+      "color": "#2f7a3a"
+    },
+    "buldor": {
+      "label": "Buldor",
+      "adj": "Buldorian",
+      "color": "#2b2b2b"
+    },
+    "kolinka": {
+      "label": "Kolinka",
+      "adj": "Kolinkan",
+      "color": "#e08a12"
+    }
+  },
+  "items": [
+    {
+      "id": "b0-preddi-conquest",
+      "name": "Fall of Preddi",
+      "scale": "island",
+      "at": [
+        60.43,
+        274.9
+      ],
+      "text": "Six years before the story the Narthani open a trading enclave beside Preddi City. They provoke border clashes with Selfcell and Eywell, and when the Preddi attack the enclave, 2,000 Narthani troops land behind the Preddi army and crush it. About 10,000 Preddi flee to other provinces, and Preddi City becomes General Akuyun's headquarters.",
+      "since": 0,
+      "category": "battle"
+    },
+    {
+      "id": "b0-arrival",
+      "name": "Yozef washes ashore",
+      "scale": "island",
+      "at": [
+        64.61,
+        275.39
+      ],
+      "text": "Joe Colsco, renamed Yozef Kolsko, is found on the beach outside Abersford and carried about a mile over the dunes and the coast road to St. Sidryn's Abbey.",
+      "since": 0,
+      "category": "arrival"
+    },
+    {
+      "id": "b0-narthani-homeland",
+      "name": "Narthani homeland",
+      "scale": "world",
+      "at": [
+        383.6,
+        138.26
+      ],
+      "text": "The Narthani came out of the harsh northern wastelands and mountains of Melosia and pushed south into the warmer central latitudes. Their expansion is blocked by coalitions on their western and eastern borders, the Iraquinik Confederation and the Harrasedic League on this map.",
+      "since": 0,
+      "category": "geography"
+    },
+    {
+      "id": "b1-gulf-of-witlow",
+      "name": "Gulf of Witlow",
+      "scale": "island",
+      "at": [
+        61.02,
+        274.51
+      ],
+      "text": "Preddi refugees trying to cross the gulf by fishing boat to Keelan or Gwillamer are caught. Later, Keelan fishermen out of Dornfeld count a new Narthani fleet of warships and transports bound for Preddi City, and the news goes by rider and semaphore to Caernford.",
+      "since": 1,
+      "category": "sea"
+    },
+    {
+      "id": "b1-rocklyn",
+      "name": "Rocklyn",
+      "scale": "island",
+      "at": [
+        59.74,
+        275.46
+      ],
+      "text": "An abandoned fishing village in Preddi Province, about 30 miles by dirt road from Preddi City. The Narthani clear out its last 300 people and hand it to Captain Adalan's Buldorian raiders as their base, guarded by Narthani sloops and frigates. Location on the Preddi coast is approximate.",
+      "since": 1,
+      "category": "base"
+    },
+    {
+      "id": "b1-nollagen",
+      "name": "Raid on Nollagen",
+      "scale": "island",
+      "at": [
+        53.28,
+        269.71
+      ],
+      "text": "First Buldorian raid. Nollagen, a fishing village of about 400 on the southernmost island of Seaborn, is burned at night. Women and young boys are carried off as slaves.",
+      "since": 1,
+      "category": "raid"
+    },
+    {
+      "id": "b1-st-bodwydell",
+      "name": "Burning of St. Bodwydell's",
+      "scale": "island",
+      "at": [
+        55.71,
+        268.19
+      ],
+      "text": "Second Buldorian raid. The raiders land two miles around a rocky cape and march overland to St. Bodwydell's Abbey in Pewitt. The abbey, its scholasticum and library are burned, and all the brothers and sisters and several hundred villagers are killed. Location on the Pewitt coast is approximate.",
+      "since": 1,
+      "category": "raid"
+    },
+    {
+      "id": "b1-stent-abbey",
+      "name": "Aborted raid on Stent",
+      "scale": "island",
+      "at": [
+        58.24,
+        270.93
+      ],
+      "text": "A Buldorian raid on a Stent abbey is called off after the raiders find 200 Stentese men mustered there. Location on the Stent coast is approximate.",
+      "since": 1,
+      "category": "raid"
+    },
+    {
+      "id": "b1-moreland-raids",
+      "name": "Eywellese raids on Moreland",
+      "scale": "island",
+      "at": [
+        61.25,
+        271.68
+      ],
+      "text": "Eywellese riders raid across the border into Moreland. Several villages and hamlets are destroyed, more than fifty Morelanders are taken and as many as a hundred killed. Selfcellese incursions follow into Moreland and Stent.",
+      "since": 1,
+      "category": "raid"
+    },
+    {
+      "id": "b1-dillagon-pass",
+      "name": "Dillagon Pass",
+      "scale": "island",
+      "at": [
+        62.47,
+        274.21
+      ],
+      "text": "The pass through the Blythrim Mountains between the main part of Keelan and Dornfeld district. A landslide closes it for a sixday, and unknown men are sighted on the ridges above it. Keelan patrols are increased here and along the northern border after Eywellese riders are seen in northern Keelan. Location is approximate.",
+      "since": 1,
+      "category": "geography"
+    },
+    {
+      "id": "b1-st-sidryns",
+      "name": "Battle of St. Sidryn's",
+      "scale": "island",
+      "at": [
+        64.82,
+        275.29
+      ],
+      "text": "The climax of the book. After feints at villages down the coast, including a Gwillamer village 30 miles west, five Buldorian ships land 400 men on the beach below the abbey. About 100 sweep Abersford while the main force is lured into the abbey courtyard and routed in under five minutes. 133 Buldorians die against 15 Keelanders, and Boyerman Vorwich's men arrive from Clengoth about three hours after the alarm. St. Sidryn's is also where Yozef performs the first ether surgeries.",
+      "since": 1,
+      "category": "battle"
+    },
+    {
+      "id": "b1-birdshit-bay",
+      "name": "Birdshit Bay",
+      "scale": "island",
+      "at": [
+        64.51,
+        275.47
+      ],
+      "text": "Yozef's name for a mile-long inlet about five miles west of Abersford, two miles past his cove. Guano up to 40 feet deep on the offshore rocks is claimed for mining and tested as fertilizer on the Linton farm, ten miles north of Abersford. Location is approximate.",
+      "since": 1,
+      "category": "industry"
+    },
+    {
+      "id": "b1-oil-seeps",
+      "name": "Gwillamer oil seeps",
+      "scale": "island",
+      "at": [
+        64.06,
+        275.85
+      ],
+      "text": "Crude oil pools in a marshy valley a few miles from the sea, about 24 miles from Abersford along the main road into Gwillamer. Oil is hauled to Abersford in 1,200-gallon tanker wagons and distilled into kerosene. Location is approximate.",
+      "since": 1,
+      "category": "industry"
+    },
+    {
+      "id": "b1-great-hall",
+      "name": "Great Hall of the Keelans",
+      "scale": "island",
+      "at": [
+        65.35,
+        274.42
+      ],
+      "text": "The octagonal hall on Caernford's central plaza, built 130 years earlier and able to hold 7,000. Hetman Culich Keelan meets his boyermen here to organize coastal watch stations, patrols and militia training against the Narthani.",
+      "since": 1,
+      "category": "politics"
+    },
+    {
+      "id": "b1-rustal",
+      "name": "Conquest of Rustal",
+      "scale": "world",
+      "at": [
+        378.8,
+        456.93
+      ],
+      "text": "The Narthani built a fleet and conquered the Kingdom of Rustal, in eastern Ganolar and about the size of Canada, in less than two years. Resistance holds out in the mountains and the colder southern parts of the kingdom.",
+      "since": 1,
+      "category": "battle"
+    },
+    {
+      "id": "b1-western-ganolar",
+      "name": "Mountains of western Ganolar",
+      "scale": "world",
+      "at": [
+        190.47,
+        470.44
+      ],
+      "text": "Immense mountain ranges block access to the western part of Ganolar. The Narthani consider the rest of the continent too poor to be worth taking.",
+      "since": 1,
+      "category": "geography"
+    },
+    {
+      "id": "b1-buldor",
+      "name": "Buldor",
+      "scale": "world",
+      "at": [
+        239.1,
+        428.3
+      ],
+      "text": "A tiny, rugged and isolated land on Ganolar, home of the Buldorian pirates and mercenaries. The Benkarsta and Benhoudi clans supply the raiders the Narthani hire against Caedellium.",
+      "since": 1,
+      "category": "geography"
+    },
+    {
+      "id": "b1-naskin-cove",
+      "name": "Buldorian staging cove",
+      "scale": "world",
+      "at": [
+        134.56,
+        282.55
+      ],
+      "text": "Captain Adalan's six ships wait in a remote cove on the northern Landolin coast while he sails on to Caedellium to strike the deal with the Narthani. The exact cove is not named.",
+      "since": 1,
+      "category": "base"
+    },
+    {
+      "id": "b1-poppies",
+      "name": "Eastern Landolin poppies",
+      "scale": "world",
+      "at": [
+        181.27,
+        348.26
+      ],
+      "text": "Opium poppies grow only in Eastern Landolin, and Landolin puts to death anyone who smuggles out plants or seeds. The Narthani embargo cuts Caedellium off from the opiate trade. The exact region is not specified.",
+      "since": 1,
+      "category": "industry"
+    },
+    {
+      "id": "b1-frangel",
+      "name": "Frangel slavers",
+      "scale": "world",
+      "at": [
+        655.76,
+        438.94
+      ],
+      "text": "Frangel slave ships call at Preddi every five or six months to collect Caedelli sentenced to slavery or banishment.",
+      "since": 1,
+      "category": "sea"
+    },
+    {
+      "id": "b1-zernik",
+      "name": "Zernik lands",
+      "scale": "world",
+      "at": [
+        626.43,
+        511.5
+      ],
+      "text": "The zernik makes parts of the Drilmar continent essentially uninhabitable. The book does not say which parts.",
+      "since": 1,
+      "category": "geography"
+    },
+    {
+      "id": "b2-orosz-conclave",
+      "name": "Conclave at Orosz City",
+      "scale": "island",
+      "at": [
+        63.49,
+        270.23
+      ],
+      "text": "The All-Clan Conclave meets in its hall on a hill a mile outside Orosz City's old walls, chosen two centuries ago because Orosz is central. Twelve of the eighteen free clans attend. Eight commit to aid any clan that is attacked, and Orosz breaks its custom of neutrality to side with Keelan and Stent. Gynfor Moreland refuses to commit.",
+      "since": 2,
+      "category": "politics"
+    },
+    {
+      "id": "b2-abersford-foundry",
+      "name": "Abersford foundry",
+      "scale": "island",
+      "at": [
+        64.59,
+        275.24
+      ],
+      "text": "A cannon foundry built in Yozef's 'industrial park' of shops between Abersford and St. Sidryn's. Until then bells had only been cast in Preddi City. It turns out bronze swivel guns on triple-swivel carriages, but its attempts at a 6-pounder fail. Location is approximate.",
+      "since": 2,
+      "category": "industry"
+    },
+    {
+      "id": "b2-abersford-powder",
+      "name": "Abersford powder works",
+      "scale": "island",
+      "at": [
+        64.65,
+        275.17
+      ],
+      "text": "Gunpowder is made from Birdshit Bay guano, first in a shop ringed by boulders several hundred yards from the others, then in a larger works a mile from Abersford. Most of the island's powder had come through traders at Preddi City. Location is approximate.",
+      "since": 2,
+      "category": "industry"
+    },
+    {
+      "id": "b2-preddi-copper",
+      "name": "Narthani copper mine",
+      "scale": "island",
+      "at": [
+        60.05,
+        274.41
+      ],
+      "text": "Narthani engineers open a copper mine about six miles from Preddi City and bridge the way to it. It is part of a wider program of bridges, roads, canals and defenses for a colonist population now over 100,000. Location is approximate.",
+      "since": 2,
+      "category": "industry"
+    },
+    {
+      "id": "b2-five-clan",
+      "name": "Five-Clan Alliance",
+      "scale": "island",
+      "at": [
+        65.08,
+        274.17
+      ],
+      "text": "Hetman Culich Keelan tours north to win new members for the Tri-Clan Alliance of Keelan, Gwillamer and Mittack. Hewell agrees to join and Adris's boyermen vote nine to two in favor, though Adris borders none of the members. Bevans and Pawell decline.",
+      "since": 2,
+      "category": "politics"
+    },
+    {
+      "id": "b2-narthani-plan",
+      "name": "Narthani invasion plan",
+      "scale": "island",
+      "at": [
+        60.38,
+        274.5
+      ],
+      "text": "At their Preddi City headquarters the Narthani plan to march 11,000 men through Eywell into Moreland, take Moreland City and then Orosz City, and cut the island in two. Selfcellese, Eywellese and naval raids are to pin down Stent, Keelan, Gwillamer and the coasts.",
+      "since": 2,
+      "category": "politics"
+    },
+    {
+      "id": "b2-dornfeld-buildup",
+      "name": "Eywellese buildup at Dornfeld",
+      "scale": "island",
+      "at": [
+        61.7,
+        274.15
+      ],
+      "text": "Eywellese and Narthani camps appear along Keelan's short coastal border with Eywell, one of about a thousand men three miles from the border, with observers in the mountains above the Dillagon Pass. Dornfeld can muster only about 320 men. Location is approximate.",
+      "since": 2,
+      "category": "base"
+    },
+    {
+      "id": "b2-dornfeld-move",
+      "name": "Abandonment of north Dornfeld",
+      "scale": "island",
+      "at": [
+        61.67,
+        274.5
+      ],
+      "text": "Dornfeld sits on sea cliffs astride the Keelan-Gwillamer border, its halves joined by a bridge over a river ravine. Keelan and Gwillamer agree to take down the Keelan half and rebuild it on Gwillamer land, evacuate the twenty-mile Keelan strip north to Eywell, and hold the river canyon instead. The Dillagon Pass fort is reinforced.",
+      "since": 2,
+      "category": "politics"
+    },
+    {
+      "id": "b2-university",
+      "name": "University of Abersford",
+      "scale": "island",
+      "at": [
+        64.9,
+        275.25
+      ],
+      "text": "The first university on Caedellium is founded at St. Sidryn's, funded mostly by Yozef, with Maera as Chancellor. It opens with about 40 scholastics in four departments: applied mathematics, biology and medicine, history and societies, and apothecary and chemistry.",
+      "since": 2,
+      "category": "politics"
+    },
+    {
+      "id": "b2-allenford",
+      "name": "Burning of Allenford",
+      "scale": "island",
+      "at": [
+        61.26,
+        271.89
+      ],
+      "text": "About 400 Eywellese and 50 Narthani ride out of Parthmal into Moreland and burn Allenford, twelve miles from the border, killing more than 300. Hetman Brandor Eywell is wounded here and his son Biltin takes command. Location is approximate.",
+      "since": 2,
+      "category": "raid"
+    },
+    {
+      "id": "b2-lanwith",
+      "name": "Sack of Lanwith",
+      "scale": "island",
+      "at": [
+        61.58,
+        272.14
+      ],
+      "text": "Twenty miles on, the raiders sack and burn Lanwith, a town of 420 with a hilltop abbey, and carry off up to 200 prisoners, among them Anarynd Moreland. The abbey's library survives in its cellars. Location is approximate.",
+      "since": 2,
+      "category": "raid"
+    },
+    {
+      "id": "b2-anglin",
+      "name": "Defense of Anglin",
+      "scale": "island",
+      "at": [
+        61.88,
+        272.43
+      ],
+      "text": "The third target of the raid throws up barricades and holds until Moreland horsemen arrive from the east. The Eywellese lose about 40 dead and 60 wounded and turn back. Gynfor Moreland's pursuit stops three miles short of Parthmal. Location is approximate.",
+      "since": 2,
+      "category": "battle"
+    },
+    {
+      "id": "b2-parthmal",
+      "name": "Parthmal",
+      "scale": "island",
+      "at": [
+        61.18,
+        272.22
+      ],
+      "text": "A Narthani garrison town in Eywell five miles from the Moreland border and twenty miles from Hanslow. It stages the Eywellese raids into Moreland and serves as the supply base for the invasion. Location is approximate.",
+      "since": 2,
+      "category": "base"
+    },
+    {
+      "id": "b2-cartridge-works",
+      "name": "Abersford Cartridge Works",
+      "scale": "island",
+      "at": [
+        64.73,
+        275.21
+      ],
+      "text": "Set up within two sixdays after word of Narthani paper cartridges, with two men and eleven women making 2,000 cartridges a day. The Abersford shops also develop hand grenades and crossbow-launched grenades, tested down on the beach.",
+      "since": 2,
+      "category": "industry"
+    },
+    {
+      "id": "b2-spy-bluff",
+      "name": "Spy's signal bluff",
+      "scale": "island",
+      "at": [
+        64.94,
+        275.32
+      ],
+      "text": "A Narthani agent posing as an escaped Preddi works in one of Abersford's three pubs and signals Narthani sloops by lantern from a bluff at the east end of the beachfront. His reports explain why the Buldorians struck St. Sidryn's when most of the local fighters were away.",
+      "since": 2,
+      "category": "story"
+    },
+    {
+      "id": "b2-assassinations",
+      "name": "Assassination attempts",
+      "scale": "island",
+      "at": [
+        64.67,
+        272.23
+      ],
+      "text": "Agents strike at clan leaders. An attempt on Hetman Welman Stent fails, and in Hewell the hetman's younger brother and his wife are killed by mistake by a stable hand who escapes into the mountains. Location is approximate.",
+      "since": 2,
+      "category": "story"
+    },
+    {
+      "id": "b2-moreland-muster",
+      "name": "Clan muster at Moreland City",
+      "scale": "island",
+      "at": [
+        62.09,
+        271.65
+      ],
+      "text": "Ten hetmen meet in a farmhouse a mile from Moreland City's walls, with Hewell, Adris, Orosz and other camps in sight of the city. Keelan arrives with 2,200 Tri-Clan men after four days on the semaphore route, and Pewitt answers the call to everyone's surprise.",
+      "since": 2,
+      "category": "politics"
+    },
+    {
+      "id": "b2-moreland-battle",
+      "name": "Battle of Moreland City",
+      "scale": "island",
+      "at": [
+        61.76,
+        271.95
+      ],
+      "text": "On a plain about six miles southwest of Moreland City, Gynfor Moreland charges the Narthani center against the plan and dies with both sons and more than 1,000 men. A Keelan feint draws the Eywellese into an ambush at a creek ford where Hetman Brandor Eywell is killed, and the Narthani right is rolled up and seventeen cannon taken. Location is approximate.",
+      "since": 2,
+      "category": "battle"
+    },
+    {
+      "id": "b2-parthmal-sack",
+      "name": "Sack of Parthmal",
+      "scale": "island",
+      "at": [
+        61.09,
+        272.19
+      ],
+      "text": "After the battle Stent and Hewell surprise Parthmal, kill its 150-man garrison, burn the town and take about 600 muskets and 8 cannon. Slaves freed here and on a foray to the outskirts of Hanslow are taken to Orosz City. Location is approximate.",
+      "since": 2,
+      "category": "raid"
+    },
+    {
+      "id": "b2-eywell-no-mans-land",
+      "name": "Eywell borderland",
+      "scale": "island",
+      "at": [
+        61.7,
+        273.21
+      ],
+      "text": "Two sixdays after the battle, the thirty miles of Eywell nearest Moreland are more a no-man's land than Narthani ground, as Adris, Bultecki, Orosz and Pewitt riders shadow the retreat. Location is approximate.",
+      "since": 2,
+      "category": "geography"
+    },
+    {
+      "id": "b3-hanslow-escape",
+      "name": "Escape from Hanslow",
+      "scale": "island",
+      "at": [
+        60.8,
+        272.45
+      ],
+      "text": "Anarynd Moreland and Gwyned Walstyn kill the guard of a Narthani troop brothel in Hanslow and lead more than thirty women through a collapsed part of the riverside wall. They climb down the bluff and swim the river, and some drown. Stentese riders scouting near the town pick up the survivors and carry them seventy miles to Moreland City.",
+      "since": 3,
+      "category": "story"
+    },
+    {
+      "id": "b3-preddi-ironworks",
+      "name": "Preddi ironworks",
+      "scale": "island",
+      "at": [
+        60.39,
+        274.77
+      ],
+      "text": "The Narthani have a blast furnace running at Preddi City, followed by a finery forge and trip hammers. They begin turning out steel for muskets and cast cannon in the city.",
+      "since": 3,
+      "category": "industry"
+    },
+    {
+      "id": "b3-preddi-forts",
+      "name": "Fortification of Preddi City",
+      "scale": "island",
+      "at": [
+        60.04,
+        274.5
+      ],
+      "text": "With the invasion halted, the Narthani turn to defence. Preddi City is ringed with forts reaching up to ten miles out, naval 30-pounders are made movable to shore positions, and food is stockpiled.",
+      "since": 3,
+      "category": "base"
+    },
+    {
+      "id": "b3-flagorn-egg",
+      "name": "Flagorn egg on Mt. Erbowyn",
+      "scale": "island",
+      "at": [
+        64.05,
+        272.5
+      ],
+      "text": "A smooth, dark blue rock shaped like a half-buried egg about three feet high sits at roughly 6,500 feet on the western slope of Mt. Erbowyn, Hewell's highest peak. Yozef climbs seven hours from the village below to see it and suspects it is an artifact. Others are said to exist in Vandinke, Pawell, Mittack and Nyvaks. Location is approximate.",
+      "since": 3,
+      "category": "egg"
+    },
+    {
+      "id": "b3-dillagon-redoubt",
+      "name": "Dillagon redoubt",
+      "scale": "island",
+      "at": [
+        62.62,
+        274.18
+      ],
+      "text": "Keelan plans its last refuge in the high valleys of the Dillagon Mountains, with forts blocking each end of the single pass to Dornfeld. Deep caverns are sealed as grain stores, and a fort and 500 men hold the pass. Location is approximate.",
+      "since": 3,
+      "category": "base"
+    },
+    {
+      "id": "b3-caernford-park",
+      "name": "Caernford industrial park",
+      "scale": "island",
+      "at": [
+        65.52,
+        274.53
+      ],
+      "text": "Yozef's shops move from Abersford to a new industrial park at Caernford. It holds the foundry casting 12-pounders, a kerosene distillery three times the size of Abersford's, soap, paper and cartridge works, a musket factory, and a shop well apart from the others where napalm and mines are developed.",
+      "since": 3,
+      "category": "industry"
+    },
+    {
+      "id": "b3-first-cannon",
+      "name": "First cannon",
+      "scale": "island",
+      "at": [
+        64.51,
+        275.05
+      ],
+      "text": "Using a Narthani prisoner's method of hollow-core, water-cooled casting, the Abersford foundry casts its first 6-pounder. The first 12-pounder is test-fired at a field a mile north of town, against a forty-foot rock outcrop.",
+      "since": 3,
+      "category": "industry"
+    },
+    {
+      "id": "b3-conclave",
+      "name": "Second All-Clan Conclave",
+      "scale": "island",
+      "at": [
+        63.29,
+        270.05
+      ],
+      "text": "All eighteen free clans meet at Orosz City. They vote for heavy border patrols against Eywell and Selfcell and forbid any clan from negotiating with the Narthani alone. They fail to agree on a unified command. Farkesh, Stent, Orosz and Bultecki adopt the Five-Clan Alliance's weapon calibres.",
+      "since": 3,
+      "category": "politics"
+    },
+    {
+      "id": "b3-seaborne-crossing",
+      "name": "Seaborne crossing",
+      "scale": "island",
+      "at": [
+        55.08,
+        267.57
+      ],
+      "text": "Word of the conclave reaches the Seaborne islands by a four-man sailboat. The Seaborne delegates cross the strait at night to avoid Narthani sloops and Preddi-built cutters, then ride three days to Orosz City. Location is approximate.",
+      "since": 3,
+      "category": "sea"
+    },
+    {
+      "id": "b3-signal-cove",
+      "name": "Narthani signal cove",
+      "scale": "island",
+      "at": [
+        65.83,
+        275.48
+      ],
+      "text": "Drifwich, a Nyvaks man spying for the Narthani, signals sloops with a lantern from a cove in the cliffs about ten miles east of Salford. Here two longboats land a twenty-man strike team, which hides in his freight wagons for the trip to Caernford. Location is approximate.",
+      "since": 3,
+      "category": "base"
+    },
+    {
+      "id": "b3-kolsko-attack",
+      "name": "Attack on the Kolsko house",
+      "scale": "island",
+      "at": [
+        64.97,
+        274.28
+      ],
+      "text": "During Maera's birthday dinner, the Narthani strike team attacks the Kolsko house half a mile from Keelan Manor. Anid Keelan, Mirramel and the servant Norlin die along with guards, and Hetman Culich Keelan loses his lower leg. Fourteen attackers are killed. The survivors flee south toward Salford, cutting the semaphore line to Mittack on the way.",
+      "since": 3,
+      "category": "battle"
+    },
+    {
+      "id": "b3-shullick",
+      "name": "Fall of Shullick",
+      "scale": "island",
+      "at": [
+        57.74,
+        266.56
+      ],
+      "text": "About 2,500 Narthani sail from Preddi City straight into Shullick harbor and land at its piers while frigates shell the waterfront. Hetman Margol Swavebroke dies with 400 men holding them off while the city is evacuated inland. The Narthani raze Shullick and everything within twenty miles of the harbor, then re-embark.",
+      "since": 3,
+      "category": "battle"
+    },
+    {
+      "id": "b3-skouks-murder",
+      "name": "Murder of Hetman Skouks",
+      "scale": "island",
+      "at": [
+        63.12,
+        266.56
+      ],
+      "text": "A Narthani strike team landed by sloop kills Hetman Elek Skouks, his wife, and his daughter's family at the daughter's home near the Skouks capital, which he visits monthly. The team escapes by sea. Location is approximate.",
+      "since": 3,
+      "category": "raid"
+    },
+    {
+      "id": "b3-bevans-attempt",
+      "name": "Attempt on Hetman Bevans",
+      "scale": "island",
+      "at": [
+        68.61,
+        270.38
+      ],
+      "text": "A third strike team attacks Hetman Zitwyn Bevans at his estate outside the Bevans capital on the eastern tip of the island. He survives and every attacker is killed. Location is approximate.",
+      "since": 3,
+      "category": "raid"
+    },
+    {
+      "id": "b3-stent-muster",
+      "name": "Stent muster",
+      "scale": "island",
+      "at": [
+        58.45,
+        268.5
+      ],
+      "text": "When Shullick is attacked, 1,500 Stent men gather near where Stent, Swavebroke, Pewitt and Vandinke meet. Stent's own coast is rocky and reef-bound, with only two small fishing villages. Location is approximate.",
+      "since": 3,
+      "category": "base"
+    },
+    {
+      "id": "b3-erdelin",
+      "name": "Killing of Colonel Erdelin",
+      "scale": "island",
+      "at": [
+        60.54,
+        272.23
+      ],
+      "text": "Balwis, Kales and three former slaves ride 180 miles from Caernford, cross the Falworth River and slip through the riverside wall of Hanslow. They kill the Narthani garrison commander, Colonel Memas Erdelin, at his villa on a plaza and free a Pewitt woman taken in a raid. One of the party, Ulrith, is killed.",
+      "since": 3,
+      "category": "story"
+    },
+    {
+      "id": "b3-butte-camp",
+      "name": "Butte-gap camp",
+      "scale": "island",
+      "at": [
+        61.42,
+        273.87
+      ],
+      "text": "Twenty miles past Dornfeld and six miles inside Eywell, where the hills give way to the coastal plain, Keelan holds a support camp in a 400-yard gap between two buttes. It is the only horse passage for miles. Narthani pursuers from Ponth and a seaborne force under Zulfa close in, but after a standoff at the gap they withdraw. Location is approximate.",
+      "since": 3,
+      "category": "base"
+    },
+    {
+      "id": "b3-wrexton",
+      "name": "Burning of Wrexton",
+      "scale": "island",
+      "at": [
+        61.6,
+        273.84
+      ],
+      "text": "Denes's raiders drive the 800 people of Wrexton north and burn the town, ten miles inside Eywell from the Keelan border. West of it the coast holds only fishing villages until Preddi. Location is approximate.",
+      "since": 3,
+      "category": "raid"
+    },
+    {
+      "id": "b3-ponth",
+      "name": "Ponth slave camp",
+      "scale": "island",
+      "at": [
+        60.3,
+        274.01
+      ],
+      "text": "Five miles north of Ponth, just over the border into Preddi, Keelan raiders free about 300 slaves, most of them Caedelli taken to work the farms around the town. Ponth itself, garrisoned and newly ringed with earthworks, is not attacked. Location is approximate.",
+      "since": 3,
+      "category": "raid"
+    },
+    {
+      "id": "b3-narthani-landing",
+      "name": "Narthani beach landing",
+      "scale": "island",
+      "at": [
+        61.21,
+        274.02
+      ],
+      "text": "Zulfa's squadron, diverted in the Gulf of Witlow, lands troops on the Eywell coast about five miles west of the Keelan camp, two miles from the road. A transport is deliberately beached and holed to unload its 12-pounders. After the standoff the force re-embarks here. Location is approximate.",
+      "since": 3,
+      "category": "battle"
+    },
+    {
+      "id": "b3-war-conclave",
+      "name": "Conclave votes for war",
+      "scale": "island",
+      "at": [
+        63.57,
+        270.08
+      ],
+      "text": "A third conclave at Orosz City votes to drive the Narthani from Caedellium. Unified command still fails, 12 to 6, but future votes may be taken by semaphore. The clans plan to cut Selfcell and Eywell off from Preddi, mass dragoons on the Preddi border and besiege Preddi City within four to five months.",
+      "since": 3,
+      "category": "politics"
+    },
+    {
+      "id": "b4-klinwyn",
+      "name": "Klinwyn Island refuge",
+      "scale": "island",
+      "at": [
+        58.17,
+        274.83
+      ],
+      "text": "An eighteen-square-mile rocky island eight miles off the western coast of Preddi, with a single fishing settlement on a flat shelf to the east and an anchorage sheltered by peninsulas. Admiral Kalcan secretly puts seventy men and two hundred slaves to work there on roads, storehouses and shelters, as an emergency refuge for Narthani women and children.",
+      "since": 4,
+      "category": "base"
+    },
+    {
+      "id": "b4-east-head",
+      "name": "Fuomi landing at East Head Point",
+      "scale": "island",
+      "at": [
+        68.76,
+        276.73
+      ],
+      "text": "About 2,000 Fuomi marines and sailors under Jaako Rintala dig in on a treeless thousand-yard peninsula at the tip of Mittack. Overnight some 4,000 clansmen, padded out with 2,400 villagers posing as troops, entrench seven hundred yards away with long 12-pounders on a bluff. The two sides talk instead of fighting, and the camp becomes the Fuomi base on Caedellium.",
+      "since": 4,
+      "category": "base"
+    },
+    {
+      "id": "b4-lanwith",
+      "name": "Lanwith garrison",
+      "scale": "island",
+      "at": [
+        61.67,
+        272.12
+      ],
+      "text": "Lanwith, a Moreland town near the Eywell border destroyed in an Eywellese raid, is rebuilt and given a permanent dragoon regiment, while a second regiment camps near Dornfeld in Keelan, twenty miles from southern Eywell. Lanwith later serves as the muster point for the Northern Force. Location is approximate.",
+      "since": 4,
+      "category": "base"
+    },
+    {
+      "id": "b4-rummeln",
+      "name": "Gunners land at Rummeln",
+      "scale": "island",
+      "at": [
+        66.38,
+        273.12
+      ],
+      "text": "Two days after a semaphore request reaches Hetman Mittack, a Fuomi sloop anchors off the fishing town of Rummeln on Keelan's eastern coast and lands three naval gunners. They stay on to help the Caernford foundry. Location is approximate.",
+      "since": 4,
+      "category": "sea"
+    },
+    {
+      "id": "b4-armory",
+      "name": "Caernford Musket Armory",
+      "scale": "island",
+      "at": [
+        65.48,
+        274.33
+      ],
+      "text": "The foundry casts its first carronade, settling on a 25-pounder deadliest with canister at about 160 yards. The gun factory, renamed the Caernford Musket Armory, test-fires the first telescopic sniper rifle on its range, and a second cartridge works reaches full production.",
+      "since": 4,
+      "category": "industry"
+    },
+    {
+      "id": "b4-war-council",
+      "name": "War Council formed",
+      "scale": "island",
+      "at": [
+        63.17,
+        269.99
+      ],
+      "text": "At an All-Clan Conclave in Orosz City's new hall, the eighteen free clans reject talks with the Narthani and vote 16 to 2 for a binding central command. The Caedellium War Council of the Farkesh, Keelan, Orosz and Stent hetmen, with Yozef as adviser, becomes the first body ever to hold authority over the whole island. The day of Yozef's speech is to be remembered as Freedom Day.",
+      "since": 4,
+      "category": "politics"
+    },
+    {
+      "id": "b4-langor-meeting",
+      "name": "Secret meeting with Hetman Selfcell",
+      "scale": "island",
+      "at": [
+        60.22,
+        271
+      ],
+      "text": "In a cleared village well inside Stent, near where Stent, Moreland and Selfcell meet, Yozef and the Stent hetman meet Roblyn Langor an hour past midnight in a storm. Langor rides back to a Selfcell town forty miles away before sunup. The meeting lays the groundwork for Selfcell to turn on the Narthani. Location is approximate.",
+      "since": 4,
+      "category": "politics"
+    },
+    {
+      "id": "b4-stent-egg",
+      "name": "Flagorn egg of Stent",
+      "scale": "island",
+      "at": [
+        60.3,
+        269.42
+      ],
+      "text": "A dark blue egg-shaped rock about three feet high, identical to the one on Mt. Erbowyn in Hewell, sits in a rock shelf half a mile above a village eight miles north of the Moraine Site and about twenty miles from Clitwyth. Another stands on a rocky islet off the southwest coast of Stent. Location is approximate.",
+      "since": 4,
+      "category": "egg"
+    },
+    {
+      "id": "b4-gathering",
+      "name": "Gathering of Clan Keelan",
+      "scale": "island",
+      "at": [
+        65.19,
+        274.12
+      ],
+      "text": "For the first time in 163 years the whole clan is summoned to the Great Hall of the Keelans in Caernford. About 12,000 come from the eleven districts and 6,000 from the city. Everyone who is not a fighting man is told to prepare to move to the Dillagon redoubt, and prices are frozen.",
+      "since": 4,
+      "category": "politics"
+    },
+    {
+      "id": "b4-preddi-camp",
+      "name": "Preddi outer wall and corps camp",
+      "scale": "island",
+      "at": [
+        60.21,
+        274.91
+      ],
+      "text": "An eight-mile outer wall of timber, ditch and bastions now runs from the Gulf of Witlow north of Preddi City round to the gulf south of it, half a mile outside the main fortifications. South of the city a great tract is cleared for the coming Narthani corps, and valleys to the west are turned into staging corrals for some 24,000 horses, half of them taken from Selfcell and Eywell.",
+      "since": 4,
+      "category": "base"
+    },
+    {
+      "id": "b4-adris-escarpment",
+      "name": "Adris escarpment",
+      "scale": "island",
+      "at": [
+        65.36,
+        269.21
+      ],
+      "text": "Halfway between the north coast and Adris City, a sheer three-hundred-foot escarpment runs thirty-six miles from the Holdorn Mountains west to the Aklacs Mountains in Pawell. Only three roads climb it. From a promontory above, the Gulf of Normot and the towers of Adris City, about twenty miles off, are visible. Location is approximate.",
+      "since": 4,
+      "category": "geography"
+    },
+    {
+      "id": "b4-moraine-site",
+      "name": "Moraine Site",
+      "scale": "island",
+      "at": [
+        60.43,
+        269.73
+      ],
+      "text": "A glacial valley in Stent near the Vandinke border is chosen as a trap battlefield. Its shallow lake is mostly drained by blasting the rock shelf, with a gate to reflood it, and the fifty-foot, 500-yard-wide terminal moraine at its end is fortified with concrete bunkers. Stent plans to lure the Narthani north into it. Location is approximate.",
+      "since": 4,
+      "category": "base"
+    },
+    {
+      "id": "b4-coast-site",
+      "name": "Coast Site",
+      "scale": "island",
+      "at": [
+        59.89,
+        265.1
+      ],
+      "text": "On the northwest coast of Farkesh, the farthest point on the island from Preddi, a three-mile-wide coastal plain between sea cliffs and mountains is prepared as a trap. A half-mile line runs from the shore to a granite dome, a twenty-foot ravine cuts the plain, and its bridges are set to burn. Caverns a mile away store supplies. Location is approximate.",
+      "since": 4,
+      "category": "base"
+    },
+    {
+      "id": "b4-gap-site",
+      "name": "Gap Site",
+      "scale": "island",
+      "at": [
+        65.6,
+        273.35
+      ],
+      "text": "About twenty-five miles north-northeast of Caernford near the Hewell border, a stream cuts two gaps through a pair of thousand-foot ridges enclosing a thirteen-mile valley. The narrow northern gap, a third of a mile wide, is fortified as the southeastern trap battlefield, with a road along the ridge tops. Location is approximate.",
+      "since": 4,
+      "category": "base"
+    },
+    {
+      "id": "b4-normot-cut",
+      "name": "Normot Cut",
+      "scale": "island",
+      "at": [
+        66.87,
+        271.64
+      ],
+      "text": "A reef studded with rocks closes the thirty-mile mouth of the Gulf of Normot except for a single quarter-mile channel, about forty to fifty miles from Adris City and bracketed by two rocks called the Twins. Four Fuomi frigates on spring anchors and moored clan battery barges are set to hold it shut.",
+      "since": 4,
+      "category": "sea"
+    },
+    {
+      "id": "b4-hanslow",
+      "name": "Hanslow surrenders",
+      "scale": "island",
+      "at": [
+        60.89,
+        272.26
+      ],
+      "text": "Warned by semaphore, the Narthani garrison of about 650 marches out of Hanslow and burns the semaphore stations behind it. The boyerman surrenders the Eywell capital to Stent without a fight while the new Eywell hetman flees toward Preddi. The townsmen are disarmed and sent to camps in the mountains.",
+      "since": 4,
+      "category": "politics"
+    },
+    {
+      "id": "b4-sellmor",
+      "name": "Selfcell revolt",
+      "scale": "island",
+      "at": [
+        58.16,
+        273.07
+      ],
+      "text": "The Selfcellese shut the Narthani out of Sellmor's main walls and storm the enclave outside them, blowing a forty-foot gap and destroying the armory, a storehouse and a barracks for 58 dead. Colonel Metan retreats down the coast to Swythton in Preddi, and the Wynmor garrison is taken off by ship.",
+      "since": 4,
+      "category": "battle"
+    },
+    {
+      "id": "b4-roadblock",
+      "name": "Balwis's roadblock",
+      "scale": "island",
+      "at": [
+        60.41,
+        273.88
+      ],
+      "text": "Jurna's Hanslow column, chased south all day, finds a log and earth berm across the road to Preddi. Balwis Preddi's company holds it with 6-pounder horse guns against Jurna's 12-pounders, then falls back a mile south and a mile west. Location is approximate.",
+      "since": 4,
+      "category": "battle"
+    },
+    {
+      "id": "b4-preddi-sweep",
+      "name": "Sweep of Preddi",
+      "scale": "island",
+      "at": [
+        59.62,
+        274.57
+      ],
+      "text": "From a camp fifteen miles west of Preddi City the clans sweep the province for hostages while Selfcell sends food wagons from Sellmor. They take 643 Narthani men and free more than 2,800 slaves before both forces return to Moreland and Keelan. Location is approximate.",
+      "since": 4,
+      "category": "raid"
+    },
+    {
+      "id": "b4-orosz-redoubt",
+      "name": "Orosz City fortified",
+      "scale": "island",
+      "at": [
+        63.46,
+        269.9
+      ],
+      "text": "Orosz City, half inside a mountain cleft and half on the plain, becomes the island's central depot and largest redoubt. Its stone wall gains concrete bastions every hundred feet and a second wall in front, and the town outside is razed for fields of fire. The War Council, the MIU and the Kolsko household move here from Caernford.",
+      "since": 4,
+      "category": "base"
+    },
+    {
+      "id": "b4-gullar-landing",
+      "name": "Twenty-Ninth Corps lands",
+      "scale": "island",
+      "at": [
+        60.48,
+        274.58
+      ],
+      "text": "About a hundred ships arrive off Preddi City carrying Marshal Dursun Gullar and the Twenty-Ninth Corps, 68,000 men with two hundred cannon. Dornfeld fishermen spot the fleet and Hetman Keelan relays the news by semaphore. The troops camp a few miles from the city.",
+      "since": 4,
+      "category": "base"
+    },
+    {
+      "id": "b4-eywell-freed",
+      "name": "Eywell and Selfcell freed",
+      "scale": "island",
+      "at": [
+        60.89,
+        273.1
+      ],
+      "text": "After the two-pronged invasion the Narthani hold only Preddi Province. Selfcell rejoins the clans, while Eywell, abandoned by the Narthani and banished by the conclave, is left in a suspended state between both sides. A fifty-to-eighty-mile buffer zone is patrolled by dragoons along the Preddi border.",
+      "since": 4,
+      "category": "politics"
+    },
+    {
+      "id": "b4-morthmin",
+      "name": "Clash at Morthmin",
+      "scale": "island",
+      "at": [
+        60.29,
+        273.24
+      ],
+      "text": "A Narthani reconnaissance in force overruns semaphore stations and strikes the forward picket regiment based south of Morthmin, a town in southern Eywell about thirty miles north-northwest of Preddi City. Stent rides back with three regiments, and the Narthani withdraw after about 200 clan casualties. Location is approximate.",
+      "since": 4,
+      "category": "battle"
+    },
+    {
+      "id": "b4-moreland-burned",
+      "name": "Burning of Moreland City",
+      "scale": "island",
+      "at": [
+        62.05,
+        271.88
+      ],
+      "text": "The clans abandon Moreland City behind a decoy camp. Gullar's army occupies it and, on leaving to the northeast, burns it to the ground, leaving not a single structure standing. The smoke is visible twenty miles away.",
+      "since": 4,
+      "category": "raid"
+    },
+    {
+      "id": "b4-orosz-assault",
+      "name": "First assault on Orosz City",
+      "scale": "island",
+      "at": [
+        63.76,
+        270.01
+      ],
+      "text": "Brigadier Tunik's men breach the outer wall where its north and east sections curve together, only to be caught in the thirty-yard killing zone before the old inner wall by burning oil and napalm. The Narthani lose 1,100 dead and 2,200 wounded; the defenders fewer than a hundred. Gullar marches on toward Adris.",
+      "since": 4,
+      "category": "battle"
+    },
+    {
+      "id": "b4-adris-burned",
+      "name": "Burning of Adris City",
+      "scale": "island",
+      "at": [
+        65.71,
+        269.95
+      ],
+      "text": "Gullar reaches the coast in four days and burns Adris City to charred wood and ashes. Behind him lies a twenty-mile-wide path of devastation from the Eywell border across Moreland, Orosz and Adris. The Fuomi hold on the Normot Cut keeps his fleet fifty miles away at the mouth of the gulf.",
+      "since": 4,
+      "category": "raid"
+    },
+    {
+      "id": "b4-adris-wounded",
+      "name": "Narthani wounded evacuated",
+      "scale": "island",
+      "at": [
+        65.97,
+        270.14
+      ],
+      "text": "About 1,500 Narthani wounded and three regiments broken at Orosz City are left dug in on a short peninsula a few miles along the coast from Adris City. Cutters take them off over hundred-mile round trips past the reef. Location is approximate.",
+      "since": 4,
+      "category": "sea"
+    },
+    {
+      "id": "b4-salford",
+      "name": "Burning of Salford",
+      "scale": "island",
+      "at": [
+        65.53,
+        275.35
+      ],
+      "text": "General Istranik's coastal force burns the Keelan port of Salford and smaller towns and villages along the coast without resistance. Patrols fifty miles inland find the country empty before he returns to Preddi City.",
+      "since": 4,
+      "category": "raid"
+    },
+    {
+      "id": "b4-orosz-dam",
+      "name": "River dam and earthworks",
+      "scale": "island",
+      "at": [
+        63.48,
+        270.46
+      ],
+      "text": "While Gullar is at Adris, charges on the cliffs above the river bring down a landslide that dams it into a lake half a mile wide. A line of earthworks with trenches, mines and spike pits is built across the three miles of open plain from Orosz City's south wall to the river, to block the Narthani return.",
+      "since": 4,
+      "category": "geography"
+    },
+    {
+      "id": "b4-orosz-battle",
+      "name": "Battle of Orosz City",
+      "scale": "island",
+      "at": [
+        63.8,
+        270.32
+      ],
+      "text": "Gullar's corps attacks the earthworks at dawn and again at midday. The flank attacks fail on buried napalm and mines, but the centre breaks through on a six-hundred-yard front until Swavebroke's dragoons arrive from the west, while Stent's cavalry wins a fight a mile to the east. Gullar and most of his senior officers are killed, with about 34,000 Narthani dead and 6,000 taken prisoner; the islanders lose 9,000 dead.",
+      "since": 4,
+      "category": "battle"
+    },
+    {
+      "id": "b4-normot-battle",
+      "name": "Battle of the Normot Cut",
+      "scale": "island",
+      "at": [
+        66.94,
+        271.72
+      ],
+      "text": "Admiral Dimir sends a thousand men in cutters through the reefs and fails. Two Narthani war galleons then engage the anchored Fuomi frigates in the gap and sink there, blocking it further. One Fuomi frigate is burned.",
+      "since": 4,
+      "category": "battle"
+    },
+    {
+      "id": "b4-preddi-armistice",
+      "name": "Armistice at Preddi City",
+      "scale": "island",
+      "at": [
+        60.04,
+        274.74
+      ],
+      "text": "With 40,000 clansmen and two hundred cannon ringing Preddi City and the Narthani penned into the city and three towns, Yozef meets General Akuyun in a tent just beyond rifle shot of the walls. Akuyun accepts within two days: the Narthani will leave Caedellium.",
+      "since": 4,
+      "category": "politics"
+    },
+    {
+      "id": "b4-neath-conclave",
+      "name": "Conclave at Neath",
+      "scale": "island",
+      "at": [
+        60.41,
+        273.85
+      ],
+      "text": "Neath in southwest Eywell, swollen to a city of 30,000 as the War Council's base, hosts the first conclave ever held outside Orosz City. Selfcell is readmitted, Eywell is outcast and refounded as Clan Brell, and Clan Preddi is reconstituted with about 39,000 members, including 20,000 freed slaves. The flag now carries twenty-one stars. Location is approximate.",
+      "since": 4,
+      "category": "politics"
+    },
+    {
+      "id": "b4-paramount",
+      "name": "Paramount Hetman",
+      "scale": "island",
+      "at": [
+        63.07,
+        270.26
+      ],
+      "text": "In a natural bowl turned amphitheatre at Orosz City, beneath three menorah-shaped bronze stands cast from captured cannon and holding a lantern for each of the twenty-one clans, Yozef is made Paramount Hetman of Caedellium. A government complex is rising just west of the old city.",
+      "since": 4,
+      "category": "politics"
+    },
+    {
+      "id": "b4-stent-islet-egg",
+      "name": "Flagorn egg of the Stent islet",
+      "scale": "island",
+      "at": [
+        57.7,
+        271.35
+      ],
+      "text": "Stent's second Flagorn egg sits on a rock prominence of an islet off the province's southwest coast. It is hard enough to reach that it is only occasionally visited. Location is approximate.",
+      "since": 4,
+      "category": "egg"
+    },
+    {
+      "id": "b5-morthmin-ambush",
+      "name": "Ambush on the Morthmin road",
+      "scale": "island",
+      "at": [
+        60.36,
+        273.5
+      ],
+      "text": "While Gullar's army marches north, Ethlore's platoon of about thirty clansmen ambushes a ten-wagon convoy and its twenty cavalry escorts in a dense stretch of forest on the road from Preddi Province to Morthmin. Gullar answers by sending convoys of twenty-six wagons guarded by 160 men. Location is approximate.",
+      "since": 5,
+      "category": "raid"
+    },
+    {
+      "id": "b5-supply-cut",
+      "name": "Gullar's supply line cut",
+      "scale": "island",
+      "at": [
+        60.45,
+        273.12
+      ],
+      "text": "Balwis Preddi's regiment of 2,000 men and twenty 6-pounders rides two days west from near Burnym in Moreland to within sight of Morthmin. With other regiments working north of the town and south toward Neath, they cut Gullar's road to Preddi and leave the Narthani garrison at Hanslow isolated. Location is approximate.",
+      "since": 5,
+      "category": "raid"
+    },
+    {
+      "id": "b5-swavebroke-hq",
+      "name": "Swavebroke's field command",
+      "scale": "island",
+      "at": [
+        61.63,
+        270.96
+      ],
+      "text": "Hetman Harmon Swavebroke commands 8,000 men in four regiments, each posted on a semaphore line around Moreland City. From a camp twenty miles north-northwest of the burned city he orders every bridge from the Eywell border to Neath burned and the Moreland City to Orosz City road wrecked. Location is approximate.",
+      "since": 5,
+      "category": "base"
+    },
+    {
+      "id": "b5-blenmyr",
+      "name": "Selfcell muster at Blenmyr",
+      "scale": "island",
+      "at": [
+        59.2,
+        272.64
+      ],
+      "text": "Hetman Roblyn Langor gathers about 2,000 Selfcell riders at Blenmyr, just east of the clan redoubt in the central Selfcell mountains, to strike the northern flank of the Narthani relief column. Location is approximate.",
+      "since": 5,
+      "category": "base"
+    },
+    {
+      "id": "b5-forest-stand",
+      "name": "Stand at the forest edge",
+      "scale": "island",
+      "at": [
+        61.4,
+        271.97
+      ],
+      "text": "Clan dragoons dig a mile-and-a-half line of log and earth emplacements where the road to Moreland City enters a forest, facing a mile of open ground. Istranik's relief column masses forty 12-pounders, and splintering trees cause most of the 500 clan casualties before they withdraw. Location is approximate.",
+      "since": 5,
+      "category": "battle"
+    },
+    {
+      "id": "b5-woods-battle",
+      "name": "Battle in the woods",
+      "scale": "island",
+      "at": [
+        62.46,
+        271.39
+      ],
+      "text": "The clans dig in at the far edge of the last patch of forest on the road to Orosz City, less than half a mile wide. Istranik's bayonet charge stalls thirty yards short while flanking regiments strike his mile-long wagon train and destroy most of his cavalry. He halts sixty miles from Orosz City and entrenches at a river bend. Location is approximate.",
+      "since": 5,
+      "category": "battle"
+    },
+    {
+      "id": "b5-tribunal",
+      "name": "Caedellium Tribunal",
+      "scale": "island",
+      "at": [
+        61.2,
+        266.25
+      ],
+      "text": "Months after the war, the new Caedellium Tribunal, a court over all the clans, sits in a natural bowl a mile west of Devanyo's central square. Hetman Bakalacs, Yozef and a scholastic adjudicator from Orosz City convict a Farkesh dragoon of murdering a fifteen-year-old Narthani farmer outside Preddi City and exile him on the first non-Narthani ship.",
+      "since": 5,
+      "category": "politics"
+    },
+    {
+      "id": "b5-preddi-reborn",
+      "name": "Clan Preddi reborn",
+      "scale": "island",
+      "at": [
+        60.3,
+        274.5
+      ],
+      "text": "Hetman Balwis Preddi takes Akuyun's former villa on a hill north of the main wall, overlooking the sea. About 3,000 ex-Narthani stay and join the reborn clan alongside the freed slaves. New residential quarters and trade centres are laid out as the city is rebuilt.",
+      "since": 5,
+      "category": "politics"
+    },
+    {
+      "id": "b5-snarling-graeko",
+      "name": "The Snarling Graeko",
+      "scale": "island",
+      "at": [
+        64.62,
+        275.37
+      ],
+      "text": "Tyn Kuwaith's pub near St. Sidryn's Abbey becomes the island's first business chain. Branches open in Caernford, Orosz City, rebuilt Adris City and Rhoslich in Pewitt, and the sixth opens in Preddi City.",
+      "since": 5,
+      "category": "story"
+    },
+    {
+      "id": "b5-senate",
+      "name": "First Senate of Caedellium",
+      "scale": "island",
+      "at": [
+        63.02,
+        270.04
+      ],
+      "text": "A year after the Battle of Orosz City, the first Senate meets for three days in a new building a mile west of the city. The twenty-one clans are declared permanently united as the nation of Caedellium, with island-wide taxes, a standing army of two dragoon regiments and artillery, a central adjudicator, and Yozef as Paramount commanding the Army of Caedellium. The conclave gong moves to the Senate.",
+      "since": 5,
+      "category": "politics"
+    },
+    {
+      "id": "b5-kolsko-manor",
+      "name": "Kolsko Manor",
+      "scale": "island",
+      "at": [
+        63.46,
+        269.88
+      ],
+      "text": "Yozef builds a new manor in a mountain cleft north of Orosz City, twenty minutes from the Paramount's headquarters just west of the old city. Coloured banners hung at headquarters tell the household whether he is in, working late, or gone. Location is approximate.",
+      "since": 5,
+      "category": "story"
+    },
+    {
+      "id": "b5-beedo-kurvak",
+      "name": "Gulfs of Beedo and Kurvak",
+      "scale": "island",
+      "at": [
+        66.75,
+        267.73
+      ],
+      "text": "An isthmus joins Nyvaks and Pawell between two thirty-mile gulfs, Kurvak fished by Nyvaks and Beedo by Pawell. The clans' long quarrel over the fishing grounds is settled by alternating the gulfs year by year.",
+      "since": 5,
+      "category": "sea"
+    },
+    {
+      "id": "b5-vandinke-gate",
+      "name": "Burning of the Vandinke gate",
+      "scale": "island",
+      "at": [
+        61.52,
+        268.42
+      ],
+      "text": "When Vandinke's semaphore lines to Bultecki and Stent fall silent for weeks, Yozef rides out from Orosz City through Bultecki. At the Bultecki border Carnigan cuts down Vandinke's gate and the guards burn it, and gates on clan borders are declared improper. Vandinke is ordered to improve its roads and semaphore and to school all its children. Location is approximate.",
+      "since": 5,
+      "category": "politics"
+    },
+    {
+      "id": "b5-vandinke-copper",
+      "name": "Vandinke copper and balmoths",
+      "scale": "island",
+      "at": [
+        59.61,
+        267.98
+      ],
+      "text": "Vandinke's copper mines, idle since the Narthani cut off trade, are to reopen with zinc and lead workings and new smelters. Its forested western mountains hold one of the island's two balmoth herds, thirty to forty animals; the other is in Hewell. Location is approximate.",
+      "since": 5,
+      "category": "industry"
+    },
+    {
+      "id": "b5-nitro",
+      "name": "Nitroglycerin works",
+      "scale": "island",
+      "at": [
+        63.7,
+        270.05
+      ],
+      "text": "In a building a mile from the outer edge of Orosz City, the first nitroglycerin is made, and dynamite follows. Heat-resistant boron glass for the work is developed at Caernford. Location is approximate.",
+      "since": 5,
+      "category": "industry"
+    },
+    {
+      "id": "b5-first-tunnel",
+      "name": "First dynamite tunnel",
+      "scale": "island",
+      "at": [
+        62.21,
+        269.22
+      ],
+      "text": "The first dynamite is set against a ridge about fifty yards thick in Bultecki, opening the first tunnel of a horse-drawn railway to carry Bultecki iron ore to the coal fields and smelters of Pewitt, Stent and Swavebroke. The rest of the roadbed is finished and rails are being laid. Location is approximate.",
+      "since": 5,
+      "category": "industry"
+    },
+    {
+      "id": "b5-shullick-port",
+      "name": "Shullick rebuilt",
+      "scale": "island",
+      "at": [
+        57.42,
+        266.53
+      ],
+      "text": "Shullick, razed by the Narthani, is being rebuilt and given a new port, to be served by a railway from the interior.",
+      "since": 5,
+      "category": "sea"
+    },
+    {
+      "id": "b5-adris-port",
+      "name": "Adris City rebuilt",
+      "scale": "island",
+      "at": [
+        65.42,
+        270
+      ],
+      "text": "Adris City, burned by the Narthani, is rebuilt with a new port. Yozef sketches widening the Normot Gap by a hundred yards and guarding it with floating forts.",
+      "since": 5,
+      "category": "sea"
+    },
+    {
+      "id": "b5-white-mountain",
+      "name": "Zerniks at White Mountain",
+      "scale": "world",
+      "at": [
+        667.5,
+        458
+      ],
+      "text": "A pack of twenty to thirty zerniks, normally found in western Drilmar, crosses the Urstyl Mountains from Tekleum and falls on White Mountain, a mining and trapping town of ten thousand near the tree line in south Frangel.",
+      "since": 5,
+      "category": "raid"
+    },
+    {
+      "id": "b5-landylbury",
+      "name": "Bounty for Amerika",
+      "scale": "world",
+      "at": [
+        681,
+        421
+      ],
+      "text": "Narthani agents in Frangel's ports offer coin for anyone who knows \"Amerika\" or Yozef Kolsko. In Landylbury, Frangel's third-largest city, hired men try to seize Mark Caldwell, an Earth castaway working as a destrex hunter. He learns of Caedellium, flees 340 miles to his ranch, and leaves with his family east toward Nurburt and the Madyrna border.",
+      "since": 5,
+      "category": "story"
+    },
+    {
+      "id": "b5-ezarkin-buildup",
+      "name": "Ezarkin buildup",
+      "scale": "world",
+      "at": [
+        279,
+        150
+      ],
+      "text": "Ezarkin, once a fishing town at the eastern tip of a finger-shaped bay with a thirty-mile mouth, is now heavily fortified. Converted war galleons guard the entrance, semaphore stations line the Narthon shore, and more than a hundred warships and transports lie anchored hull to hull. The bay's southern shore belongs to an Iraquinik state.",
+      "since": 5,
+      "category": "base"
+    },
+    {
+      "id": "b5-inquiry",
+      "name": "Board of inquiry",
+      "scale": "world",
+      "at": [
+        399,
+        307
+      ],
+      "text": "In the Narthon capital, about a month's travel from Ezarkin, a board of inquiry blames the dead Marshal Gullar for the loss of Caedellium. Generals Avan and Istranik are demoted to brigadier, while Akuyun is cleared and posted to the 22nd Corps on the Harrasedic border.",
+      "since": 5,
+      "category": "politics"
+    },
+    {
+      "id": "b5-harrasedic-front",
+      "name": "Harrasedic front",
+      "scale": "world",
+      "at": [
+        505,
+        205
+      ],
+      "text": "Within two years of his return, Akuyun takes temporary command of the 22nd Corps on the Harrasedic League border. After a Harrasedic attack, the corps moves the border fifty miles in Narthon's favour, the empire's best result on that front in eight years. Location is approximate.",
+      "since": 5,
+      "category": "battle"
+    },
+    {
+      "id": "b5-analian-warzone",
+      "name": "Analian war zone",
+      "scale": "world",
+      "at": [
+        445,
+        305
+      ],
+      "text": "The Analian Sea and the Gulf of Numara separate the Narthon Empire from Fuomon and have been an active war zone for more than a century, so Narthani bound for the empire's far east travel a thousand miles by road instead.",
+      "since": 5,
+      "category": "sea"
+    },
+    {
+      "id": "b5-mark-ranch",
+      "name": "Mark's ranch",
+      "scale": "world",
+      "at": [
+        651,
+        437
+      ],
+      "text": "Mark Caldwell settles on a ranch in central Frangel, thirty miles from the Ostyn ranch, hunting destrex and marrying Maghen. It is the start of his journey toward Caedellium. Location is approximate.",
+      "since": 5,
+      "category": "story"
+    },
+    {
+      "id": "b5-selfcell-egg",
+      "name": "Flagorn egg of Selfcell",
+      "scale": "island",
+      "at": [
+        59.5,
+        272.6
+      ],
+      "text": "Selfcell's one known egg stood atop the province's highest mountain. Hetman Roblyn Langor lets Yozef have it chipped out of the rock and carried to a workshop in Orosz City for study, where nothing yet has penetrated it. Location is approximate.",
+      "since": 5,
+      "category": "egg"
+    },
+    {
+      "id": "b6-mark-arrival",
+      "name": "Mark washes ashore",
+      "scale": "world",
+      "at": [
+        663.34,
+        393.48
+      ],
+      "text": "Mark Caldwell wakes naked on a beach of Derwun Bay, about six miles east of Tregallon in Frangel. The trader Ulwyn Hovey finds him on the coast road and takes him home to Tregallon, where he lives with the Hoveys for more than a year. Location is approximate.",
+      "since": 6,
+      "category": "arrival"
+    },
+    {
+      "id": "b6-safety-pins",
+      "name": "Safety pins and leaf springs",
+      "scale": "world",
+      "at": [
+        654.4,
+        398.9
+      ],
+      "text": "Working as a blacksmith's helper in Tregallon, Mark and the jeweler Eldes Wiflow invent the safety pin; over ten thousand sell on the first market day. Mark also designs leaf springs for wagons, made in Tregallon and by the master smith Arko Stillum in Kaledon.",
+      "since": 6,
+      "category": "industry"
+    },
+    {
+      "id": "b6-gods-tears",
+      "name": "God's Tears",
+      "scale": "world",
+      "at": [
+        650.13,
+        404.39
+      ],
+      "text": "A few miles south of the coast road between Tregallon and Kaledon stands God's Tears, a bluish crystal three to four feet tall growing out of the rock. It was once called Markot's Tears after a pagan god. Another is said to stand on the east coast of the Timbar Sea. Location is approximate.",
+      "since": 6,
+      "category": "egg"
+    },
+    {
+      "id": "b6-kaledon-pins",
+      "name": "Pin campaign in Kaledon",
+      "scale": "world",
+      "at": [
+        647.9,
+        406.1
+      ],
+      "text": "Mark, Wiflow and his son bring wagonloads of pins to Kaledon, Frangel's second city of 300,000, and sell them in four plazas, with the brass worker Argah selling \"genuine Tregallon pins\" afterwards. Stillum takes more than six hundred orders for leaf springs from the wagon makers.",
+      "since": 6,
+      "category": "industry"
+    },
+    {
+      "id": "b6-tregallon-weaving",
+      "name": "Tregallon weaving works",
+      "scale": "world",
+      "at": [
+        652.2,
+        398.9
+      ],
+      "text": "With the carpenter Kornel Borsan and the weaver Dayna Firman, Mark builds a many-spindle spinner and a speed loom in a rented workshop in Tregallon. Using flax and wool from within a hundred miles of the town, it grows to ten weavers and turns out cheap cloth.",
+      "since": 6,
+      "category": "industry"
+    },
+    {
+      "id": "b6-cloth-guild",
+      "name": "Cloth Guild warning",
+      "scale": "world",
+      "at": [
+        678.5,
+        392.6
+      ],
+      "text": "A six-wagon convoy carries pins and springs 400 miles east along the coast to Brawsea, the capital of almost half a million. The Wagon Guild shuts the springs out, and Dumon Klinster of the Cloth Guild, one of the richest men in Frangel, warns Mark off selling cheap cloth.",
+      "since": 6,
+      "category": "politics"
+    },
+    {
+      "id": "b6-vanyo-cloth",
+      "name": "Cloth for the House of Vanyo",
+      "scale": "world",
+      "at": [
+        664.3,
+        392.6
+      ],
+      "text": "Tregallon has no harbor, so a ship of the Harrasedic trading house of Vanyo, from the free city of Hapsula, anchors two hundred yards off Derwun Bay. Its trader Juko Nigulas buys 184 bolts of Tregallon cloth for gold before sailing north. Location is approximate.",
+      "since": 6,
+      "category": "sea"
+    },
+    {
+      "id": "b6-holt-murder",
+      "name": "Murder of Holt Firman",
+      "scale": "world",
+      "at": [
+        646,
+        406.2
+      ],
+      "text": "Cloth Guild men hunting Mark in Kaledon torture and kill his companion Holt Firman, leaving the body outside Argah's shop as bait. Mark breaks in, frees Argah and his wife, and kills the leader, learning that Klinster sent them and that a warrant is out for him.",
+      "since": 6,
+      "category": "raid"
+    },
+    {
+      "id": "b6-tregallon-burning",
+      "name": "Burning of Tregallon works",
+      "scale": "world",
+      "at": [
+        653.3,
+        396.9
+      ],
+      "text": "Fifteen to twenty raiders strike Tregallon at first light, carrying off the spinners and looms and burning the weaving works, the Hovey house and the houses beside it. Ulwyn Hovey dies in the fire.",
+      "since": 6,
+      "category": "raid"
+    },
+    {
+      "id": "b6-klinster",
+      "name": "Death of Klinster",
+      "scale": "world",
+      "at": [
+        676.5,
+        392.6
+      ],
+      "text": "Mark rides to Brawsea, abducts and kills Dumonote Rynlow, then kills Dumon Klinster in his rooms atop the Cloth Guild hall. He finds the guild already running Tregallon-style looms in a Brawsea factory, and flees south across the grasslands.",
+      "since": 6,
+      "category": "story"
+    },
+    {
+      "id": "b6-destrex-grounds",
+      "name": "Destrex grounds",
+      "scale": "world",
+      "at": [
+        664.45,
+        440.77
+      ],
+      "text": "Over a mountain pass three days east of Nurburt, the land drops to endless flatlands, and about 150 miles east-southeast of the town the okland destrex hunting grounds begin. Mark kills a 23-foot okland there and becomes a destrex hunter, selling hides to Landylbury for export to the Fuomi and the Harrasedics. Location is approximate.",
+      "since": 6,
+      "category": "geography"
+    },
+    {
+      "id": "b6-pursuit-ambush",
+      "name": "Ambush of the pursuers",
+      "scale": "world",
+      "at": [
+        642.05,
+        438.03
+      ],
+      "text": "West of Nurburt, Mark and Maghen ambush the Narthani-led party tracking them, then kill more of them at a cleft in an escarpment. Four Narthani die along with their Frangelese hirelings and a man from a Brawsea guild. Location is approximate.",
+      "since": 6,
+      "category": "battle"
+    },
+    {
+      "id": "b6-munwurth",
+      "name": "Munwurth",
+      "scale": "world",
+      "at": [
+        633.6,
+        435.2
+      ],
+      "text": "After crossing ridges and plains to Frangel's west coast, the family reaches the fishing town of Munwurth. A fishing captain carries them six hundred miles across the Timbar Sea to Dawlber, the nearest Novaryn port. Location is approximate.",
+      "since": 6,
+      "category": "sea"
+    },
+    {
+      "id": "b6-tekleum-zerniks",
+      "name": "Zerniks in Tekleum",
+      "scale": "world",
+      "at": [
+        552.84,
+        434.34
+      ],
+      "text": "Three days short of the Rumpas border, a zernik pack attacks the family at night. Alys is nearly killed and a packhorse is lost. Location is approximate.",
+      "since": 6,
+      "category": "raid"
+    },
+    {
+      "id": "b6-heliom",
+      "name": "Heliom smugglers",
+      "scale": "world",
+      "at": [
+        517.7,
+        446.2
+      ],
+      "text": "After a five-day barge trip down a Rumpasian river, the family reaches Heliom. There Mark joins the Rustalian arms smuggler Gulgit, who is shipping muskets to the Rustal resistance aboard the caraculon Dancer under Captain Partinel.",
+      "since": 6,
+      "category": "sea"
+    },
+    {
+      "id": "b6-dancer-cutter",
+      "name": "Dancer and the cutter",
+      "scale": "world",
+      "at": [
+        436.15,
+        466.01
+      ],
+      "text": "Three days short of Orano, a Narthani cutter on coastal patrol chases the Dancer through the night and boards her. Mark fires from the main mast and fights at the rail until the Narthani withdraw. Seven of the Dancer's crew die. Location is approximate.",
+      "since": 6,
+      "category": "battle"
+    },
+    {
+      "id": "b6-orano",
+      "name": "Muskets landed at Orano",
+      "scale": "world",
+      "at": [
+        405,
+        463.8
+      ],
+      "text": "The Dancer ties up at Orano on Rustal's southeast coast, and the smuggled muskets go out by wagon after dark, a Narthani officer having been bribed. In the last few months the Narthani have pulled back to the larger cities and the coast, partly because of their defeat on Caedellium.",
+      "since": 6,
+      "category": "base"
+    },
+    {
+      "id": "b6-rustal-camp",
+      "name": "Rustal resistance camp",
+      "scale": "world",
+      "at": [
+        369.63,
+        461.45
+      ],
+      "text": "Five sixdays inland from Orano, a resistance camp of thousands fills a valley among hills and mesas in central Rustal. It is one of several, and the nearest Narthani outpost is almost two hundred miles away. Location is approximate.",
+      "since": 6,
+      "category": "base"
+    },
+    {
+      "id": "b6-gongalor-crossing",
+      "name": "Gongalor crossing",
+      "scale": "world",
+      "at": [
+        333.83,
+        461.44
+      ],
+      "text": "The Gongalor Mountains run the length of Ganolar and divide Rustal from Sulako, with peaks over 20,000 feet. Gulgit's party leads the family through a diagonal cleft over a pass of 15,000 feet, losing horses, and bribes the Sulakoan border post on the far side. Location is approximate.",
+      "since": 6,
+      "category": "geography"
+    },
+    {
+      "id": "b6-heather-arrival",
+      "name": "Heather Chen found",
+      "scale": "world",
+      "at": [
+        321.35,
+        418.43
+      ],
+      "text": "Heather Chen, another Earth castaway, is found naked on a beach near a Sulakoan fishing village about fifty miles from Iskadon. The village headman sells her to the slave trader Halari, and she spends three years as his singer. Location is approximate.",
+      "since": 6,
+      "category": "arrival"
+    },
+    {
+      "id": "b6-iskadon-port",
+      "name": "Iskadon",
+      "scale": "world",
+      "at": [
+        327.4,
+        435.4
+      ],
+      "text": "Iskadon is the only Sulako port where Narthani ships may trade, and most shipping between eastern Melosia and Drilmar passes through it. It became a major port only in the last twenty years, after the Pamahan moved Sulako's capital from exposed Bandapara to Demarung, three or four hundred miles inland.",
+      "since": 6,
+      "category": "sea"
+    },
+    {
+      "id": "b6-iskadon-rescue",
+      "name": "Rescue in the Iskadon plaza",
+      "scale": "world",
+      "at": [
+        325.4,
+        433.3
+      ],
+      "text": "The next day at noon, as Halari's carriage makes its regular round of the main plaza, Mark shoots one of its horses and Heather stabs Halari in the leg. They escape by cart two blocks to the pier and board the Buldorian ship Wicked Woman as horns sound across the city. From here Heather travels with Mark's family.",
+      "since": 6,
+      "category": "story"
+    },
+    {
+      "id": "b6-pilaminta",
+      "name": "Pilaminta",
+      "scale": "world",
+      "at": [
+        251.2,
+        446.5
+      ],
+      "text": "Sulako has built up Pilaminta, a smaller port in the west of the realm, over the last few years so as not to depend on Bandapara alone if trouble comes with the Narthani. Location is approximate.",
+      "since": 6,
+      "category": "sea"
+    },
+    {
+      "id": "b6-tortut",
+      "name": "Tortut",
+      "scale": "world",
+      "at": [
+        235.6,
+        429.8
+      ],
+      "text": "Tortut, the capital of Buldor, sits behind two narrow channels guarded by three stone forts, some newly built, in a crater-like harbor. Buldor is ruled by a council and lives by raiding, smuggling and trade. There the councillor Mustafa Adalan tells Mark of the Narthani defeat on Caedellium and their turn to Landolin.",
+      "since": 6,
+      "category": "base"
+    },
+    {
+      "id": "b6-amalor",
+      "name": "Fall of Amalor",
+      "scale": "world",
+      "at": [
+        200.54,
+        386.76
+      ],
+      "text": "Turned back from Caedellium, the Narthani land armies on the island kingdom of Amalor, off eastern Landolin, which falls easily. They make some kind of alliance with Jahmnor, the largest Landolin kingdom, and may move on Panhan or Munjor. The waters around Landolin become a war zone.",
+      "since": 6,
+      "category": "battle"
+    },
+    {
+      "id": "b6-mark-preddi",
+      "name": "Mark reaches Preddi City",
+      "scale": "island",
+      "at": [
+        60.62,
+        275.11
+      ],
+      "text": "A Fuomi sloop meets the Wicked Woman about two hundred miles south of Caedellium and brings Mark's party into Preddi City. Mark tells Hetman Balwis Preddi he comes from Amerika, and a semaphore message carrying his coded English words reaches Yozef Kolsko in Orosz City.",
+      "since": 6,
+      "category": "story"
+    },
+    {
+      "id": "b6-preddi-harbor",
+      "name": "Preddi harbor works",
+      "scale": "island",
+      "at": [
+        60.55,
+        275.25
+      ],
+      "text": "Preddi City now has six new long piers, new harbor buildings and two floating forts at the bay. Fuomi ships patrol a few hundred miles out, and with Fuomi help the Caedelli are building their first sloop.",
+      "since": 6,
+      "category": "industry"
+    },
+    {
+      "id": "b6-song-of-irlan",
+      "name": "Mark finds Heather",
+      "scale": "world",
+      "at": [
+        325.2,
+        435.6
+      ],
+      "text": "Waiting for a ship in Iskadon, Mark hears a girl at a harbor fruit stall humming \"Happy Birthday\" mixed with \"Let It Be\". He follows the songs two miles across the city to the Song of Irlan, Halari's music hall, where the singer Huthor turns out to be Heather Chen, an Earth castaway enslaved there for three years. He returns that night to speak with her and plan her escape.",
+      "since": 6,
+      "category": "story"
+    },
+    {
+      "id": "b7-ponth-trial",
+      "name": "Ponth murders and trial",
+      "scale": "island",
+      "at": [
+        60.34,
+        274.18
+      ],
+      "text": "In the market of Ponth, in northern Preddi, Yulwyn Washton axes an ex-Narthani blacksmith and his fourteen-year-old son. Washton is tried in Preddi City's newly finished Meeting Hall, whose bell is cast from Narthani cannon, before Balwis Preddi, Yozef and Halwis Stritton, who is named Chief Caedellium Adjudicator. He is sentenced to death and buried in an unmarked grave.",
+      "since": 7,
+      "category": "politics"
+    },
+    {
+      "id": "b7-preddi-embassies",
+      "name": "Embassy compounds",
+      "scale": "island",
+      "at": [
+        60.39,
+        274.77
+      ],
+      "text": "By Yozef's decree, foreign embassies are built in Preddi City: compounds for Munjor, Naskin and Mureet of Landolin and for the kahsaks Aro, Gympo, Sensarsha, Ponomyna and Kolinka. Envoys may travel only within Preddi Province. Fuomon alone keeps its embassy in Orosz City.",
+      "since": 7,
+      "category": "politics"
+    },
+    {
+      "id": "b7-munjor-immigrants",
+      "name": "Munjor immigrants",
+      "scale": "island",
+      "at": [
+        60.13,
+        274.8
+      ],
+      "text": "Ambassador Rhanjur Gaya returns from Munjor to Preddi City harbor with 103 immigrants, among them 43 craftsmen and 13 scholastics, as part payment for Caedelli cured meat, wheat and gunpowder. A Munjorian trade ship now calls every month, and six Munjor ironworkers go to the new steelworks.",
+      "since": 7,
+      "category": "sea"
+    },
+    {
+      "id": "b7-telegraph",
+      "name": "First telegraph",
+      "scale": "island",
+      "at": [
+        63.57,
+        270.27
+      ],
+      "text": "After Mark Caldwell fixes the relays and insulators, the first telegraph message passes between the new telegraph station in Orosz City and Preddi City before representatives of all twenty-one clans. Each province raises its own poles, and wiring to the capitals of the main island begins the next day.",
+      "since": 7,
+      "category": "industry"
+    },
+    {
+      "id": "b7-chemistry-institute",
+      "name": "Chemistry Institute",
+      "scale": "island",
+      "at": [
+        63.27,
+        270.28
+      ],
+      "text": "The Chemistry Institute in Orosz City opens, with skylit wings, brick firewalls and a half-roofless mercury workshop behind it, fed by cinnabar from Selfcell Province. Its chemists make galalith, the first plastic on Caedellium, from milk casein.",
+      "since": 7,
+      "category": "industry"
+    },
+    {
+      "id": "b7-moreland-textiles",
+      "name": "Moreland textile works",
+      "scale": "island",
+      "at": [
+        61.73,
+        271.79
+      ],
+      "text": "Five miles west of a Moreland City now almost entirely rebuilt, a textile works starts up with Mark Caldwell's speed loom and multi-spindle spinners. The city is seventy miles and seven hours from Orosz City by horse-drawn train. Location is approximate.",
+      "since": 7,
+      "category": "industry"
+    },
+    {
+      "id": "b7-wyntal",
+      "name": "Wyntal at Hanslow",
+      "scale": "island",
+      "at": [
+        60.8,
+        272.43
+      ],
+      "text": "At St. Borstal's Cathedral hospital in Hanslow, a feverish patient named Wyntal babbles in Narthani. He claims to come from Bevans and has lived for five years near Clitwyth in Stent, but ex-Narthani sent from Preddi place his accent in a bulak near Usmaya. He is suspected of being a Narthani mole.",
+      "since": 7,
+      "category": "story"
+    },
+    {
+      "id": "b7-mabarz-cove",
+      "name": "Landing at Mabarz Cove",
+      "scale": "island",
+      "at": [
+        68.12,
+        267.65
+      ],
+      "text": "Yozef sails secretly from Adris City on a Fuomi sloop to Mabarz Cove, two miles from the fishing village of Dabus on the south coast of Nyvaks, to meet the heir Sildor. Hetman Janko Nyvaks, who dealt with the Narthani for years before the war, is forced out. His letter of retirement is read across Nyvaks and he withdraws to a mountain retreat in the east of the province. Location is approximate.",
+      "since": 7,
+      "category": "politics"
+    },
+    {
+      "id": "b7-holuska",
+      "name": "Holuska at Penmawr",
+      "scale": "island",
+      "at": [
+        56.26,
+        270.05
+      ],
+      "text": "The Kolinkan trader Frenko Holuska waits at the Penmawr train station for letters from a spy in Orosz City. For six months his ship Sunrider has shuttled the hundred miles between Penmawr and Brudermyn. When the Paramount arrives in Penmawr, the Sunrider slips away within hours to meet a waiting Kolinkan squadron.",
+      "since": 7,
+      "category": "base"
+    },
+    {
+      "id": "b7-wungford",
+      "name": "Wungford ironworks",
+      "scale": "island",
+      "at": [
+        56.82,
+        268.99
+      ],
+      "text": "Wungford, a village in Pewitt Province, gives its name to the ironworks where Bultecki ore is smelted into pig iron, brought on the first line relaid with longer, better iron caps. A coal-tar plant here makes benzene, toluene and the dyes mauvine and alizarin. Location is approximate.",
+      "since": 7,
+      "category": "industry"
+    },
+    {
+      "id": "b7-elmor",
+      "name": "Elmor steelworks",
+      "scale": "island",
+      "at": [
+        57.38,
+        267.1
+      ],
+      "text": "At Elmor in Swavebroke Province, pig iron from Wungford is turned into steel in Bessemer converters driven by a waterwheel, beside coke ovens, a rolling mill and a rail yard stacked with eighteen-foot steel rails. A fourth converter is soon running. Location is approximate.",
+      "since": 7,
+      "category": "industry"
+    },
+    {
+      "id": "b7-hilstrom-inlet",
+      "name": "Hilstrom Inlet works",
+      "scale": "island",
+      "at": [
+        59.06,
+        271.21
+      ],
+      "text": "On the Selfcell side of narrow-mouthed Hilstrom Inlet, off a bay on the Selfcell-Stent border, shops and piers are built to test a thirty-foot steam paddleboat out of sight of Fuomi ships. A rail spur branches to it from the Clitwyth-Penmawr line.",
+      "since": 7,
+      "category": "industry"
+    },
+    {
+      "id": "b7-kolinkan-squadron",
+      "name": "Kolinkan squadron waits",
+      "scale": "island",
+      "at": [
+        50.4,
+        274
+      ],
+      "text": "Twenty Kolinkan ships under Orno Kistek wait about two hundred miles southwest of Seaborn, beyond the Fuomi patrols, for word that the Paramount is on South Island. Location is approximate.",
+      "since": 7,
+      "category": "base"
+    },
+    {
+      "id": "b7-brudermyn",
+      "name": "Paramount in Brudermyn",
+      "scale": "island",
+      "at": [
+        52.92,
+        268.73
+      ],
+      "text": "Yozef and Maera make the first Paramount visit to Seaborn. Brudermyn, on the north coast of South Island, is built of white marble ferried from North Island. They attend service at St. Eflin's Cathedral, whose library holds very old records, and watch the Seaborn dragoons fire the twelve-pounders shipped to the island four months earlier.",
+      "since": 7,
+      "category": "politics"
+    },
+    {
+      "id": "b7-arglar",
+      "name": "Arglar ore trade",
+      "scale": "island",
+      "at": [
+        52.51,
+        267.53
+      ],
+      "text": "From the port of Arglar on North Island, silver-lead ore is shipped to the Iraquinik kahsaks, where Kolinka smelts it. The trade began just before the Narthani came and has restarted in the last few months. Yozef suspects galena and wants a mineral survey of the islands. Location is approximate.",
+      "since": 7,
+      "category": "industry"
+    },
+    {
+      "id": "b7-yastern",
+      "name": "Yastern Valley",
+      "scale": "island",
+      "at": [
+        53.22,
+        268.9
+      ],
+      "text": "Twenty-three miles by carriage from Brudermyn, past the village of Nillor where the good road ends, the Yastern River falls through travertine terraces of cascading blue pools, with hot springs at the foot of the hill. It is the only such place in Seaborn. Location is approximate.",
+      "since": 7,
+      "category": "geography"
+    },
+    {
+      "id": "b7-stiltern-fall",
+      "name": "Stiltern Fall",
+      "scale": "island",
+      "at": [
+        53.31,
+        269.32
+      ],
+      "text": "At the head of a cleft southwest of Grastor, Stiltern Fall drops three thousand feet in a single plunge into a cloud of mist. From there a track runs through forest and grassland to the Milmor ranch and on to Nollagen. Location is approximate.",
+      "since": 7,
+      "category": "geography"
+    },
+    {
+      "id": "b7-brintyn-cove",
+      "name": "Brintyn Cove landing",
+      "scale": "island",
+      "at": [
+        53,
+        269.63
+      ],
+      "text": "Guided by Holuska's signal fire, the Kolinkans land about 250 men and their horses one ship at a time behind a rock breakwater at Brintyn Cove, west of Nollagen. Fifty ride north to cut the road to Grastor, and another hundred land five miles east across Nollagen Bay to block the coast road. Location is approximate.",
+      "since": 7,
+      "category": "raid"
+    },
+    {
+      "id": "b7-nollagen-raid",
+      "name": "Kolinkan raid on Nollagen",
+      "scale": "island",
+      "at": [
+        53.34,
+        269.7
+      ],
+      "text": "The Kolinkans fall on Nollagen while the Paramount's party is in the village. Lookouts spot ships at sea, and Yozef's party flees due north with its banners as a decoy while the villagers scatter. The raiders ride after the Paramount.",
+      "since": 7,
+      "category": "raid"
+    },
+    {
+      "id": "b7-pewitts-glory",
+      "name": "Pewitt's Glory",
+      "scale": "island",
+      "at": [
+        53.34,
+        269.62
+      ],
+      "text": "At the head of a narrow rock chute north of Nollagen, Steva Wynton and ten Pewitt dragoons turn to hold off the pursuing Kolinkans and are killed to a man, buying the party minutes. Yozef names the place Pewitt's Glory. Location is approximate.",
+      "since": 7,
+      "category": "battle"
+    },
+    {
+      "id": "b7-milgorn-gorge",
+      "name": "Milgorn Gorge",
+      "scale": "island",
+      "at": [
+        53.58,
+        269.32
+      ],
+      "text": "Cornered in the boulder-strewn passage of Milgorn Gorge, about eight miles from Grastor, the Paramount's escort of Pewitt and Seaborn dragoons makes its last stand. Reezo Seaborn and about thirty-nine dragoons die, along with more than a hundred Kolinkans. Maera is shot. The survivors ride for Grastor. Location is approximate.",
+      "since": 7,
+      "category": "battle"
+    },
+    {
+      "id": "b7-grastor",
+      "name": "Refuge at Grastor",
+      "scale": "island",
+      "at": [
+        53.57,
+        269.11
+      ],
+      "text": "The survivors of Milgorn Gorge reach Grastor, a smaller marble city on the east coast of South Island whose new cathedral is rising beside the one ruined by an earthquake. Maera recovers there for two sixdays before the party sails home by way of Penmawr. A memorial is planned for Brudermyn.",
+      "since": 7,
+      "category": "story"
+    },
+    {
+      "id": "b7-kolinka-pursuit",
+      "name": "Fuomi pursuit of the Kolinkans",
+      "scale": "world",
+      "at": [
+        192,
+        192
+      ],
+      "text": "The Fuomi frigate Waaro and a sloop catch the Kolinkan ships fleeing from Nollagen. They attack before dawn and sink five, then cruise off Kolinka for a sixday and take 27 prisoners, including the second-in-command Maklos Bota. The prisoners are held at Devanyo, and Yozef vows to end Kolinka as an independent kahsak. Location is approximate.",
+      "since": 7,
+      "category": "sea"
+    },
+    {
+      "id": "b7-steam-engine",
+      "name": "First steam engine",
+      "scale": "island",
+      "at": [
+        63.16,
+        270.1
+      ],
+      "text": "In a fenced, restricted works a mile west of Orosz City, Mark Caldwell runs Caedellium's first working steam engine, built to ventilate the northern copper and tin mines and soon to pump water in Skouks. A model locomotive and a breech-loading rifle are tested there in secret. Steel rails are planned next, with Orosz City as the hub of lines to Adris City, Preddi City and Shullick.",
+      "since": 7,
+      "category": "industry"
+    },
+    {
+      "id": "b7-fuomi-spies",
+      "name": "Fuomi spy ring exposed",
+      "scale": "island",
+      "at": [
+        63.58,
+        270
+      ],
+      "text": "A Fuomi spy ring in Orosz City, run from the embassy by the aide Taponi Namaki and reaching railwaymen and ranchers, is exposed through a worker at the restricted works. Ambassador Irvod Koskanin is expelled by way of Adris City and Eina Saisannin becomes ambassador again.",
+      "since": 7,
+      "category": "politics"
+    },
+    {
+      "id": "b7-acid-plant",
+      "name": "Sulfuric acid works",
+      "scale": "island",
+      "at": [
+        64.33,
+        275.4
+      ],
+      "text": "Northeast of Strindmar, near the Keelan border, Yozef chooses the site of one of two lead-chamber sulfuric acid plants. It is close to veins of galena, pyrite and sphalerite and to bird guano deposits on the nearby coast. Location is approximate.",
+      "since": 7,
+      "category": "industry"
+    },
+    {
+      "id": "b8-selfcell-vanished-egg",
+      "name": "Vanished egg of Selfcell",
+      "scale": "island",
+      "at": [
+        59,
+        272
+      ],
+      "text": "Langor tells Mark that a second egg was reported in an isolated part of Selfcell. Locals insisted it had always been there, until a youngster went to look and found only a perfectly oval depression, its surface as smooth as fused rock and with no sign of chipping. Where in Selfcell is unknown. Location is approximate.",
+      "since": 8,
+      "category": "egg"
+    },
+    {
+      "id": "b8-senate-war-vote",
+      "name": "Senate votes for war",
+      "scale": "island",
+      "at": [
+        63.52,
+        269.98
+      ],
+      "text": "After two days of debate in Orosz City the Caedellium Senate approves the campaign against Kolinka, seventeen hetmen to four, with Pawell, Bevans, Vandinke and Farkesh opposed. Yulan Seaborn takes part from a mountaintop semaphore station on South Island, which a new telegraph spur ties to the Senate chamber.",
+      "since": 8,
+      "category": "politics",
+      "sources": [
+        "b8-caedellium-rail-telegraph"
+      ]
+    },
+    {
+      "id": "b8-hilstrom-shipyard",
+      "name": "Hilstrom shipyard",
+      "scale": "island",
+      "at": [
+        58.86,
+        271.44
+      ],
+      "text": "Mark Caldwell makes Hilstrom Inlet the main site for building steamships and ironclads. A new pier and worker quarters go up, a forty-mile rail spur is under construction, and a third ironworks with a thousand workers is planned nearby because Selfcell has the only other deep coal seams near the railroad.",
+      "since": 8,
+      "category": "industry"
+    },
+    {
+      "id": "b8-elmor-riot",
+      "name": "Elmor riot",
+      "scale": "island",
+      "at": [
+        57.42,
+        267.16
+      ],
+      "text": "A riot between Caedelli workers and Munjorian immigrants shuts the Elmor ironworks for a sixday. Immigrant enclaves at Elmor and Wungford are broken up, a few troublemakers are deported, and both works are capped at their current size plus two hundred workers.",
+      "since": 8,
+      "category": "politics"
+    },
+    {
+      "id": "b8-murdmyn-records",
+      "name": "Murdmyn's hidden records",
+      "scale": "island",
+      "at": [
+        56.5,
+        269.84
+      ],
+      "text": "At St. Hopelan's in Penmawr, the century-old librarian Brother Arwell Murdmyn shows Yozef records of Caedellium's founding. When the Caedelli arrived about four hundred years ago, people of Kolinkan stock already held the north and west of the island. After decades of conflict and a truce, the two peoples merged, and the northern clans still keep traces of them.",
+      "since": 8,
+      "category": "story"
+    },
+    {
+      "id": "b8-mittack-greenhouses",
+      "name": "Mittack greenhouses",
+      "scale": "island",
+      "at": [
+        67.12,
+        275.62
+      ],
+      "text": "Greenhouse complexes in Mittack and Bevans are fully working, and Mittack's first poppy crop is tested for painkillers. Until now the only Landolin source was Mureet. Location is approximate.",
+      "since": 8,
+      "category": "industry"
+    },
+    {
+      "id": "b8-pawell-mortars",
+      "name": "Mortar works",
+      "scale": "island",
+      "at": [
+        65.9,
+        268.35
+      ],
+      "text": "Mortars and their fuses are developed in a Pawell town about fifty miles by road from Adris City. A fuse explosion kills one worker and injures three. Location is approximate.",
+      "since": 8,
+      "category": "industry"
+    },
+    {
+      "id": "b8-fuomi-fleet",
+      "name": "Torkinian's fleet arrives",
+      "scale": "island",
+      "at": [
+        65.45,
+        270.08
+      ],
+      "text": "Admiral Lomo Torkinian's fleet of more than twenty Fuomi ships, carrying a marine regiment and Marshal Haree Vernik, passes the two iron-plated floating forts at the Normot Gap. They anchor at the Fuomi naval base a mile west of Adris City harbor, where a dry dock has just been completed.",
+      "since": 8,
+      "category": "sea"
+    },
+    {
+      "id": "b8-division-camp",
+      "name": "Alliance Division camp",
+      "scale": "island",
+      "at": [
+        59.25,
+        274.05
+      ],
+      "text": "The 1st Alliance Division trains on the Dorwyn Plain in south-central Selfcell, about fifty miles from Sellmor harbor. Caedelli, Fuomi, Munjorian and Naskinese dragoons test balloons, heliographs, lanterns and field telegraph from a hundred-foot mesa, and Yozef shows the Kolinkan prisoner Maklos Bota ten thousand men firing Sharps rifles. Location is approximate.",
+      "since": 8,
+      "category": "base",
+      "sources": [
+        "b8-alliance-division"
+      ]
+    },
+    {
+      "id": "b8-yozefs-cove",
+      "name": "Yozef's Cove",
+      "scale": "island",
+      "at": [
+        64.52,
+        275.42
+      ],
+      "text": "Yozef's family spends three sixdays at their expanded beach cottage on the west-facing shore near Abersford, close to where he was found. They travel by train to Adris City, by sloop to Salford, and by carriage thirty miles on.",
+      "since": 8,
+      "category": "story"
+    },
+    {
+      "id": "b8-farkesh-gold",
+      "name": "Farkesh gold mine",
+      "scale": "island",
+      "at": [
+        60.9,
+        265.62
+      ],
+      "text": "To win over Farkesh's hetman, Tomis Orosz moves a planned gold-mine expansion there from Hewell and raises Farkesh on the list for new rail lines. Location is approximate.",
+      "since": 8,
+      "category": "industry"
+    },
+    {
+      "id": "b8-council-penabak",
+      "name": "Council of Penabak",
+      "scale": "world",
+      "at": [
+        227.95,
+        217.2
+      ],
+      "text": "The Alliance fleet lands at Penabak, Ponomyna's capital and main port. The leaders of Caedellium, Fuomon, Ponomyna, Aro, Gympo, Munjor and Naskin adopt the Alliance flag and agree to a three-pronged drive on Chikawan. Merchants who sold rotten dried fruit to the army are beheaded in front of Yozef.",
+      "since": 8,
+      "category": "politics",
+      "sources": [
+        "b8-penabak-council",
+        "b8-alliance-flag",
+        "b8-kolinka-campaign-plan"
+      ]
+    },
+    {
+      "id": "b8-otakay",
+      "name": "Otakay staging camp",
+      "scale": "world",
+      "at": [
+        233.6,
+        202.97
+      ],
+      "text": "About 33,000 men gather at the village of Otakay, ten miles from the Kolinkan border and about five days' ride from Penabak. At dawn Swavebroke's dragoons lead the column into the forest, and it takes four hours to cross the border.",
+      "since": 8,
+      "category": "base",
+      "sources": [
+        "b8-kolinka-campaign-plan",
+        "b8-badlands-approach"
+      ]
+    },
+    {
+      "id": "b8-lower-zamzul",
+      "name": "Lower Zamzul bridge",
+      "scale": "world",
+      "at": [
+        232.88,
+        197.5
+      ],
+      "text": "Tasman Gangala's 20,000 Ponomynans cross the ridge from the border and take the lower Zamzul bridge at sunrise. A thousand infantry fortify both ends.",
+      "since": 8,
+      "category": "battle",
+      "sources": [
+        "b8-kolinka-campaign-plan",
+        "b8-badlands-approach"
+      ]
+    },
+    {
+      "id": "b8-middle-zamzul",
+      "name": "Middle Zamzul bridge",
+      "scale": "world",
+      "at": [
+        236.69,
+        194.46
+      ],
+      "text": "Thirty miles upriver, Kolinkan infantry and 12-pounders behind earth berms beat back two Ponomynan assaults. Two companies ferried across by raft ten miles downstream take the far end, and the third assault carries the bridge at a cost of about 1,200 casualties. Tasman later blows it to stop reinforcements from the north.",
+      "since": 8,
+      "category": "battle",
+      "sources": [
+        "b8-kolinka-campaign-plan",
+        "b8-badlands-approach"
+      ]
+    },
+    {
+      "id": "b8-wambal-bridges",
+      "name": "Mukamon takes the Wambal bridges",
+      "scale": "world",
+      "at": [
+        244.7,
+        199.15
+      ],
+      "text": "Vinok Washtah's Mukamonese column ignores the plan, takes the middle Wambal bridge first, and then breaks through at the upper Wambal bridge about sixty miles southeast of Chikawan. A smaller force heads northwest toward the upper Zamzul bridge.",
+      "since": 8,
+      "category": "battle",
+      "sources": [
+        "b8-kolinka-campaign-plan"
+      ]
+    },
+    {
+      "id": "b8-badlands-battle",
+      "name": "Battle of the Badlands",
+      "scale": "world",
+      "at": [
+        237.98,
+        199.56
+      ],
+      "text": "About 30,000 Alliance troops hold a low swell in the grassland on the road toward the badlands against Warmaster Rakatek's 90,000 Kolinkans. Prone Sharps riflemen and a grand battery break the center, and the Munjorians and Gatlings stop a flanking force of 15,000. The Kolinkans lose about 20,000 men and the Alliance about 600 dead.",
+      "since": 8,
+      "category": "battle",
+      "sources": [
+        "b8-badlands-approach",
+        "b8-march-column",
+        "b8-badlands-deployment",
+        "b8-badlands-result"
+      ]
+    },
+    {
+      "id": "b8-litliks-balls",
+      "name": "Litlik's Balls",
+      "scale": "world",
+      "at": [
+        237.52,
+        198.08
+      ],
+      "text": "Two hills about 800 feet high stand at the end of a grassy ridge in the badlands and are visible from fifteen miles away. Kolinkan scouts climb them to count the invading army at 30,000 to 34,000. Location is approximate.",
+      "since": 8,
+      "category": "geography",
+      "sources": [
+        "b8-badlands-approach"
+      ]
+    },
+    {
+      "id": "b8-tahpulta-ravine",
+      "name": "Tahpulta Ravine",
+      "scale": "world",
+      "at": [
+        238.98,
+        199.18
+      ],
+      "text": "Rakatek falls back behind the Tahpulta, a seasonal stream whose ravine runs northwest from the Wambal River 20 to 30 feet deep where the road crosses it. Kivalian's dragoons cross about twenty miles upstream and join Tasman's Ponomynans. Mortars, rockets and snipers then open the attack, and the Kolinkans withdraw toward Chikawan.",
+      "since": 8,
+      "category": "battle",
+      "sources": [
+        "b8-badlands-approach"
+      ]
+    },
+    {
+      "id": "b8-onunza-blockade",
+      "name": "Blockade of Onunza",
+      "scale": "world",
+      "at": [
+        195.8,
+        188.2
+      ],
+      "text": "Fuomi warships blockade Onunza, Kolinka's only major port, for the whole campaign.",
+      "since": 8,
+      "category": "sea"
+    },
+    {
+      "id": "b8-chikok-crossing",
+      "name": "Crossing of the Chikok",
+      "scale": "world",
+      "at": [
+        241.6,
+        199
+      ],
+      "text": "With all four Chikok bridges burned or blown, Tasman and Uzman Gangala feint at the river west of Chikawan while Kivalian's main assault fords it south of the city, where it is three feet deep over gravel. Ponomynan swimmers kill the pickets, and Naskinese and Fuomi dragoons storm across at dawn. Swavebroke's dragoons arrive behind the Kolinkan line over a wooden road laid through the wetlands to the southeast, and by evening the Alliance holds a line from the river to Chikawan's walls.",
+      "since": 8,
+      "category": "battle",
+      "sources": [
+        "b8-chikok-defenses",
+        "b8-chikok-assault"
+      ]
+    },
+    {
+      "id": "b8-chikawan-truce",
+      "name": "Truce at Chikawan",
+      "scale": "world",
+      "at": [
+        241.3,
+        197.3
+      ],
+      "text": "Chikawan's cathedral bells signal a ceasefire. Rakatek and his fellow conspirators depose Arklun Meelis Litlik, and talks begin in a farmhouse a mile from the city walls. The Maleenor family, displaced by the Litliks a century earlier, is agreed upon to rule. Location is approximate.",
+      "since": 8,
+      "category": "politics"
+    },
+    {
+      "id": "b8-kolinka-partition",
+      "name": "Peace of Chikawan",
+      "scale": "world",
+      "at": [
+        242.7,
+        197.5
+      ],
+      "text": "Ozlaw Maleenor is installed as arklun. Kolinka must disarm half its army and melt down the cannon near the capital. Mukamon takes a strip about twenty miles deep along their border, the irrigated farmland south of Chikawan and the mountain corridor to the Shawsoon Sea. Ponomyna takes Onunza, and Abaton keeps the northeast it occupied.",
+      "since": 8,
+      "category": "politics",
+      "sources": [
+        "b8-northern-iraquiniks"
+      ]
+    },
+    {
+      "id": "b8-kellen-ambush",
+      "name": "Kellen's pursuit",
+      "scale": "world",
+      "at": [
+        244.5,
+        201.5
+      ],
+      "text": "Litlik loyalist cavalry attack an Alliance wagon train taking wounded to Penabak. Major Kellen corners and destroys them about forty miles southeast of Chikawan. Location is approximate.",
+      "since": 8,
+      "category": "battle"
+    },
+    {
+      "id": "b8-narthani-letter",
+      "name": "Narthani letter",
+      "scale": "world",
+      "at": [
+        196.6,
+        185.7
+      ],
+      "text": "A Narthani ship under a parley flag approaches the Fuomi sloop patrolling off Onunza. It hands over about fifty Caedelli captives and a letter written in English that names Mark Kaldwel, signed by a companion of General Okan Akuyun.",
+      "since": 8,
+      "category": "politics"
+    },
+    {
+      "id": "b8-eurako",
+      "name": "Eurako",
+      "scale": "world",
+      "at": [
+        1235.59,
+        375.2
+      ],
+      "text": "Fuomon is building a naval settlement in the bay of Brunda, the largest of the Murvor Islands, halfway across the Great Ocean. Its fleets stop there to reach Caedellium on the seasonal winds instead of going through the Throat.",
+      "since": 8,
+      "category": "base",
+      "sources": [
+        "b8-great-ocean",
+        "b8-murvor-islands"
+      ]
+    },
+    {
+      "id": "b8-robin-arrival",
+      "name": "Robin Kehlee found",
+      "scale": "world",
+      "at": [
+        440.56,
+        280.79
+      ],
+      "text": "Robin Kehlee, an American castaway, was found naked on a beach near the Gulf of Numara town of Esrohir about six years ago and enslaved on the Halaglu estate. Assessor Sadek Hizer buys her and her son Aleks for 260 kurus. Location is approximate.",
+      "since": 8,
+      "category": "arrival",
+      "sources": [
+        "b8-anyar-castaways"
+      ]
+    },
+    {
+      "id": "b8-jalabo",
+      "name": "Jalabo found",
+      "scale": "world",
+      "at": [
+        726.06,
+        305.02
+      ],
+      "text": "Hakeem Stambouli, a very dark, tall castaway the locals call Jalabo, was found on a beach belonging to Lord Jansatsu Hameeko at the southern tip of Krinolin, where he now serves the lord. Location is approximate.",
+      "since": 8,
+      "category": "arrival",
+      "sources": [
+        "b8-anyar-castaways"
+      ]
+    },
+    {
+      "id": "b8-harrasedic-invasion",
+      "name": "Harrasedic invasion",
+      "scale": "world",
+      "at": [
+        513.56,
+        238.12
+      ],
+      "text": "Five Harrasedic states and the free city of Vilgar attack all along Narthon's eastern border, a line that had not moved for a generation, and push the 22nd Corps back ninety miles from Tormkee. Okan Akuyun counterattacks with massed cavalry and destroys the Polva and Astonin army, and Narthon ends up with the border fifty miles or more to the east. Location is approximate.",
+      "since": 8,
+      "category": "battle",
+      "sources": [
+        "b8-harrasedic-attack"
+      ]
+    },
+    {
+      "id": "b8-ergoman-estate",
+      "name": "Ergoman estate",
+      "scale": "world",
+      "at": [
+        478,
+        246
+      ],
+      "text": "Robin Kehlee and her children are hidden on the western Korinshir estate of retired Marshal Khalid Ergoman, Akuyun's father-in-law. When Hizer learns that Narthon has deduced Mark Kaldwel is on Caedellium, he moves them back to Kustal. Location is approximate.",
+      "since": 8,
+      "category": "story"
+    },
+    {
+      "id": "b8-morzin-revolt",
+      "name": "Morzin slave revolt",
+      "scale": "world",
+      "at": [
+        314.8,
+        320.5
+      ],
+      "text": "Imposing the central bulaks' slavery on the west sets off a slave revolt in Morzin Bulak. Corps are pulled from the Iraquinik line, and units bound for Landolin are held back, which stalls the Landolin campaign. Location is approximate.",
+      "since": 8,
+      "category": "raid"
+    },
+    {
+      "id": "b8-assessor-hq",
+      "name": "Assessor headquarters",
+      "scale": "world",
+      "at": [
+        383.7,
+        295.3
+      ],
+      "text": "At the Assessor Order's headquarters in Kustal, Robin Kehlee is questioned about Earth, and a women's transcription room records what she knows. Her daughter Nell is born there.",
+      "since": 8,
+      "category": "story"
+    },
+    {
+      "id": "b8-nurburt-postmaster",
+      "name": "Nurburt postmaster",
+      "scale": "world",
+      "at": [
+        656.9,
+        437.4
+      ],
+      "text": "Mark and Maghen's letter to her parents reaches Nurburt by way of Kahmo and Brawsea. Postmaster Amdor Belkyn copies it for Narthani agents, and Narthon reasons from its mention of seasickness and its route that Mark is on Caedellium.",
+      "since": 8,
+      "category": "politics"
+    },
+    {
+      "id": "b9-penabak-exchange",
+      "name": "Robin Kehlee reaches Penabak",
+      "scale": "world",
+      "at": [
+        227.9,
+        217.3
+      ],
+      "text": "A Fuomi sloop brings Robin Kehlee, her children, the English-speaking Yennaev Hizer and about twenty Caedelli captives into Penabak. The Assessors sent them by carriage from Kustal to a cold northern port, then by courier ship to a mid-ocean meeting with the Fuomi under a parley flag. Yozef meets them at the allied encampment outside the city.",
+      "since": 9,
+      "category": "politics"
+    },
+    {
+      "id": "b9-kweslon-conclave",
+      "name": "Kweslon conclave",
+      "scale": "world",
+      "at": [
+        211.3,
+        243
+      ],
+      "text": "On the way home from Kolinka, the allied flotilla sails about five hundred miles in three days to Kweslon, the Aro capital, set against hills behind a narrow bay entrance. Over three days of meetings in Mubab Aro's residence above the harbor, Ponomyna pledges at least six thousand men and ships, Aro and Gympo at least four thousand each, and Irapah promises maps and people who know Jahmnor, Munjor and Amalor.",
+      "since": 9,
+      "category": "politics"
+    },
+    {
+      "id": "b9-tormkee",
+      "name": "Tormkee headquarters",
+      "scale": "world",
+      "at": [
+        513.3,
+        241
+      ],
+      "text": "After the Harrasedic invaders are driven out and the border is pushed an average of sixty-two miles into their territory, Zone 4 army headquarters moves from Dinzlon to the smaller Tormkee. A new headquarters building, barracks and stables go up, and Okan Akuyun, now a marshal, begins converting the 22nd Corps to rifles made in Korinshir, Harket and Azmir. Location is approximate.",
+      "since": 9,
+      "category": "base"
+    },
+    {
+      "id": "b9-lord-protector",
+      "name": "Lord Protector of Naskin",
+      "scale": "world",
+      "at": [
+        146.3,
+        290.3
+      ],
+      "text": "After a storm-slowed voyage of two sixdays from Kweslon, Yozef reaches Silata, whose lower city sits on a shelf inside a mile-wide bowl of cliffs, with rope climbways up to the upper city. The aging King Gompta asks him to protect the succession of his two-year-old heir and promises to build a hall for an allied gathering on Landolin.",
+      "since": 9,
+      "category": "politics"
+    },
+    {
+      "id": "b9-normot-telegraph",
+      "name": "Normot Gap telegraph",
+      "scale": "island",
+      "at": [
+        66,
+        271.55
+      ],
+      "text": "A telegraph line now runs from the western floating fort at the Normot Gap, on poles set on rock outcrops and anchored platforms, to Hewell Province and the island's network. The forts carry 50-pounders and two 100-pounders each, and no warship can pass the gap without permission.",
+      "since": 9,
+      "category": "industry"
+    },
+    {
+      "id": "b9-fuomi-convoy",
+      "name": "Fuomi convoy arrives",
+      "scale": "island",
+      "at": [
+        65.75,
+        269.9
+      ],
+      "text": "A convoy of twenty-six Fuomi ships, eight of them warships, sights Seaborn, skirts the southern provinces and enters the Normot Gap for the Fuomi base at Adris City. It brings two army regiments, which are given hastily built barracks at the Caedelli army base near Sellmor, and the new Fuomi ambassador's party, which goes on by train to Orosz City.",
+      "since": 9,
+      "category": "sea"
+    },
+    {
+      "id": "b9-murikin",
+      "name": "Murikin",
+      "scale": "world",
+      "at": [
+        433.5,
+        276.5
+      ],
+      "text": "Ekstar Fazellon, named Marshal General to command the Landolin campaign, works from Murikin near the Osmuya and Harket border, home of the army's military academy, staff school and largest library. He orders Akuyun's 22nd Corps to Pulamur, more than three thousand miles from Tormkee. Location is approximate.",
+      "since": 9,
+      "category": "politics"
+    },
+    {
+      "id": "b9-ordum-council",
+      "name": "Council at Ordum",
+      "scale": "world",
+      "at": [
+        466.2,
+        268.6
+      ],
+      "text": "In a small school on the outskirts of Ordum, Akuyun, the newly recalled Grand Marshal Khalid Ergoman and Sub-General Saglam go over the Landolin plan. Narthon commits 490,000 men: two armies with Jahmnorese allies will cross into Munjor five hundred miles apart, supplied through central Amalor, while Akuyun's corps is held ready to land near Bawfa Bay.",
+      "since": 9,
+      "category": "politics"
+    },
+    {
+      "id": "b9-explosives-works",
+      "name": "Explosives works",
+      "scale": "island",
+      "at": [
+        63.65,
+        270.4
+      ],
+      "text": "Southeast of Orosz City, well away from other buildings, a fenced compound with a single guarded gate holds the island's hazardous projects. Guncotton is now workable and a fermentation house makes acetone, but smokeless powder is not yet ready beyond field tests.",
+      "since": 9,
+      "category": "industry"
+    },
+    {
+      "id": "b9-julabad",
+      "name": "Burning of Julabad",
+      "scale": "world",
+      "at": [
+        140,
+        362.8
+      ],
+      "text": "General Sufit Sinar leads about 6,000 Narthani infantry, cavalry, artillery and 4,000 Jahmnorese horsemen across the border into western Munjor in a reconnaissance in force. At dawn, Vinma Sahood's Jahmnorese burn the farming town of Julabad and kill its hundred defenders. Location is approximate.",
+      "since": 9,
+      "category": "raid"
+    },
+    {
+      "id": "b9-vilawad-gap",
+      "name": "Vilawad Gap",
+      "scale": "world",
+      "at": [
+        140.3,
+        360.8
+      ],
+      "text": "About twenty miles inside Munjor the road passes through a gap in a long flat-topped ridge. Harmon Swavebroke's company of Sharps riflemen builds a berm across it and shatters repeated Jahmnorese charges, then holds off Narthani guns and an infantry assault. When musketeers climb the talus slopes on both sides, the Caedelli withdraw east. Location is approximate.",
+      "since": 9,
+      "category": "battle"
+    },
+    {
+      "id": "b9-creek-standoff",
+      "name": "Standoff at the creek",
+      "scale": "world",
+      "at": [
+        141.2,
+        360.6
+      ],
+      "text": "Swavebroke's men fall back to a creek a few miles east of the gap, where Munjoran lords gather more than 16,000 men. A Narthani feint nearly breaks the Munjoran center, but over the following days the invaders keep slipping away and finally return to Jahmnor. Location is approximate.",
+      "since": 9,
+      "category": "battle"
+    },
+    {
+      "id": "b9-enterprise-trials",
+      "name": "Enterprise trials",
+      "scale": "island",
+      "at": [
+        59.05,
+        271.45
+      ],
+      "text": "The first steam ironclad, the Enterprise, runs trials out of Hilstrom Inlet, ten miles offshore and nearly a hundred miles along the coast. The yard sits inside a security zone with an outer ring fifteen miles out, picket ships offshore and two new villages for its workers. Two sister ships, Victory and Warrior, follow.",
+      "since": 9,
+      "category": "industry"
+    },
+    {
+      "id": "b9-enterprise-silata",
+      "name": "Enterprise at Silata",
+      "scale": "world",
+      "at": [
+        147,
+        290.6
+      ],
+      "text": "The Enterprise steams four days from Hilstrom to Silata and shows its Gatlings and 6-inch guns on a towed ship in the bay. Naskin agrees to raise four Sharps regiments trained by Caedelli dragoons, to make cartridges and powder, and to make Silata the staging depot for the Landolin campaign.",
+      "since": 9,
+      "category": "sea"
+    },
+    {
+      "id": "b9-gompta-visit",
+      "name": "Gompta tours the ironworks",
+      "scale": "island",
+      "at": [
+        56.85,
+        269.1
+      ],
+      "text": "King Gompta of Naskin, the first Landolin king to leave Landolin, sails back with the Enterprise, limping the last hundred miles when a screw seizes. He tours the Wungford ironworks, where armor plate is rolled for the second Enterprise-class ship, dines with the Pewitt hetman at Penmawr and travels by train through Clitwyth and Cherona to Orosz City.",
+      "since": 9,
+      "category": "story"
+    },
+    {
+      "id": "b9-bevans-secession",
+      "name": "Bevans secession",
+      "scale": "island",
+      "at": [
+        67.7,
+        270.15
+      ],
+      "text": "Bevans closes its border with Adris, cuts down the telegraph poles where the line enters the province and declares independence from the Caedellium Union. Conservative theophists have been settling there for two years. Yozef rides in with an escort from Adris City, thirty-three miles from the border to Seapont.",
+      "since": 9,
+      "category": "politics"
+    },
+    {
+      "id": "b9-bevans-standoff",
+      "name": "Standoff in Bevans",
+      "scale": "island",
+      "at": [
+        68.2,
+        270.4
+      ],
+      "text": "Almost twenty miles into Bevans, two companies of the province's militia block the road. Their captain, a veteran of Vega's battalion in Kolinka, comes over to Yozef, and the fanatics among them are disarmed after a few shots. Location is approximate.",
+      "since": 9,
+      "category": "story"
+    },
+    {
+      "id": "b9-st-islers-ambush",
+      "name": "Ambush at St. Isler's",
+      "scale": "island",
+      "at": [
+        68.55,
+        270.25
+      ],
+      "text": "In St. Isler's Cathedral on Seapont's central plaza, heir Hordwyn Bevans and twenty-one men attack Yozef's party. The guard Arlen Pawell is killed, and Hordwyn is shot while fleeing. His younger brother Tordan becomes acting hetman and brings Bevans back into the Union.",
+      "since": 9,
+      "category": "battle"
+    },
+    {
+      "id": "b9-seaborn-smelter",
+      "name": "Seaborn North Island smelter",
+      "scale": "island",
+      "at": [
+        52.3,
+        266.3
+      ],
+      "text": "Seaborn North Island, mountainous with little farmland, once shipped its ore to the Iraquiniks for smelting. It now has its own smelter, and a second major mining site is opening. Location is approximate.",
+      "since": 9,
+      "category": "industry"
+    },
+    {
+      "id": "b9-pulamur-buildup",
+      "name": "Pulamur buildup",
+      "scale": "world",
+      "at": [
+        350.8,
+        299.3
+      ],
+      "text": "Pulamur, at the head of the Bay of Hurlak, is Narthon's arsenal and embarkation port for Landolin, and loaded troopships stream west from it. Akuyun's 22nd Corps comes by sea from Ordum to Balaseer and then overland, sets up a base eighty miles west of the city and appropriates foundries for its weapons shops.",
+      "since": 9,
+      "category": "base"
+    },
+    {
+      "id": "b9-silata-conclave",
+      "name": "Allied conclave at Silata",
+      "scale": "world",
+      "at": [
+        145.8,
+        289.8
+      ],
+      "text": "Gompta's new marble hall stands on a rocky promontory in Silata Bay. The day before the allied meeting, the Enterprise steams in and sinks a target ship from nine hundred yards. Caedellium, Fuomon, the Iraquiniks, Munjor and Naskin pledge twenty-four Sharps regiments for the Landolin campaign, and Naskin agrees to host an Iraquinik training ground.",
+      "since": 9,
+      "category": "politics"
+    },
+    {
+      "id": "b9-senate-landolin",
+      "name": "Senate approves Landolin",
+      "scale": "island",
+      "at": [
+        63.3,
+        269.9
+      ],
+      "text": "The Senate in Orosz City votes fifteen to six to prepare for a Landolin campaign, with final approval conditional on the plan. After the allied conclave, the hetmen approve the campaign itself, again fifteen to six.",
+      "since": 9,
+      "category": "politics",
+      "sources": [
+        "b9-senate-votes"
+      ]
+    },
+    {
+      "id": "b9-kustal-convocation",
+      "name": "Prime Convocation called",
+      "scale": "world",
+      "at": [
+        383.5,
+        294
+      ],
+      "text": "At Kustal the Assessor High Council votes nine to none to call an early Prime Convocation to reconsider the Micosian Creed, which for two centuries has bound the order to support Narthon's rise.",
+      "since": 9,
+      "category": "politics"
+    },
+    {
+      "id": "b9-first-wireless",
+      "name": "First wireless",
+      "scale": "island",
+      "at": [
+        63.15,
+        270.25
+      ],
+      "text": "At the western edge of the research district growing outside Orosz City, Antón Fifler sends the first spark transmission to a shed a hundred and fifty yards away. An unknown sender answers from a locked, empty shed with the opening of the Fibonacci series.",
+      "since": 9,
+      "category": "industry"
+    }
+  ],
+  "routes": [
+    {
+      "id": "b0-route-narthani",
+      "name": "Narthani supply route",
+      "since": 0,
+      "inferred": true,
+      "points": [
+        [
+          401.54,
+          309.84
+        ],
+        [
+          429.05,
+          324.68
+        ],
+        [
+          436.21,
+          362.16
+        ],
+        [
+          389.37,
+          375.93
+        ],
+        [
+          323.23,
+          383.1
+        ],
+        [
+          251.58,
+          388.61
+        ],
+        [
+          214.1,
+          379.79
+        ],
+        [
+          208.59,
+          351.13
+        ],
+        [
+          197.57,
+          307.04
+        ],
+        [
+          157.89,
+          276.73
+        ],
+        [
+          102.77,
+          279
+        ],
+        [
+          71.22,
+          280.43
+        ],
+        [
+          62.62,
+          278.45
+        ],
+        [
+          61.37,
+          276.68
+        ],
+        [
+          61.34,
+          275.38
+        ],
+        [
+          60.25,
+          274.65
+        ]
+      ],
+      "text": "Narthani troops and settlers reach Preddi City after months crammed in transports. The book never describes the course; this line assumes the fleets leave through the Analian Sea, the empire's only coast on the map, and round Iraquinik.",
+      "category": "voyage",
+      "side": "narthon"
+    },
+    {
+      "id": "b1-route-buldorian",
+      "name": "Buldorian voyage",
+      "since": 1,
+      "inferred": false,
+      "points": [
+        [
+          254.34,
+          399.63
+        ],
+        [
+          214.1,
+          379.79
+        ],
+        [
+          208.59,
+          351.13
+        ],
+        [
+          197.57,
+          307.04
+        ],
+        [
+          157.89,
+          280.59
+        ],
+        [
+          141.72,
+          281.95
+        ],
+        [
+          137.49,
+          278.18
+        ],
+        [
+          137.29,
+          278.18
+        ],
+        [
+          133.89,
+          281.58
+        ],
+        [
+          133.46,
+          282.5
+        ],
+        [
+          100,
+          281
+        ],
+        [
+          71.22,
+          280.43
+        ],
+        [
+          62.62,
+          278.45
+        ],
+        [
+          61.37,
+          276.68
+        ],
+        [
+          61.34,
+          275.38
+        ],
+        [
+          60.25,
+          274.65
+        ]
+      ],
+      "text": "From Buldor the raiders sail to a cove on the northern Landolin coast. Adalan goes on to Preddi City, where a Narthani cutter directs him to Rocklyn. The round trip back to Landolin for the rest of the fleet takes five to six months. The course between named points is drawn, not described.",
+      "category": "voyage",
+      "side": "narthon",
+      "crew": "buldor"
+    },
+    {
+      "id": "b2-route-invasion",
+      "name": "Narthani invasion of Moreland",
+      "since": 2,
+      "inferred": true,
+      "points": [
+        [
+          60.29,
+          274.28
+        ],
+        [
+          60.43,
+          273.6
+        ],
+        [
+          60.7,
+          273.05
+        ],
+        [
+          61.11,
+          272.64
+        ],
+        [
+          61.52,
+          272.23
+        ],
+        [
+          61.77,
+          271.98
+        ]
+      ],
+      "text": "About 6,000 Narthani with 3,000 Eywellese and Selfcellese set off twenty miles inside Preddi and take most of a sixday to cross Eywell to the Moreland border. They advance six to eight miles a day and camp six miles southwest of Moreland City. The course between named points is drawn, not described.",
+      "category": "march",
+      "scale": "island"
+    },
+    {
+      "id": "b2-route-retreat",
+      "name": "Narthani retreat",
+      "since": 2,
+      "inferred": true,
+      "points": [
+        [
+          61.76,
+          271.95
+        ],
+        [
+          61.38,
+          271.6
+        ],
+        [
+          60.97,
+          271.27
+        ],
+        [
+          60.63,
+          271.4
+        ],
+        [
+          60.67,
+          271.75
+        ],
+        [
+          60.59,
+          272.16
+        ]
+      ],
+      "text": "The beaten Narthani fall back northwest to a bend of the Bayrin River thirty miles behind them, where the river covers their flank against cavalry, then turn west into Eywell. The detour adds twenty to thirty miles. The course is approximate.",
+      "category": "march",
+      "scale": "island"
+    },
+    {
+      "id": "b3-route-dispatch",
+      "name": "Dispatch to Narthon",
+      "since": 3,
+      "inferred": true,
+      "points": [
+        [
+          60.25,
+          274.65
+        ],
+        [
+          61.34,
+          275.38
+        ],
+        [
+          61.37,
+          276.68
+        ],
+        [
+          62.62,
+          278.45
+        ],
+        [
+          71.22,
+          280.43
+        ],
+        [
+          94.1,
+          275.78
+        ],
+        [
+          133.18,
+          275.7
+        ],
+        [
+          167.7,
+          255.17
+        ],
+        [
+          183.92,
+          216.44
+        ],
+        [
+          186.45,
+          166.27
+        ],
+        [
+          209.55,
+          136.52
+        ],
+        [
+          246.21,
+          138.69
+        ],
+        [
+          252.9,
+          141.05
+        ],
+        [
+          256.07,
+          137.12
+        ],
+        [
+          258.17,
+          134.82
+        ],
+        [
+          258.37,
+          134.62
+        ],
+        [
+          259.27,
+          134.32
+        ],
+        [
+          259.67,
+          134.32
+        ],
+        [
+          260.37,
+          134.52
+        ],
+        [
+          267.37,
+          141.62
+        ],
+        [
+          269.86,
+          147.02
+        ],
+        [
+          273.21,
+          148.2
+        ]
+      ],
+      "text": "After the defeat at Moreland City, Akuyun sends a sloop northeast around the northern tip of Landolin to Ezarkin, the closest Narthani port, about a month and a half away. From there riders and semaphore carry the report to Umasya. An answer cannot return in under five months. The course is approximate.",
+      "category": "voyage",
+      "side": "narthon"
+    },
+    {
+      "id": "b3-route-women",
+      "name": "Walk of the Moreland women",
+      "since": 3,
+      "inferred": true,
+      "points": [
+        [
+          61.94,
+          271.76
+        ],
+        [
+          62.89,
+          272.77
+        ],
+        [
+          63.78,
+          273.35
+        ],
+        [
+          63.67,
+          273.53
+        ],
+        [
+          64.46,
+          273.94
+        ],
+        [
+          65.27,
+          274.31
+        ]
+      ],
+      "text": "Twenty-two Moreland women who escaped the Eywellese are turned away by their own families. They walk from Moreland City to the Keelan semaphore station just across the border, sometimes only five miles a day, and arrive on the eighth day. From there wagons carry them south along the semaphore road, by way of Dilstin, to St. Tomo's Abbey in Caernford. The course is approximate.",
+      "category": "march",
+      "scale": "island"
+    },
+    {
+      "id": "b3-route-shullick",
+      "name": "Shullick expedition",
+      "since": 3,
+      "inferred": true,
+      "points": [
+        [
+          60.25,
+          274.65
+        ],
+        [
+          60.7,
+          275.04
+        ],
+        [
+          61.04,
+          276.2
+        ],
+        [
+          59.87,
+          276.81
+        ],
+        [
+          58.38,
+          275.85
+        ],
+        [
+          57.68,
+          274.89
+        ],
+        [
+          57.49,
+          273.87
+        ],
+        [
+          57.21,
+          272.23
+        ],
+        [
+          56.59,
+          271.14
+        ],
+        [
+          55.7,
+          270.66
+        ],
+        [
+          55.22,
+          269.22
+        ],
+        [
+          55.22,
+          267.57
+        ],
+        [
+          55.8,
+          266.1
+        ],
+        [
+          56.8,
+          265.8
+        ],
+        [
+          57.49,
+          266.2
+        ],
+        [
+          57.58,
+          266.44
+        ]
+      ],
+      "text": "Admiral Kalcan's fleet carries Brigadier Zulfa's 2,500 men, horses and twenty 12-pounders from Preddi City to Shullick, about three hundred miles north-northwest. The course is approximate.",
+      "category": "voyage",
+      "scale": "island",
+      "side": "narthon"
+    },
+    {
+      "id": "b3-route-north-raid",
+      "name": "Northern raid into Eywell",
+      "since": 3,
+      "inferred": true,
+      "points": [
+        [
+          61.75,
+          272.35
+        ],
+        [
+          61.38,
+          272.59
+        ],
+        [
+          61.04,
+          272.69
+        ],
+        [
+          60.64,
+          272.67
+        ],
+        [
+          60.32,
+          272.46
+        ],
+        [
+          60.41,
+          272.1
+        ],
+        [
+          60.85,
+          271.99
+        ],
+        [
+          61.39,
+          272.1
+        ]
+      ],
+      "text": "A force of 500 Stent, 400 Moreland, 200 Orosz and 100 Bultecki men crosses from Moreland and burns Parthmal a second time within an hour of the border. They then circle Hanslow about ten miles out, burning villages. On the second day the Hanslow garrison sallies and catches three companies north of the city, and the Stent and Orosz companies lose half their men. The course is approximate.",
+      "category": "march",
+      "scale": "island"
+    },
+    {
+      "id": "b3-route-south-raid",
+      "name": "Southern raid into Eywell",
+      "since": 3,
+      "inferred": true,
+      "points": [
+        [
+          61.5,
+          274.43
+        ],
+        [
+          61.6,
+          273.84
+        ],
+        [
+          61.42,
+          273.87
+        ],
+        [
+          60.66,
+          273.98
+        ],
+        [
+          60.32,
+          274.07
+        ],
+        [
+          60.3,
+          274.01
+        ]
+      ],
+      "text": "Denes Vegga's Keelan force re-equips at Dornfeld and raids west along the poor coastal plain of Eywell, burning Wrexton and other villages. At a crossroads six miles short of the Preddi border it continues to Ponth, a town of 3,000 newly ringed with earthworks. It leaves Ponth alone and frees a slave camp five miles north of it. The return is about sixty miles. The course is approximate.",
+      "category": "march",
+      "scale": "island"
+    },
+    {
+      "id": "b3-route-fuomi",
+      "name": "Fuomi expedition",
+      "since": 3,
+      "inferred": true,
+      "points": [
+        [
+          539.76,
+          323.84
+        ],
+        [
+          556,
+          320
+        ],
+        [
+          561.5,
+          322.5
+        ],
+        [
+          564.5,
+          330
+        ],
+        [
+          570,
+          338.5
+        ],
+        [
+          607.46,
+          347.95
+        ],
+        [
+          653.2,
+          366.16
+        ],
+        [
+          698.86,
+          366.16
+        ],
+        [
+          749,
+          352.48
+        ],
+        [
+          900,
+          330
+        ],
+        [
+          1100,
+          310
+        ],
+        [
+          1270,
+          305
+        ],
+        [
+          1300,
+          295
+        ],
+        [
+          1500,
+          270
+        ],
+        [
+          1630,
+          262
+        ],
+        [
+          1655,
+          258
+        ],
+        [
+          1670.5,
+          263.5
+        ]
+      ],
+      "text": "A Fuomi squadron of three frigates, five troop ships with 1,000 marines, two supply ships and three sloops sails from Kahmo, the largest port in eastern Fuomon. It avoids the Narthani-held Throat and crosses the Great Ocean, nearly three-quarters of the way around Anyar. Five months out, it sights a Narthani sloop about a hundred miles northeast of Caedellium. The course is approximate.",
+      "category": "voyage",
+      "side": "fuomon"
+    },
+    {
+      "id": "b4-route-fuomi-landing",
+      "name": "Fuomi approach to East Head",
+      "since": 4,
+      "inferred": true,
+      "points": [
+        [
+          1670.5,
+          263.5
+        ],
+        [
+          1671.9,
+          267.5
+        ],
+        [
+          1671.9,
+          271.35
+        ],
+        [
+          1671.35,
+          272.36
+        ],
+        [
+          1670.83,
+          274.14
+        ],
+        [
+          1670.1,
+          276.01
+        ],
+        [
+          1669.68,
+          276.74
+        ],
+        [
+          1668.84,
+          276.73
+        ]
+      ],
+      "text": "After sighting the Narthani picket, the fifteen-ship Fuomi squadron keeps clear of the coast and comes in at the easternmost point of Mittack, chosen for its winds and currents and to stay hidden from Narthani patrols, which keep within ten miles of shore. The course is approximate.",
+      "category": "voyage",
+      "side": "fuomon"
+    },
+    {
+      "id": "b4-route-north-force",
+      "name": "Northern Force",
+      "since": 4,
+      "inferred": true,
+      "points": [
+        [
+          61.67,
+          272.12
+        ],
+        [
+          61.23,
+          272.73
+        ],
+        [
+          60.59,
+          273.02
+        ],
+        [
+          59.83,
+          273.28
+        ],
+        [
+          59.08,
+          273.49
+        ],
+        [
+          58.26,
+          273.7
+        ]
+      ],
+      "text": "Hetman Stent's Northern Force musters at Lanwith, bypasses Hanslow and strikes southwest through the heart of Eywell to reach the sea fifteen to twenty miles south of Sellmor, cutting Selfcell off from Preddi. The course is approximate.",
+      "category": "march"
+    },
+    {
+      "id": "b4-route-south-force",
+      "name": "Southern Force",
+      "since": 4,
+      "inferred": true,
+      "points": [
+        [
+          61.5,
+          274.43
+        ],
+        [
+          61.6,
+          273.84
+        ],
+        [
+          61.42,
+          273.87
+        ],
+        [
+          60.66,
+          273.98
+        ],
+        [
+          60.28,
+          273.89
+        ],
+        [
+          59.82,
+          273.86
+        ]
+      ],
+      "text": "The Southern Force launches from Dornfeld on the Keelan/Gwillamer border, past the burned ruins of Wrexton and across the Arnen ford, then west along the southern Eywell coast toward Neath and the Hanslow/Preddi road. With the Northern Force, 31,546 men and 313 women cross into Eywell. The course is approximate.",
+      "category": "march"
+    },
+    {
+      "id": "b4-route-gullar",
+      "name": "Voyage of the Twenty-Ninth Corps",
+      "since": 4,
+      "inferred": true,
+      "points": [
+        [
+          273.21,
+          148.2
+        ],
+        [
+          269.86,
+          147.02
+        ],
+        [
+          262.57,
+          136.92
+        ],
+        [
+          260.77,
+          134.92
+        ],
+        [
+          260.37,
+          134.52
+        ],
+        [
+          259.57,
+          134.32
+        ],
+        [
+          259.17,
+          134.32
+        ],
+        [
+          258.37,
+          134.62
+        ],
+        [
+          253.57,
+          139.42
+        ],
+        [
+          252.9,
+          141.05
+        ],
+        [
+          246.21,
+          138.69
+        ],
+        [
+          209.55,
+          136.52
+        ],
+        [
+          186.45,
+          166.27
+        ],
+        [
+          183.92,
+          216.44
+        ],
+        [
+          167.7,
+          255.17
+        ],
+        [
+          133.18,
+          275.7
+        ],
+        [
+          94.1,
+          275.78
+        ],
+        [
+          71.22,
+          280.43
+        ],
+        [
+          62.62,
+          278.45
+        ],
+        [
+          61.37,
+          276.68
+        ],
+        [
+          61.34,
+          275.38
+        ],
+        [
+          60.25,
+          274.65
+        ]
+      ],
+      "text": "Gullar's convoy of transports and war galleons sails from Ezarkin, fighting the westerlies, and makes landfall at Preddi City about four months later. The course is approximate.",
+      "category": "voyage",
+      "side": "narthon"
+    },
+    {
+      "id": "b4-route-evacuation",
+      "name": "Narthani evacuation",
+      "since": 4,
+      "inferred": true,
+      "points": [
+        [
+          60.25,
+          274.65
+        ],
+        [
+          61.34,
+          275.38
+        ],
+        [
+          61.37,
+          276.68
+        ],
+        [
+          62.62,
+          278.45
+        ],
+        [
+          71.22,
+          280.43
+        ],
+        [
+          94.1,
+          275.78
+        ],
+        [
+          133.18,
+          275.7
+        ],
+        [
+          167.7,
+          255.17
+        ],
+        [
+          183.92,
+          216.44
+        ],
+        [
+          186.45,
+          166.27
+        ],
+        [
+          209.55,
+          136.52
+        ],
+        [
+          246.21,
+          138.69
+        ],
+        [
+          252.9,
+          141.05
+        ],
+        [
+          256.07,
+          137.12
+        ],
+        [
+          258.17,
+          134.82
+        ],
+        [
+          258.37,
+          134.62
+        ],
+        [
+          259.27,
+          134.32
+        ],
+        [
+          259.67,
+          134.32
+        ],
+        [
+          260.37,
+          134.52
+        ],
+        [
+          267.37,
+          141.62
+        ],
+        [
+          269.86,
+          147.02
+        ],
+        [
+          273.21,
+          148.2
+        ]
+      ],
+      "text": "Over six months the Narthani soldiers and settlers are shipped from the Preddi City wharf to Ezarkin, Narthon's westernmost port. The refuge on Klinwyn Island is never used. The course is approximate.",
+      "category": "voyage",
+      "side": "narthon"
+    },
+    {
+      "id": "b5-route-relief",
+      "name": "Istranik's relief column",
+      "since": 5,
+      "inferred": true,
+      "points": [
+        [
+          60.25,
+          274.65
+        ],
+        [
+          60.29,
+          274.28
+        ],
+        [
+          60.43,
+          273.6
+        ],
+        [
+          60.68,
+          272.34
+        ],
+        [
+          61.4,
+          271.97
+        ],
+        [
+          61.94,
+          271.76
+        ],
+        [
+          62.34,
+          271.48
+        ]
+      ],
+      "text": "General Istranik leaves Preddi City with 10,000 men and more than 200 wagons to resupply Gullar, picks up the Hanslow garrison and forces his way past burned bridges and felled trees toward Moreland City. He is stopped sixty miles short of Orosz City. The course between named points is drawn, not described.",
+      "category": "march",
+      "scale": "island"
+    },
+    {
+      "id": "b5-route-landolin",
+      "name": "Fleet sails for Landolin",
+      "since": 5,
+      "inferred": true,
+      "points": [
+        [
+          273.21,
+          148.2
+        ],
+        [
+          269.86,
+          147.02
+        ],
+        [
+          262.57,
+          136.92
+        ],
+        [
+          260.77,
+          134.92
+        ],
+        [
+          260.37,
+          134.52
+        ],
+        [
+          259.57,
+          134.32
+        ],
+        [
+          259.17,
+          134.32
+        ],
+        [
+          258.37,
+          134.62
+        ],
+        [
+          253.57,
+          139.42
+        ],
+        [
+          252.9,
+          141.05
+        ],
+        [
+          246.21,
+          138.69
+        ],
+        [
+          209.55,
+          136.52
+        ],
+        [
+          186.45,
+          166.27
+        ],
+        [
+          183.92,
+          216.44
+        ],
+        [
+          167.7,
+          255.17
+        ],
+        [
+          155,
+          275
+        ],
+        [
+          145,
+          286
+        ],
+        [
+          142,
+          288
+        ]
+      ],
+      "text": "A Fuomi sloop picketing north and east of Caedellium reports a Narthani fleet of warships and troop transports leaving Ezarkin and sailing south toward Landolin. It is too small for a full invasion, so the likely aim is a foothold in Naskin, the northernmost Landolin kingdom. The course is approximate.",
+      "category": "voyage",
+      "side": "narthon"
+    },
+    {
+      "id": "b5-route-mark",
+      "name": "Mark's flight from Landylbury",
+      "since": 5,
+      "inferred": true,
+      "points": [
+        [
+          679.43,
+          418.5
+        ],
+        [
+          668,
+          426
+        ],
+        [
+          658,
+          433
+        ],
+        [
+          651,
+          437
+        ],
+        [
+          656.22,
+          438.04
+        ]
+      ],
+      "text": "Hunted by Narthani-paid men, Mark Caldwell rides out of Landylbury, climbs the escarpment and crosses the Balgorn pass to his ranch 340 miles away, a pursuit party three miles behind. Twelve hours later he leaves with his wife Maghen, daughter Alys and six horses, making sure he is seen passing through Nurburt toward the Madyrna border. If followed, they plan to double back west to the sea and take ship north to Novaryn, set on eventually reaching Caedellium. The ranch and the course are approximate.",
+      "category": "march",
+      "scale": "world"
+    },
+    {
+      "id": "b5-route-mark-settling",
+      "name": "Mark leaves Brawsea",
+      "since": 5,
+      "inferred": true,
+      "points": [
+        [
+          677.49,
+          391.66
+        ],
+        [
+          670,
+          405
+        ],
+        [
+          662,
+          420
+        ],
+        [
+          651,
+          437
+        ]
+      ],
+      "text": "Mark Caldwell, an Earth castaway, spends his first year on Anyar around Brawsea, the Frangel capital, where he studies world maps in a library. After trouble with the guilds he flees south, away from the major cities, to the ranch country of central Frangel. The course is approximate.",
+      "category": "march",
+      "scale": "world",
+      "until": 6
+    },
+    {
+      "id": "b6-route-mark-south",
+      "name": "Mark's road to Nurburt",
+      "since": 6,
+      "inferred": true,
+      "points": [
+        [
+          653.31,
+          398.02
+        ],
+        [
+          658,
+          396.5
+        ],
+        [
+          663.34,
+          393.48
+        ],
+        [
+          670,
+          392.5
+        ],
+        [
+          677.49,
+          391.66
+        ],
+        [
+          676,
+          399
+        ],
+        [
+          672.99,
+          408.04
+        ],
+        [
+          668.47,
+          419.41
+        ],
+        [
+          662,
+          430
+        ],
+        [
+          656.22,
+          438.04
+        ]
+      ],
+      "text": "Mark Caldwell leaves the ashes of Tregallon and rides east along the coast road, past Derwun Bay, to Brawsea. After killing Klinster he flees south: fifty miles to hide in rock outcrops, on to the village of Vynmor, two hundred miles more to the town of Ursalyn, then southwest to Nurburt, eleven hundred miles from the capital. The course is approximate.",
+      "category": "march",
+      "scale": "world"
+    },
+    {
+      "id": "b6-route-mark",
+      "name": "Mark's flight to the sea",
+      "since": 6,
+      "inferred": true,
+      "points": [
+        [
+          656.22,
+          438.04
+        ],
+        [
+          654,
+          441.5
+        ],
+        [
+          642.05,
+          438.03
+        ],
+        [
+          637,
+          436.5
+        ],
+        [
+          632.89,
+          434.38
+        ]
+      ],
+      "text": "With the pursuers drawn toward Nurburt, the family turns south and then west on back roads, crossing north-south ridgelines and a broad plain to the fishing town of Munwurth on Frangel's west coast. The course is approximate.",
+      "category": "march",
+      "scale": "world"
+    },
+    {
+      "id": "b6-route-mark-timbar",
+      "name": "Across the Timbar Sea",
+      "since": 6,
+      "inferred": true,
+      "points": [
+        [
+          632.89,
+          434.38
+        ],
+        [
+          626.04,
+          436.65
+        ],
+        [
+          612,
+          437
+        ],
+        [
+          600,
+          436
+        ],
+        [
+          596.31,
+          434.82
+        ]
+      ],
+      "text": "A Munwurth fishing boat carries the family six hundred miles across the Timbar Sea to Dawlber in southern Novaryn in eight days. The course is approximate.",
+      "category": "voyage",
+      "scale": "world"
+    },
+    {
+      "id": "b6-route-mark-drilmar",
+      "name": "Mark crosses Tekleum",
+      "since": 6,
+      "inferred": true,
+      "points": [
+        [
+          596.31,
+          434.82
+        ],
+        [
+          591.74,
+          436.63
+        ],
+        [
+          583.54,
+          443.44
+        ],
+        [
+          568,
+          440
+        ],
+        [
+          552.84,
+          434.34
+        ],
+        [
+          544.6,
+          432.97
+        ],
+        [
+          533.15,
+          429.79
+        ],
+        [
+          526,
+          438
+        ],
+        [
+          516.73,
+          447.03
+        ]
+      ],
+      "text": "Guided by Nunstel, the family rides eight days from Dawlber to Tekleum, then about five hundred miles across it, slipping past the Rumpas border post through the woods. A five-day barge trip down a Rumpasian river brings them to Heliom. The course is approximate.",
+      "category": "march",
+      "scale": "world"
+    },
+    {
+      "id": "b6-route-mark-throat",
+      "name": "Voyage of the Dancer",
+      "since": 6,
+      "inferred": true,
+      "points": [
+        [
+          516.73,
+          447.03
+        ],
+        [
+          502.55,
+          452.46
+        ],
+        [
+          470.5,
+          456.97
+        ],
+        [
+          447.61,
+          463.76
+        ],
+        [
+          436.15,
+          466.01
+        ],
+        [
+          410.93,
+          465.09
+        ],
+        [
+          404.05,
+          464.64
+        ]
+      ],
+      "text": "The caraculon Dancer carries Gulgit's muskets and Mark's family west from Heliom across the Throat, tacking against the wind for five sixdays before running down the Rustal coast to Orano. The course is approximate.",
+      "category": "voyage",
+      "scale": "world"
+    },
+    {
+      "id": "b6-route-mark-ganolar",
+      "name": "Mark crosses Rustal",
+      "since": 6,
+      "inferred": true,
+      "points": [
+        [
+          404.05,
+          464.64
+        ],
+        [
+          396,
+          462
+        ],
+        [
+          383,
+          463
+        ],
+        [
+          369.63,
+          461.45
+        ],
+        [
+          350,
+          463
+        ],
+        [
+          333.83,
+          461.44
+        ],
+        [
+          330,
+          448
+        ],
+        [
+          326.43,
+          434.28
+        ]
+      ],
+      "text": "The arms caravan rolls inland from Orano to the resistance camp in central Rustal. From there Gulgit's men ride with the family thirteen days west to the Gongalor Mountains, over the pass into Sulako, and three hundred miles on to Iskadon. The course is approximate.",
+      "category": "march",
+      "scale": "world"
+    },
+    {
+      "id": "b6-route-mark-west",
+      "name": "Voyage of the Wicked Woman",
+      "since": 6,
+      "inferred": true,
+      "points": [
+        [
+          326.43,
+          434.28
+        ],
+        [
+          331,
+          428
+        ],
+        [
+          334,
+          420
+        ],
+        [
+          337.4,
+          404.83
+        ],
+        [
+          325.92,
+          400.3
+        ],
+        [
+          300.67,
+          386.7
+        ],
+        [
+          288.28,
+          394.42
+        ],
+        [
+          263.94,
+          395.79
+        ],
+        [
+          250.17,
+          410.74
+        ],
+        [
+          238,
+          416
+        ],
+        [
+          245.58,
+          413.91
+        ],
+        [
+          238.76,
+          421.12
+        ],
+        [
+          238.18,
+          420.57
+        ],
+        [
+          237.78,
+          420.37
+        ],
+        [
+          237.38,
+          420.37
+        ],
+        [
+          236.98,
+          420.67
+        ],
+        [
+          236.58,
+          421.07
+        ],
+        [
+          235.58,
+          423.47
+        ],
+        [
+          235.33,
+          424.75
+        ],
+        [
+          232.72,
+          427.5
+        ],
+        [
+          233.64,
+          428.18
+        ],
+        [
+          232.06,
+          429.33
+        ],
+        [
+          218.02,
+          432.02
+        ],
+        [
+          185.84,
+          435.2
+        ],
+        [
+          135.23,
+          434.31
+        ],
+        [
+          103.02,
+          411.72
+        ],
+        [
+          98.48,
+          357.42
+        ],
+        [
+          84.81,
+          303.03
+        ],
+        [
+          71.07,
+          284.91
+        ],
+        [
+          65.49,
+          278.51
+        ],
+        [
+          63.79,
+          277.95
+        ],
+        [
+          63.49,
+          278.24
+        ],
+        [
+          63.19,
+          278.24
+        ],
+        [
+          62.89,
+          277.94
+        ],
+        [
+          62.74,
+          277.29
+        ],
+        [
+          61.39,
+          275.57
+        ],
+        [
+          60.43,
+          274.9
+        ]
+      ],
+      "text": "The Buldorian ship Wicked Woman carries Mark, his family and Heather Chen a thousand sea miles along the Sulako coast to Bandapara, then southwest to Tortut. Refitted, she skirts the Ilskin coast, slips past a Narthani frigate, rounds the west of Landolin through the Great Ocean and turns north for Caedellium, where a Fuomi sloop takes them into Preddi City. The course is approximate.",
+      "category": "voyage",
+      "scale": "world"
+    },
+    {
+      "id": "b6-route-heather",
+      "name": "Heather sold to Iskadon",
+      "since": 6,
+      "inferred": true,
+      "points": [
+        [
+          321.35,
+          418.43
+        ],
+        [
+          323,
+          424
+        ],
+        [
+          325,
+          429.5
+        ],
+        [
+          326.43,
+          434.28
+        ]
+      ],
+      "text": "Found naked on a beach, Heather Chen is held by the headman of a nearby fishing village, who sells her to the Iskadon slave trader Halari. She is taken about fifty miles to the city, where she will spend three years as his slave, singing Earth songs at his music hall. The course is approximate.",
+      "category": "march",
+      "scale": "world"
+    },
+    {
+      "id": "b7-route-mark",
+      "name": "Mark's train to Orosz City",
+      "since": 7,
+      "inferred": true,
+      "points": [
+        [
+          60.25,
+          274.65
+        ],
+        [
+          60.64,
+          273.63
+        ],
+        [
+          60.48,
+          272.85
+        ],
+        [
+          60.68,
+          272.34
+        ],
+        [
+          61.94,
+          271.76
+        ],
+        [
+          62.71,
+          270.98
+        ],
+        [
+          63.41,
+          270.14
+        ]
+      ],
+      "text": "Mark Caldwell, his family and Heather Chen leave Preddi City by horse-drawn train, cross the unfinished gap southwest of Hanslow by carriage, and ride on through the night past Moreland City, arriving in Orosz City on the afternoon of the second day. The course is approximate.",
+      "category": "march",
+      "scale": "island"
+    },
+    {
+      "id": "b7-route-mark-tour",
+      "name": "Mark's tour of the ironworks",
+      "since": 7,
+      "inferred": true,
+      "points": [
+        [
+          63.41,
+          270.14
+        ],
+        [
+          62.3,
+          269.75
+        ],
+        [
+          59.74,
+          270.14
+        ],
+        [
+          57.97,
+          270.11
+        ],
+        [
+          56.39,
+          269.94
+        ],
+        [
+          56.73,
+          268.94
+        ],
+        [
+          57.02,
+          267.93
+        ],
+        [
+          57.3,
+          267.05
+        ]
+      ],
+      "text": "Mark Caldwell takes Yozef by train from Orosz City to the ironworks at Wungford in Pewitt and on, without stopping at Penmawr, to the steelworks at Elmor in Swavebroke. Between trips he also visits the ore mines of Bultecki and Vandinke, the steam group at Adris City and the Hilstrom Inlet works. The course is approximate.",
+      "category": "march",
+      "scale": "island"
+    },
+    {
+      "id": "b7-route-fuomi-squadron",
+      "name": "Koskanin's squadron",
+      "since": 7,
+      "inferred": true,
+      "points": [
+        [
+          539.76,
+          323.84
+        ],
+        [
+          537.96,
+          338.87
+        ],
+        [
+          520.61,
+          361.63
+        ],
+        [
+          470.27,
+          366.2
+        ],
+        [
+          410.73,
+          377.58
+        ],
+        [
+          355.72,
+          384.41
+        ],
+        [
+          309.84,
+          382.16
+        ],
+        [
+          259.34,
+          379.93
+        ],
+        [
+          218,
+          402.6
+        ],
+        [
+          190.43,
+          432.03
+        ],
+        [
+          135.23,
+          434.31
+        ],
+        [
+          103.02,
+          411.72
+        ],
+        [
+          98.48,
+          357.42
+        ],
+        [
+          84.81,
+          303.03
+        ],
+        [
+          71.07,
+          284.91
+        ],
+        [
+          69.33,
+          274.42
+        ],
+        [
+          68.64,
+          273.59
+        ],
+        [
+          67.54,
+          272.37
+        ],
+        [
+          66.86,
+          271.68
+        ],
+        [
+          66.31,
+          270.86
+        ],
+        [
+          65.9,
+          270.38
+        ],
+        [
+          65.56,
+          270.04
+        ]
+      ],
+      "text": "A Fuomi squadron of two war-galleons, five frigates, sloops and supply ships carries the new ambassador Irvod Koskanin from Fuomon. It runs the Throat, hugs the Ganolar coast, fights Narthani ships off Sulako, rounds the west of Landolin and comes in through the Normot Gap to Adris City. The course is approximate.",
+      "category": "voyage",
+      "scale": "world",
+      "side": "fuomon"
+    },
+    {
+      "id": "b7-route-paramount-crossing",
+      "name": "Crossing to Brudermyn",
+      "since": 7,
+      "inferred": true,
+      "points": [
+        [
+          56.39,
+          269.94
+        ],
+        [
+          56.32,
+          270.01
+        ],
+        [
+          55.5,
+          269.55
+        ],
+        [
+          54.68,
+          268.94
+        ],
+        [
+          53.99,
+          268.42
+        ],
+        [
+          53.44,
+          268.34
+        ],
+        [
+          52.69,
+          268.28
+        ],
+        [
+          52.76,
+          268.5
+        ],
+        [
+          52.83,
+          268.6
+        ]
+      ],
+      "text": "A Fuomi sloop carries Yozef, Maera and two squads of Pewitt dragoons a hundred miles west from Penmawr across the Seaborn Strait. It enters Furwyn Sound, sails forty miles along the north coast of South Island, passes Brudermyn to clear the reefs and turns back south into the harbor. The course is approximate.",
+      "category": "voyage",
+      "scale": "island",
+      "side": "caedellium",
+      "crew": "fuomon"
+    },
+    {
+      "id": "b7-route-paramount-tour",
+      "name": "Paramount's tour of South Island",
+      "since": 7,
+      "inferred": true,
+      "points": [
+        [
+          52.83,
+          268.6
+        ],
+        [
+          53.02,
+          268.76
+        ],
+        [
+          53.22,
+          268.9
+        ],
+        [
+          53.43,
+          268.96
+        ],
+        [
+          53.62,
+          269.06
+        ],
+        [
+          53.48,
+          269.18
+        ],
+        [
+          53.31,
+          269.32
+        ],
+        [
+          53.28,
+          269.5
+        ],
+        [
+          53.33,
+          269.77
+        ],
+        [
+          53.34,
+          269.62
+        ],
+        [
+          53.58,
+          269.32
+        ],
+        [
+          53.62,
+          269.06
+        ]
+      ],
+      "text": "From Brudermyn the party drives past Nillor to the Yastern Valley terraces, crosses a ridge to Grastor, climbs a cleft to Stiltern Fall and rides through farm country to Nollagen. Fleeing the Kolinkan raid, it turns north through the chute at Pewitt's Glory and Milgorn Gorge back to Grastor. The course is approximate.",
+      "category": "march",
+      "scale": "island"
+    },
+    {
+      "id": "b7-route-kolinkan-raid",
+      "name": "Kolinkan raid on Seaborn",
+      "since": 7,
+      "inferred": true,
+      "points": [
+        [
+          197.9,
+          187.12
+        ],
+        [
+          194,
+          190
+        ],
+        [
+          150,
+          215
+        ],
+        [
+          90,
+          250
+        ],
+        [
+          53,
+          261.5
+        ],
+        [
+          50.5,
+          266
+        ],
+        [
+          49.8,
+          270.5
+        ],
+        [
+          50.4,
+          274
+        ],
+        [
+          51.65,
+          270.64
+        ],
+        [
+          52.83,
+          269.7
+        ],
+        [
+          53,
+          269.63
+        ]
+      ],
+      "text": "On its third attempt, a Kolinkan squadron of about twenty coastal ships, carrying some 350 men and 400 horses, sails from Kolinka. It stays wide of the Fuomi patrols, waits southwest of Seaborn and closes on South Island to land at Brintyn Cove. The course is approximate.",
+      "category": "voyage",
+      "scale": "world",
+      "side": "narthon",
+      "crew": "kolinka"
+    },
+    {
+      "id": "b7-route-kolinkan-flight",
+      "name": "Kolinkan flight",
+      "since": 7,
+      "inferred": true,
+      "points": [
+        [
+          53.33,
+          269.77
+        ],
+        [
+          53.37,
+          269.9
+        ],
+        [
+          53.56,
+          269.85
+        ],
+        [
+          54.01,
+          269.85
+        ],
+        [
+          54.41,
+          269.45
+        ],
+        [
+          54.49,
+          269.1
+        ],
+        [
+          54.77,
+          268.29
+        ],
+        [
+          55.46,
+          266.48
+        ],
+        [
+          120,
+          230
+        ],
+        [
+          180,
+          200
+        ],
+        [
+          194,
+          190
+        ],
+        [
+          197.9,
+          187.12
+        ]
+      ],
+      "text": "After loading its men at Nollagen for hours, the Kolinkan squadron sails north up the Seaborn Strait and away east-northeast toward Kolinka, abandoning about fifty raiders on the island. The course is approximate.",
+      "category": "voyage",
+      "scale": "world",
+      "side": "narthon",
+      "crew": "kolinka"
+    },
+    {
+      "id": "b8-route-mark",
+      "name": "Mark to Hilstrom",
+      "since": 8,
+      "inferred": true,
+      "points": [
+        [
+          63.41,
+          270.13
+        ],
+        [
+          62.6,
+          270.08
+        ],
+        [
+          61.4,
+          270.12
+        ],
+        [
+          59.74,
+          270.15
+        ],
+        [
+          59.45,
+          270.6
+        ],
+        [
+          59.2,
+          271
+        ],
+        [
+          58.95,
+          271.32
+        ]
+      ],
+      "text": "Mark Caldwell goes from Orosz City to Hilstrom Inlet with sixty-two workers to start the steamship site, then returns to Orosz City nearly a sixday later. The course is approximate.",
+      "category": "march",
+      "scale": "island"
+    },
+    {
+      "id": "b8-route-mark-penmawr",
+      "name": "Mark's train to Penmawr",
+      "since": 8,
+      "inferred": true,
+      "points": [
+        [
+          63.41,
+          270.13
+        ],
+        [
+          62.6,
+          270.08
+        ],
+        [
+          61.4,
+          270.12
+        ],
+        [
+          59.74,
+          270.14
+        ],
+        [
+          59.06,
+          270.17
+        ],
+        [
+          57.96,
+          270.04
+        ],
+        [
+          57.14,
+          270.01
+        ],
+        [
+          56.39,
+          269.94
+        ]
+      ],
+      "text": "Mark rides the train from Orosz City to Penmawr with Yozef and Synton, then goes on by carriage to see Hetman Pewitt about the immigrant workers.",
+      "category": "march",
+      "scale": "island"
+    },
+    {
+      "id": "b8-route-alliance-fleet",
+      "name": "Alliance fleet to Penabak",
+      "since": 8,
+      "inferred": true,
+      "points": [
+        [
+          57.96,
+          273.13
+        ],
+        [
+          57.4,
+          273.9
+        ],
+        [
+          58.2,
+          275.4
+        ],
+        [
+          59.6,
+          275.6
+        ],
+        [
+          60.25,
+          274.65
+        ],
+        [
+          61.2,
+          276
+        ],
+        [
+          62.45,
+          276.71
+        ],
+        [
+          62.9,
+          277.96
+        ],
+        [
+          63.2,
+          278.26
+        ],
+        [
+          63.5,
+          278.26
+        ],
+        [
+          64.55,
+          277.6
+        ],
+        [
+          67.2,
+          277.6
+        ],
+        [
+          68.05,
+          277.73
+        ],
+        [
+          68.85,
+          277.13
+        ],
+        [
+          69.25,
+          276.73
+        ],
+        [
+          69.15,
+          276.28
+        ],
+        [
+          69.5,
+          276
+        ],
+        [
+          69.3,
+          274
+        ],
+        [
+          68.27,
+          273.2
+        ],
+        [
+          67.4,
+          272.2
+        ],
+        [
+          67.07,
+          271.68
+        ],
+        [
+          66.2,
+          270.6
+        ],
+        [
+          65.56,
+          270.04
+        ],
+        [
+          66.2,
+          270.6
+        ],
+        [
+          66.82,
+          271.37
+        ],
+        [
+          68.37,
+          272.54
+        ],
+        [
+          68.67,
+          272.64
+        ],
+        [
+          70.77,
+          271.94
+        ],
+        [
+          70.87,
+          271.84
+        ],
+        [
+          70.77,
+          270.94
+        ],
+        [
+          70.55,
+          270.49
+        ],
+        [
+          100,
+          262
+        ],
+        [
+          150,
+          250
+        ],
+        [
+          190,
+          240
+        ],
+        [
+          190.76,
+          239.75
+        ],
+        [
+          191.71,
+          236.77
+        ],
+        [
+          192.01,
+          236.47
+        ],
+        [
+          194.01,
+          236.47
+        ],
+        [
+          194.71,
+          237.07
+        ],
+        [
+          195.51,
+          237.87
+        ],
+        [
+          195.59,
+          238.12
+        ],
+        [
+          215.67,
+          231.37
+        ],
+        [
+          222,
+          226
+        ],
+        [
+          225,
+          222.5
+        ],
+        [
+          227.41,
+          217.72
+        ]
+      ],
+      "text": "After three days of loading at Sellmor, the Alliance Division sails south, collects ships at Preddi City and Adris City, then crosses the open sea east to Penabak. The fleet has 103 Fuomi ships plus Munjorian, Naskinese, Ponomynan and Caedelli vessels, and the last of them arrives four sixdays later. The course is approximate.",
+      "category": "voyage"
+    },
+    {
+      "id": "b8-route-alliance-march",
+      "name": "March on Chikawan",
+      "since": 8,
+      "inferred": true,
+      "points": [
+        [
+          227.41,
+          217.72
+        ],
+        [
+          229.21,
+          212.17
+        ],
+        [
+          231.14,
+          208.45
+        ],
+        [
+          232.83,
+          205.14
+        ],
+        [
+          233.6,
+          202.97
+        ],
+        [
+          236.4,
+          200.53
+        ],
+        [
+          237.98,
+          199.56
+        ],
+        [
+          238.98,
+          199.18
+        ],
+        [
+          240.63,
+          198.59
+        ],
+        [
+          241.6,
+          199
+        ]
+      ],
+      "text": "The Alliance main force marches northeast from Penabak through the border forest, brush and grassland into the badlands. It wins the battles at the edge of the badlands and at the Tahpulta Ravine, then advances in three columns across farmland to the Chikok River outside Chikawan. The course is approximate.",
+      "category": "march",
+      "sources": [
+        "b8-kolinka-campaign-plan",
+        "b8-badlands-approach",
+        "b8-march-column"
+      ]
+    },
+    {
+      "id": "b8-route-tasman",
+      "name": "Tasman's column",
+      "since": 8,
+      "inferred": true,
+      "points": [
+        [
+          231.6,
+          199.34
+        ],
+        [
+          232.88,
+          197.5
+        ],
+        [
+          236.69,
+          194.46
+        ],
+        [
+          238,
+          196.6
+        ],
+        [
+          238.6,
+          198.4
+        ]
+      ],
+      "text": "Tasman Gangala's Ponomynan cavalry and infantry cross a gap cut by the Zamzul River, take the lower and middle Zamzul bridges, and then swing southeast around the badlands to join Kivalian's dragoons for the attack on the Tahpulta line. The course is approximate.",
+      "category": "march",
+      "sources": [
+        "b8-kolinka-campaign-plan"
+      ]
+    },
+    {
+      "id": "b8-route-racer",
+      "name": "Racer to Kahmo",
+      "since": 8,
+      "inferred": true,
+      "points": [
+        [
+          65.56,
+          270.04
+        ],
+        [
+          66.2,
+          270.6
+        ],
+        [
+          67.07,
+          271.68
+        ],
+        [
+          72,
+          275
+        ],
+        [
+          120,
+          285
+        ],
+        [
+          127.13,
+          286
+        ],
+        [
+          137.31,
+          278.18
+        ],
+        [
+          137.41,
+          278.18
+        ],
+        [
+          150.35,
+          289.25
+        ],
+        [
+          170,
+          292
+        ],
+        [
+          192.06,
+          301.77
+        ],
+        [
+          198,
+          310
+        ],
+        [
+          200,
+          320
+        ],
+        [
+          205,
+          335
+        ],
+        [
+          212,
+          350
+        ],
+        [
+          225,
+          370
+        ],
+        [
+          240,
+          378
+        ],
+        [
+          259.34,
+          379.93
+        ],
+        [
+          309.84,
+          382.16
+        ],
+        [
+          355.72,
+          384.41
+        ],
+        [
+          410.73,
+          377.58
+        ],
+        [
+          470.27,
+          366.2
+        ],
+        [
+          520.61,
+          361.63
+        ],
+        [
+          537.96,
+          338.87
+        ],
+        [
+          539.76,
+          323.84
+        ]
+      ],
+      "text": "The courier ship Racer carries Paavo Saisannin and the recalled ambassador Koskanin home. It hugs Landolin's eastern shore, crosses the narrowest part of the Rudipar Sea to the Sonet coast, and follows the Iraquinik shore south before crossing the Throat to Kahmo, a voyage of about two months. The course is approximate.",
+      "category": "voyage"
+    },
+    {
+      "id": "b8-route-torkinian",
+      "name": "Torkinian's fleet",
+      "since": 8,
+      "inferred": true,
+      "points": [
+        [
+          539.76,
+          323.84
+        ],
+        [
+          548.72,
+          328.78
+        ],
+        [
+          546.34,
+          331
+        ],
+        [
+          546.04,
+          331.3
+        ],
+        [
+          545.84,
+          336.9
+        ],
+        [
+          547.64,
+          339
+        ],
+        [
+          548.24,
+          339.6
+        ],
+        [
+          549.94,
+          339.5
+        ],
+        [
+          555.14,
+          334.3
+        ],
+        [
+          555.8,
+          332.69
+        ],
+        [
+          560,
+          335
+        ],
+        [
+          620,
+          350
+        ],
+        [
+          700,
+          360
+        ],
+        [
+          760,
+          345
+        ],
+        [
+          900,
+          370
+        ],
+        [
+          1100,
+          390
+        ],
+        [
+          1236.12,
+          377.86
+        ],
+        [
+          1400,
+          360
+        ],
+        [
+          1560,
+          320
+        ],
+        [
+          1640,
+          290
+        ],
+        [
+          1670,
+          279
+        ],
+        [
+          1671,
+          275
+        ],
+        [
+          1668.27,
+          273.2
+        ],
+        [
+          1667.07,
+          271.68
+        ],
+        [
+          1666.2,
+          270.6
+        ],
+        [
+          1665.56,
+          270.04
+        ]
+      ],
+      "text": "Admiral Torkinian's fleet and later Fuomi convoys sail from Fuomon across the Great Ocean on seasonal winds, stopping at Eurako in the Murvor Islands. They approach Caedellium from the east-southeast and pass the Normot Gap into Adris City. The course is approximate.",
+      "category": "voyage",
+      "sources": [
+        "b8-great-ocean"
+      ]
+    },
+    {
+      "id": "b8-route-robin",
+      "name": "Robin's journeys",
+      "since": 8,
+      "inferred": true,
+      "points": [
+        [
+          443.69,
+          279.19
+        ],
+        [
+          425,
+          286
+        ],
+        [
+          405,
+          291
+        ],
+        [
+          383.09,
+          294.42
+        ],
+        [
+          410,
+          280
+        ],
+        [
+          440,
+          262
+        ],
+        [
+          470,
+          250
+        ],
+        [
+          490,
+          244
+        ],
+        [
+          513.5,
+          238
+        ],
+        [
+          500,
+          243
+        ],
+        [
+          478,
+          246
+        ]
+      ],
+      "text": "Hizer takes Robin Kehlee and her son two sixdays by imperial road from Esrohir to Kustal. Later he brings them to Akuyun's headquarters at Tormkee and on to the Ergoman estate. The course is approximate.",
+      "category": "march"
+    },
+    {
+      "id": "b8-route-robin-sea",
+      "name": "Robin's return to Kustal",
+      "since": 8,
+      "inferred": true,
+      "points": [
+        [
+          466.71,
+          269
+        ],
+        [
+          465,
+          273
+        ],
+        [
+          461,
+          278
+        ],
+        [
+          455,
+          285
+        ],
+        [
+          440,
+          310
+        ],
+        [
+          426.73,
+          323.02
+        ],
+        [
+          407.86,
+          324.42
+        ],
+        [
+          406.78,
+          323.67
+        ],
+        [
+          405.48,
+          324.27
+        ],
+        [
+          404.83,
+          324.64
+        ],
+        [
+          400,
+          325
+        ],
+        [
+          386,
+          318
+        ],
+        [
+          384.48,
+          314.37
+        ]
+      ],
+      "text": "Ordered back to Kustal, Robin's party travels by carriage to the port of Ordum, takes an assessor courier sloop across the Gulf of Numara to Balaseer, and finishes overland to Kustal in three or four days. The course is approximate.",
+      "category": "voyage"
+    },
+    {
+      "id": "b9-route-munjor-mission",
+      "name": "Mission to Munjor",
+      "since": 9,
+      "inferred": true,
+      "points": [
+        [
+          65.56,
+          270.04
+        ],
+        [
+          66.2,
+          270.6
+        ],
+        [
+          67.07,
+          271.68
+        ],
+        [
+          67.3,
+          272.8
+        ],
+        [
+          69,
+          273.5
+        ],
+        [
+          72,
+          275
+        ],
+        [
+          100,
+          280
+        ],
+        [
+          120,
+          280
+        ],
+        [
+          135,
+          278
+        ],
+        [
+          150,
+          280
+        ],
+        [
+          160,
+          288
+        ],
+        [
+          170,
+          292
+        ],
+        [
+          192.06,
+          301.77
+        ],
+        [
+          198,
+          310
+        ],
+        [
+          200,
+          320
+        ],
+        [
+          196,
+          332
+        ],
+        [
+          190,
+          342
+        ],
+        [
+          185,
+          348
+        ],
+        [
+          182.5,
+          349.8
+        ],
+        [
+          180.3,
+          350.6
+        ]
+      ],
+      "text": "Swavebroke's training battalion, scholars and Vernik's staff sail from Adris City on a Fuomi troop ship to Bawfa, Munjor's main port at the northern entrance of the Amalor Strait. They spread out from Samlor across Munjor and return the same way months later. The course is approximate.",
+      "category": "voyage"
+    },
+    {
+      "id": "b9-route-amalor-supply",
+      "name": "Amalor supply line",
+      "since": 9,
+      "inferred": true,
+      "points": [
+        [
+          193.57,
+          373.28
+        ],
+        [
+          190.1,
+          374.2
+        ],
+        [
+          188,
+          374.6
+        ],
+        [
+          185.2,
+          375
+        ]
+      ],
+      "text": "Narthani supplies land at Purdom, cross the narrow width of Amalor by road to the small port of Ruvati and go by coastal trader over the reef-strewn Amalor Strait to Balabad in Jahmnor. The allies decide to land in northern Amalor and cut it. The book's prose names the two ports the other way round; this follows the author's invasion map. The course is approximate.",
+      "category": "voyage"
+    },
+    {
+      "id": "b9-route-yozef-home",
+      "name": "Yozef's voyage home",
+      "since": 9,
+      "inferred": true,
+      "points": [
+        [
+          227.41,
+          217.72
+        ],
+        [
+          225,
+          222.5
+        ],
+        [
+          222,
+          226
+        ],
+        [
+          215.67,
+          231.37
+        ],
+        [
+          212,
+          238
+        ],
+        [
+          210.87,
+          243.32
+        ],
+        [
+          212,
+          238
+        ],
+        [
+          215.67,
+          231.37
+        ],
+        [
+          200,
+          233
+        ],
+        [
+          188,
+          238
+        ],
+        [
+          175,
+          248
+        ],
+        [
+          160,
+          258
+        ],
+        [
+          140,
+          276
+        ],
+        [
+          143,
+          280
+        ],
+        [
+          147,
+          284.5
+        ],
+        [
+          148.3,
+          288
+        ],
+        [
+          146.84,
+          289.74
+        ],
+        [
+          148.3,
+          288
+        ],
+        [
+          147,
+          284.5
+        ],
+        [
+          140,
+          277
+        ],
+        [
+          100,
+          280
+        ],
+        [
+          72,
+          275
+        ],
+        [
+          69,
+          273.5
+        ],
+        [
+          67.3,
+          272.8
+        ],
+        [
+          67.07,
+          271.68
+        ],
+        [
+          66.2,
+          270.6
+        ],
+        [
+          65.56,
+          270.04
+        ]
+      ],
+      "text": "Yozef's Fuomi frigate leaves Penabak at dusk for Kweslon, then takes two sixdays against a southerly storm to sight a towering peak and run southeast along the coast to Silata. From there it returns to Caedellium through the Normot Gap to Adris City. The course is approximate.",
+      "category": "voyage"
+    },
+    {
+      "id": "b9-route-enterprise",
+      "name": "Enterprise to Naskin",
+      "since": 9,
+      "inferred": true,
+      "points": [
+        [
+          58.95,
+          271.32
+        ],
+        [
+          58.4,
+          271.45
+        ],
+        [
+          57.6,
+          271.8
+        ],
+        [
+          57,
+          272.6
+        ],
+        [
+          57.4,
+          273.9
+        ],
+        [
+          58.2,
+          275.4
+        ],
+        [
+          59.5,
+          276.6
+        ],
+        [
+          62,
+          277.8
+        ],
+        [
+          64,
+          278.2
+        ],
+        [
+          67.5,
+          278
+        ],
+        [
+          72,
+          276
+        ],
+        [
+          100,
+          280
+        ],
+        [
+          120,
+          280
+        ],
+        [
+          135,
+          278
+        ],
+        [
+          140,
+          277
+        ],
+        [
+          147,
+          284.5
+        ],
+        [
+          148.3,
+          288
+        ],
+        [
+          146.84,
+          289.74
+        ]
+      ],
+      "text": "The Enterprise steams about twelve hundred miles from Hilstrom to Silata in four days past a line of picket ships, and back again with King Gompta, rounding the southern tip of Gwillamer and running up past Preddi and Selfcell to Hilstrom Inlet. The course is approximate.",
+      "category": "voyage"
+    },
+    {
+      "id": "b9-route-mark",
+      "name": "Mark's trains to Hilstrom",
+      "since": 9,
+      "inferred": true,
+      "points": [
+        [
+          63.41,
+          270.13
+        ],
+        [
+          62.58,
+          268.9
+        ],
+        [
+          61.2,
+          269.6
+        ],
+        [
+          59.74,
+          270.15
+        ],
+        [
+          59.45,
+          270.6
+        ],
+        [
+          59.2,
+          271
+        ],
+        [
+          58.95,
+          271.32
+        ]
+      ],
+      "text": "Mark Caldwell spends the book shuttling between Orosz City and the Hilstrom shipyard, once by special night train by way of Cherona and Clitwyth. He fits out the Enterprise at Hilstrom, repairs her seized screw when she returns from Naskin, and later comes back to Orosz City to run the allied war games.",
+      "category": "march"
+    },
+    {
+      "id": "b9-route-mark-wungford",
+      "name": "Mark at Wungford",
+      "since": 9,
+      "inferred": true,
+      "points": [
+        [
+          58.95,
+          271.32
+        ],
+        [
+          59.2,
+          271
+        ],
+        [
+          59.45,
+          270.6
+        ],
+        [
+          59.74,
+          270.15
+        ],
+        [
+          59.06,
+          270.17
+        ],
+        [
+          57.96,
+          270.04
+        ],
+        [
+          57.14,
+          270.01
+        ],
+        [
+          56.9,
+          269.5
+        ],
+        [
+          56.73,
+          268.94
+        ]
+      ],
+      "text": "Mark takes the train from Hilstrom with King Gompta and Yozef to tour the Wungford ironworks, where his overhead-paddle puddling furnaces, steam hammers and rollers make armor plate for the Enterprise class. The course is approximate.",
+      "category": "march"
+    }
+  ]
+}

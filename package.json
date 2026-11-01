@@ -1,0 +1,17 @@
+{
+  "name": "anyar",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "python3 -m http.server 8642",
+    "align": "node tools/align.mjs",
+    "build:world": "node --max-old-space-size=8192 tools/build-world.mjs",
+    "build": "node tools/build-site.mjs",
+    "preview": "npm run build && npx wrangler pages dev dist",
+    "deploy": "npm run build && npx wrangler pages deploy"
+  },
+  "devDependencies": {
+    "jpeg-js": "^0.4.4",
+    "pngjs": "^7.0.0"
+  }
+}

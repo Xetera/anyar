@@ -1,0 +1,176 @@
+[
+  {
+    "id": "landmasses",
+    "since": 1,
+    "image": "assets/Anyar-land-masses-scaled.jpg",
+    "mask": "assets/layers/landmasses-mask.png",
+    "width": 1600,
+    "height": 1286,
+    "world": [
+      1600,
+      671
+    ],
+    "x": [
+      401.54284,
+      366.42247,
+      -0.1777,
+      -0.89814,
+      0.89942,
+      0.93092
+    ],
+    "y": [
+      294.82119,
+      -0.46385,
+      292.80679,
+      0.13106,
+      1.11951,
+      -1.46293
+    ],
+    "cost": 1.7384
+  },
+  {
+    "id": "melosia",
+    "since": 8,
+    "image": "assets/Melosia-scaled.jpg",
+    "mask": "assets/layers/melosia-mask.png",
+    "width": 1600,
+    "height": 1022,
+    "world": [
+      1600,
+      671
+    ],
+    "x": [
+      450.42632,
+      276.17538,
+      -0.34776,
+      0.09311,
+      0.75039,
+      3.1566
+    ],
+    "y": [
+      197.22246,
+      -0.98821,
+      171.88105,
+      1.48401,
+      2.32458,
+      8.81462
+    ],
+    "cost": 1.8923
+  },
+  {
+    "id": "narthon",
+    "since": 1,
+    "image": "assets/Narthon-scaled.jpg",
+    "mask": "assets/layers/narthon-mask.png",
+    "width": 1600,
+    "height": 1499,
+    "world": [
+      1600,
+      671
+    ],
+    "x": [
+      385.29795,
+      153.94032,
+      -0.00176,
+      -0.92799,
+      -0.01526,
+      1.55212
+    ],
+    "y": [
+      235.78054,
+      0.17289,
+      144.18991,
+      -1.10995,
+      0.08571,
+      0.97723
+    ],
+    "cost": 0.625
+  },
+  {
+    "id": "iraquinik",
+    "since": 1,
+    "image": "assets/Iraquinik-Doolin-scaled.jpg",
+    "mask": "assets/layers/iraquinik-mask.png",
+    "width": 1462,
+    "height": 2560,
+    "world": [
+      1600,
+      671
+    ],
+    "x": [
+      248.62276,
+      73.03095,
+      0.67219,
+      -0.55148,
+      1.20825,
+      -1.03405
+    ],
+    "y": [
+      248.34608,
+      -3.54103,
+      129.93755,
+      -1.30101,
+      6.48205,
+      1.36378
+    ],
+    "cost": 0.5903
+  },
+  {
+    "id": "landolin",
+    "since": 9,
+    "image": "assets/Landolin-scaled.jpg",
+    "mask": "assets/layers/landolin-mask.png",
+    "width": 1600,
+    "height": 2133,
+    "world": [
+      1600,
+      671
+    ],
+    "x": [
+      158.65288,
+      56.07536,
+      -1.06653,
+      -0.01961,
+      -1.42766,
+      1.70712
+    ],
+    "y": [
+      353.06401,
+      1.58337,
+      76.50489,
+      -2.5016,
+      -0.49766,
+      1.40656
+    ],
+    "cost": 0.6744
+  },
+  {
+    "id": "caedellium",
+    "since": 1,
+    "image": "assets/Caedellium-provinces-Trevor-Doolin-scaled.jpg",
+    "mask": "assets/layers/caedellium-mask.png",
+    "width": 1600,
+    "height": 1200,
+    "world": [
+      1600,
+      671
+    ],
+    "x": [
+      60.42651,
+      10.95101,
+      0,
+      0,
+      0,
+      0
+    ],
+    "y": [
+      271.67867,
+      0,
+      8.21326,
+      0,
+      0,
+      0
+    ],
+    "cost": 0.6284
+  }
+]

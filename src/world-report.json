@@ -1,0 +1,1102 @@
+{
+  "coast": [
+    {
+      "layer": "landmasses",
+      "alignCost": 1.7384,
+      "agreement": 0.946
+    },
+    {
+      "layer": "melosia",
+      "alignCost": 1.8923,
+      "agreement": 0.968
+    },
+    {
+      "layer": "narthon",
+      "alignCost": 0.625,
+      "agreement": 0.965
+    },
+    {
+      "layer": "iraquinik",
+      "alignCost": 0.5903,
+      "agreement": 0.965
+    },
+    {
+      "layer": "landolin",
+      "alignCost": 0.6744,
+      "agreement": 0.918
+    },
+    {
+      "layer": "caedellium",
+      "alignCost": 0.6284,
+      "agreement": 0.7
+    }
+  ],
+  "nations": {
+    "narthon@1:narthon": {
+      "agreement": 1
+    },
+    "iraquinik@1:iraquinik": {
+      "agreement": 0.98
+    },
+    "caedellium@1:caedellium": {
+      "agreement": 0.998
+    },
+    "harrasedic@8:melosia": {
+      "agreement": 0.99
+    },
+    "narthon@8:narthon": {
+      "agreement": 1
+    },
+    "iraquinik@8:iraquinik": {
+      "agreement": 0.98
+    },
+    "caedellium@8:caedellium": {
+      "agreement": 0.998
+    }
+  },
+  "provinces": [
+    {
+      "tier": 1,
+      "name": "Territory West",
+      "source": "narthon",
+      "directArea": 75768,
+      "finalArea": 123750,
+      "directShare": 0.61
+    },
+    {
+      "tier": 1,
+      "name": "Territory North",
+      "source": "narthon",
+      "directArea": 124943,
+      "finalArea": 125108,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Territory East",
+      "source": "narthon",
+      "directArea": 113728,
+      "finalArea": 113847,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Usak",
+      "source": "narthon",
+      "directArea": 58155,
+      "finalArea": 61482,
+      "directShare": 0.95
+    },
+    {
+      "tier": 1,
+      "name": "Akatir",
+      "source": "narthon",
+      "directArea": 73644,
+      "finalArea": 73677,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Dunzali",
+      "source": "narthon",
+      "directArea": 35892,
+      "finalArea": 36523,
+      "directShare": 0.98
+    },
+    {
+      "tier": 1,
+      "name": "Ezirlufa",
+      "source": "narthon",
+      "directArea": 32408,
+      "finalArea": 35042,
+      "directShare": 0.92
+    },
+    {
+      "tier": 1,
+      "name": "Morzin",
+      "source": "narthon",
+      "directArea": 17995,
+      "finalArea": 27716,
+      "directShare": 0.65
+    },
+    {
+      "tier": 1,
+      "name": "Udaban",
+      "source": "narthon",
+      "directArea": 8496,
+      "finalArea": 10136,
+      "directShare": 0.84
+    },
+    {
+      "tier": 1,
+      "name": "Edana",
+      "source": "narthon",
+      "directArea": 23029,
+      "finalArea": 27195,
+      "directShare": 0.85
+    },
+    {
+      "tier": 1,
+      "name": "Sirnik",
+      "source": "narthon",
+      "directArea": 35156,
+      "finalArea": 35179,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Osmuya",
+      "source": "narthon",
+      "directArea": 6849,
+      "finalArea": 10377,
+      "directShare": 0.66
+    },
+    {
+      "tier": 1,
+      "name": "Harket",
+      "source": "narthon",
+      "directArea": 25171,
+      "finalArea": 25628,
+      "directShare": 0.98
+    },
+    {
+      "tier": 1,
+      "name": "Korinshir",
+      "source": "narthon",
+      "directArea": 22485,
+      "finalArea": 34048,
+      "directShare": 0.66
+    },
+    {
+      "tier": 1,
+      "name": "Azmir",
+      "source": "narthon",
+      "directArea": 23346,
+      "finalArea": 25130,
+      "directShare": 0.93
+    },
+    {
+      "tier": 1,
+      "name": "Bineltep",
+      "source": "narthon",
+      "directArea": 17874,
+      "finalArea": 18254,
+      "directShare": 0.98
+    },
+    {
+      "tier": 1,
+      "name": "Abaton",
+      "source": "iraquinik",
+      "directArea": 10343,
+      "finalArea": 10421,
+      "directShare": 0.99
+    },
+    {
+      "tier": 1,
+      "name": "Kolinka",
+      "source": "iraquinik",
+      "directArea": 30924,
+      "finalArea": 30923,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Ponomyna",
+      "source": "iraquinik",
+      "directArea": 18004,
+      "finalArea": 18009,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Mukamon",
+      "source": "iraquinik",
+      "directArea": 18320,
+      "finalArea": 18334,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Waswagon",
+      "source": "iraquinik",
+      "directArea": 8368,
+      "finalArea": 8454,
+      "directShare": 0.99
+    },
+    {
+      "tier": 1,
+      "name": "Aro",
+      "source": "iraquinik",
+      "directArea": 5620,
+      "finalArea": 5620,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Gympo",
+      "source": "iraquinik",
+      "directArea": 8661,
+      "finalArea": 8698,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Onkermino",
+      "source": "iraquinik",
+      "directArea": 13277,
+      "finalArea": 13305,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Sensarsha",
+      "source": "iraquinik",
+      "directArea": 5877,
+      "finalArea": 5876,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Tasawak",
+      "source": "iraquinik",
+      "directArea": 9054,
+      "finalArea": 9084,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Kiker",
+      "source": "iraquinik",
+      "directArea": 28421,
+      "finalArea": 28421,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Sonet",
+      "source": "iraquinik",
+      "directArea": 4633,
+      "finalArea": 4633,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Monikan",
+      "source": "iraquinik",
+      "directArea": 5134,
+      "finalArea": 5134,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Nashton",
+      "source": "iraquinik",
+      "directArea": 4849,
+      "finalArea": 4851,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Powantik",
+      "source": "iraquinik",
+      "directArea": 29195,
+      "finalArea": 29194,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Irapah",
+      "source": "iraquinik",
+      "directArea": 6347,
+      "finalArea": 6347,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Hawsa",
+      "source": "iraquinik",
+      "directArea": 2736,
+      "finalArea": 2736,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Agala",
+      "source": "iraquinik",
+      "directArea": 5938,
+      "finalArea": 5941,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Wokryn",
+      "source": "iraquinik",
+      "directArea": 10873,
+      "finalArea": 10877,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Swavebroke",
+      "source": "caedellium",
+      "directArea": 96,
+      "finalArea": 96,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Farkesh",
+      "source": "caedellium",
+      "directArea": 82,
+      "finalArea": 82,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Skouks",
+      "source": "caedellium",
+      "directArea": 76,
+      "finalArea": 76,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Nyvaks",
+      "source": "caedellium",
+      "directArea": 73,
+      "finalArea": 74,
+      "directShare": 0.99
+    },
+    {
+      "tier": 1,
+      "name": "Pewitt",
+      "source": "caedellium",
+      "directArea": 93,
+      "finalArea": 93,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Vandinke",
+      "source": "caedellium",
+      "directArea": 76,
+      "finalArea": 76,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Bultecki",
+      "source": "caedellium",
+      "directArea": 72,
+      "finalArea": 72,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Pawell",
+      "source": "caedellium",
+      "directArea": 94,
+      "finalArea": 96,
+      "directShare": 0.98
+    },
+    {
+      "tier": 1,
+      "name": "Stent",
+      "source": "caedellium",
+      "directArea": 137,
+      "finalArea": 137,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Adris",
+      "source": "caedellium",
+      "directArea": 68,
+      "finalArea": 68,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Orosz",
+      "source": "caedellium",
+      "directArea": 71,
+      "finalArea": 71,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Bevans",
+      "source": "caedellium",
+      "directArea": 81,
+      "finalArea": 83,
+      "directShare": 0.98
+    },
+    {
+      "tier": 1,
+      "name": "Moreland",
+      "source": "caedellium",
+      "directArea": 104,
+      "finalArea": 104,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Selfcell",
+      "source": "caedellium",
+      "directArea": 83,
+      "finalArea": 83,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Brell",
+      "source": "caedellium",
+      "directArea": 70,
+      "finalArea": 70,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Hewell",
+      "source": "caedellium",
+      "directArea": 76,
+      "finalArea": 76,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Keelan",
+      "source": "caedellium",
+      "directArea": 127,
+      "finalArea": 127,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Mittack",
+      "source": "caedellium",
+      "directArea": 90,
+      "finalArea": 90,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Preddi",
+      "source": "caedellium",
+      "directArea": 35,
+      "finalArea": 35,
+      "directShare": 1
+    },
+    {
+      "tier": 1,
+      "name": "Gwillamer",
+      "source": "caedellium",
+      "directArea": 46,
+      "finalArea": 48,
+      "directShare": 0.96
+    },
+    {
+      "tier": 1,
+      "name": "Seaborn",
+      "source": "caedellium",
+      "directArea": 73,
+      "finalArea": 73,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Voljunda",
+      "source": "melosia",
+      "directArea": 29483,
+      "finalArea": 30256,
+      "directShare": 0.97
+    },
+    {
+      "tier": 8,
+      "name": "Kuresin",
+      "source": "melosia",
+      "directArea": 61864,
+      "finalArea": 62416,
+      "directShare": 0.99
+    },
+    {
+      "tier": 8,
+      "name": "Javarkandi",
+      "source": "melosia",
+      "directArea": 24286,
+      "finalArea": 24286,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Pultsoma",
+      "source": "melosia",
+      "directArea": 28662,
+      "finalArea": 28775,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Polva",
+      "source": "melosia",
+      "directArea": 7596,
+      "finalArea": 8759,
+      "directShare": 0.87
+    },
+    {
+      "tier": 8,
+      "name": "Astonin",
+      "source": "melosia",
+      "directArea": 33585,
+      "finalArea": 35776,
+      "directShare": 0.94
+    },
+    {
+      "tier": 8,
+      "name": "Parnum",
+      "source": "melosia",
+      "directArea": 10705,
+      "finalArea": 10705,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Tursala",
+      "source": "melosia",
+      "directArea": 40517,
+      "finalArea": 40537,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Rakinin",
+      "source": "melosia",
+      "directArea": 22342,
+      "finalArea": 22730,
+      "directShare": 0.98
+    },
+    {
+      "tier": 8,
+      "name": "Jovni",
+      "source": "melosia",
+      "directArea": 3615,
+      "finalArea": 4301,
+      "directShare": 0.84
+    },
+    {
+      "tier": 8,
+      "name": "Koresar",
+      "source": "melosia",
+      "directArea": 16713,
+      "finalArea": 16732,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Torva",
+      "source": "melosia",
+      "directArea": 4909,
+      "finalArea": 4909,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Karasar",
+      "source": "melosia",
+      "directArea": 8796,
+      "finalArea": 8863,
+      "directShare": 0.99
+    },
+    {
+      "tier": 8,
+      "name": "Sondinin",
+      "source": "melosia",
+      "directArea": 4777,
+      "finalArea": 6156,
+      "directShare": 0.78
+    },
+    {
+      "tier": 8,
+      "name": "Untsla",
+      "source": "melosia",
+      "directArea": 4021,
+      "finalArea": 4448,
+      "directShare": 0.9
+    },
+    {
+      "tier": 8,
+      "name": "Luvalsar",
+      "source": "melosia",
+      "directArea": 25986,
+      "finalArea": 26658,
+      "directShare": 0.97
+    },
+    {
+      "tier": 8,
+      "name": "Jojovan",
+      "source": "melosia",
+      "directArea": 4742,
+      "finalArea": 6286,
+      "directShare": 0.75
+    },
+    {
+      "tier": 8,
+      "name": "Lomaskal",
+      "source": "melosia",
+      "directArea": 20953,
+      "finalArea": 20953,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Territory West",
+      "source": "narthon",
+      "directArea": 75768,
+      "finalArea": 123750,
+      "directShare": 0.61
+    },
+    {
+      "tier": 8,
+      "name": "Territory North",
+      "source": "narthon",
+      "directArea": 124943,
+      "finalArea": 125108,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Territory East",
+      "source": "narthon",
+      "directArea": 113728,
+      "finalArea": 113847,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Usak",
+      "source": "narthon",
+      "directArea": 58155,
+      "finalArea": 61482,
+      "directShare": 0.95
+    },
+    {
+      "tier": 8,
+      "name": "Akatir",
+      "source": "narthon",
+      "directArea": 73644,
+      "finalArea": 73677,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Dunzali",
+      "source": "narthon",
+      "directArea": 35892,
+      "finalArea": 36523,
+      "directShare": 0.98
+    },
+    {
+      "tier": 8,
+      "name": "Ezirlufa",
+      "source": "narthon",
+      "directArea": 32408,
+      "finalArea": 35042,
+      "directShare": 0.92
+    },
+    {
+      "tier": 8,
+      "name": "Morzin",
+      "source": "narthon",
+      "directArea": 17995,
+      "finalArea": 27716,
+      "directShare": 0.65
+    },
+    {
+      "tier": 8,
+      "name": "Udaban",
+      "source": "narthon",
+      "directArea": 8496,
+      "finalArea": 10136,
+      "directShare": 0.84
+    },
+    {
+      "tier": 8,
+      "name": "Edana",
+      "source": "narthon",
+      "directArea": 23029,
+      "finalArea": 27195,
+      "directShare": 0.85
+    },
+    {
+      "tier": 8,
+      "name": "Sirnik",
+      "source": "narthon",
+      "directArea": 35156,
+      "finalArea": 35179,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Osmuya",
+      "source": "narthon",
+      "directArea": 6849,
+      "finalArea": 10377,
+      "directShare": 0.66
+    },
+    {
+      "tier": 8,
+      "name": "Harket",
+      "source": "narthon",
+      "directArea": 25171,
+      "finalArea": 25628,
+      "directShare": 0.98
+    },
+    {
+      "tier": 8,
+      "name": "Korinshir",
+      "source": "narthon",
+      "directArea": 22485,
+      "finalArea": 32071,
+      "directShare": 0.7
+    },
+    {
+      "tier": 8,
+      "name": "Azmir",
+      "source": "narthon",
+      "directArea": 23346,
+      "finalArea": 23798,
+      "directShare": 0.98
+    },
+    {
+      "tier": 8,
+      "name": "Bineltep",
+      "source": "narthon",
+      "directArea": 17874,
+      "finalArea": 18254,
+      "directShare": 0.98
+    },
+    {
+      "tier": 8,
+      "name": "Abaton",
+      "source": "iraquinik",
+      "directArea": 10343,
+      "finalArea": 10421,
+      "directShare": 0.99
+    },
+    {
+      "tier": 8,
+      "name": "Kolinka",
+      "source": "iraquinik",
+      "directArea": 30924,
+      "finalArea": 30923,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Ponomyna",
+      "source": "iraquinik",
+      "directArea": 18004,
+      "finalArea": 18009,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Mukamon",
+      "source": "iraquinik",
+      "directArea": 18320,
+      "finalArea": 18334,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Waswagon",
+      "source": "iraquinik",
+      "directArea": 8368,
+      "finalArea": 8454,
+      "directShare": 0.99
+    },
+    {
+      "tier": 8,
+      "name": "Aro",
+      "source": "iraquinik",
+      "directArea": 5620,
+      "finalArea": 5620,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Gympo",
+      "source": "iraquinik",
+      "directArea": 8661,
+      "finalArea": 8698,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Onkermino",
+      "source": "iraquinik",
+      "directArea": 13277,
+      "finalArea": 13305,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Sensarsha",
+      "source": "iraquinik",
+      "directArea": 5877,
+      "finalArea": 5876,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Tasawak",
+      "source": "iraquinik",
+      "directArea": 9054,
+      "finalArea": 9084,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Kiker",
+      "source": "iraquinik",
+      "directArea": 28421,
+      "finalArea": 28421,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Sonet",
+      "source": "iraquinik",
+      "directArea": 4633,
+      "finalArea": 4633,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Monikan",
+      "source": "iraquinik",
+      "directArea": 5134,
+      "finalArea": 5134,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Nashton",
+      "source": "iraquinik",
+      "directArea": 4849,
+      "finalArea": 4851,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Powantik",
+      "source": "iraquinik",
+      "directArea": 29195,
+      "finalArea": 29194,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Irapah",
+      "source": "iraquinik",
+      "directArea": 6347,
+      "finalArea": 6347,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Hawsa",
+      "source": "iraquinik",
+      "directArea": 2736,
+      "finalArea": 2736,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Agala",
+      "source": "iraquinik",
+      "directArea": 5938,
+      "finalArea": 5941,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Wokryn",
+      "source": "iraquinik",
+      "directArea": 10873,
+      "finalArea": 10877,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Swavebroke",
+      "source": "caedellium",
+      "directArea": 96,
+      "finalArea": 96,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Farkesh",
+      "source": "caedellium",
+      "directArea": 82,
+      "finalArea": 82,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Skouks",
+      "source": "caedellium",
+      "directArea": 76,
+      "finalArea": 76,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Nyvaks",
+      "source": "caedellium",
+      "directArea": 73,
+      "finalArea": 74,
+      "directShare": 0.99
+    },
+    {
+      "tier": 8,
+      "name": "Pewitt",
+      "source": "caedellium",
+      "directArea": 93,
+      "finalArea": 93,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Vandinke",
+      "source": "caedellium",
+      "directArea": 76,
+      "finalArea": 76,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Bultecki",
+      "source": "caedellium",
+      "directArea": 72,
+      "finalArea": 72,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Pawell",
+      "source": "caedellium",
+      "directArea": 94,
+      "finalArea": 96,
+      "directShare": 0.98
+    },
+    {
+      "tier": 8,
+      "name": "Stent",
+      "source": "caedellium",
+      "directArea": 137,
+      "finalArea": 137,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Adris",
+      "source": "caedellium",
+      "directArea": 68,
+      "finalArea": 68,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Orosz",
+      "source": "caedellium",
+      "directArea": 71,
+      "finalArea": 71,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Bevans",
+      "source": "caedellium",
+      "directArea": 81,
+      "finalArea": 83,
+      "directShare": 0.98
+    },
+    {
+      "tier": 8,
+      "name": "Moreland",
+      "source": "caedellium",
+      "directArea": 104,
+      "finalArea": 104,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Selfcell",
+      "source": "caedellium",
+      "directArea": 83,
+      "finalArea": 83,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Brell",
+      "source": "caedellium",
+      "directArea": 70,
+      "finalArea": 70,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Hewell",
+      "source": "caedellium",
+      "directArea": 76,
+      "finalArea": 76,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Keelan",
+      "source": "caedellium",
+      "directArea": 127,
+      "finalArea": 127,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Mittack",
+      "source": "caedellium",
+      "directArea": 90,
+      "finalArea": 90,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Preddi",
+      "source": "caedellium",
+      "directArea": 35,
+      "finalArea": 35,
+      "directShare": 1
+    },
+    {
+      "tier": 8,
+      "name": "Gwillamer",
+      "source": "caedellium",
+      "directArea": 46,
+      "finalArea": 48,
+      "directShare": 0.96
+    },
+    {
+      "tier": 8,
+      "name": "Seaborn",
+      "source": "caedellium",
+      "directArea": 73,
+      "finalArea": 73,
+      "directShare": 1
+    }
+  ],
+  "warnings": [
+    "coast: caedellium agrees with previous coastline on only 70.0% of its area"
+  ]
+}

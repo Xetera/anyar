@@ -1,0 +1,7 @@
+/books/
+node_modules/
+.DS_Store
+.claude/scheduled_tasks.lock
+__pycache__/
+dist/
+.wrangler/

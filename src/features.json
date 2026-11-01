@@ -1,0 +1,2012 @@
+{
+  "kinds": {
+    "river": {
+      "label": "Rivers",
+      "color": "#2f74c8",
+      "casing": null,
+      "opacity": 1,
+      "weight": 1.8,
+      "dash": null,
+      "natural": true
+    },
+    "stream": {
+      "label": "Seasonal streams",
+      "color": "#2f74c8",
+      "casing": null,
+      "opacity": 0.95,
+      "weight": 1.3,
+      "dash": "1.5 2.5",
+      "natural": true
+    },
+    "railroad": {
+      "label": "Railroads",
+      "color": "#3b2a1a",
+      "casing": null,
+      "ties": "#ece3cc",
+      "weight": 2.4,
+      "dash": null
+    },
+    "telegraph": {
+      "label": "Telegraph lines",
+      "color": "#55606a",
+      "casing": null,
+      "opacity": 0.75,
+      "weight": 1,
+      "dash": null
+    },
+    "semaphore": {
+      "label": "Semaphore lines",
+      "color": "#6e4a36",
+      "casing": null,
+      "opacity": 0.9,
+      "weight": 1.8,
+      "dash": "0.1 5"
+    },
+    "road": {
+      "label": "Roads",
+      "color": "#6b5a3e",
+      "casing": null,
+      "weight": 1.2,
+      "dash": null
+    },
+    "route": {
+      "label": "Sea routes",
+      "color": "#2b6d8f",
+      "casing": null,
+      "weight": 1.2,
+      "dash": "2 6"
+    }
+  },
+  "features": [
+    {
+      "id": "rail-shullick-penmawr",
+      "kind": "railroad",
+      "name": "Shullick – Penmawr",
+      "since": 7,
+      "telegraph": 8,
+      "points": [
+        [
+          57.58,
+          266.44
+        ],
+        [
+          57.35,
+          266.89
+        ],
+        [
+          57.11,
+          267.43
+        ],
+        [
+          56.86,
+          267.99
+        ],
+        [
+          56.94,
+          268.67
+        ],
+        [
+          56.67,
+          269.35
+        ],
+        [
+          56.39,
+          269.94
+        ]
+      ]
+    },
+    {
+      "id": "rail-penmawr-clitwyth",
+      "kind": "railroad",
+      "name": "Penmawr – Clitwyth",
+      "since": 7,
+      "telegraph": 7,
+      "points": [
+        [
+          56.39,
+          269.94
+        ],
+        [
+          57.14,
+          270.01
+        ],
+        [
+          57.66,
+          269.95
+        ],
+        [
+          58.03,
+          269.95
+        ],
+        [
+          58.44,
+          269.95
+        ],
+        [
+          58.78,
+          270.01
+        ],
+        [
+          59.18,
+          270.06
+        ],
+        [
+          59.47,
+          270.12
+        ],
+        [
+          59.74,
+          270.14
+        ]
+      ]
+    },
+    {
+      "id": "rail-clitwyth-orosz",
+      "kind": "railroad",
+      "name": "Clitwyth – Orosz",
+      "since": 7,
+      "telegraph": 7,
+      "points": [
+        [
+          59.74,
+          270.14
+        ],
+        [
+          60.07,
+          270.16
+        ],
+        [
+          60.47,
+          270.05
+        ],
+        [
+          60.86,
+          270.03
+        ],
+        [
+          61.25,
+          269.93
+        ],
+        [
+          61.53,
+          269.88
+        ],
+        [
+          61.86,
+          269.69
+        ],
+        [
+          62.98,
+          269.88
+        ],
+        [
+          63.17,
+          269.98
+        ],
+        [
+          63.41,
+          270.14
+        ]
+      ]
+    },
+    {
+      "id": "rail-orosz-cherona",
+      "kind": "railroad",
+      "name": "Orosz – Cherona",
+      "since": 7,
+      "telegraph": 9,
+      "points": [
+        [
+          61.86,
+          269.69
+        ],
+        [
+          62.2,
+          269.28
+        ],
+        [
+          62.57,
+          268.9
+        ]
+      ]
+    },
+    {
+      "id": "rail-orosz-adris",
+      "kind": "railroad",
+      "name": "Orosz – Adris",
+      "since": 7,
+      "telegraph": 7,
+      "points": [
+        [
+          63.41,
+          270.14
+        ],
+        [
+          63.72,
+          270.22
+        ],
+        [
+          64.13,
+          270.23
+        ],
+        [
+          64.53,
+          270.14
+        ],
+        [
+          64.87,
+          270.02
+        ],
+        [
+          65.27,
+          269.97
+        ],
+        [
+          65.56,
+          270.04
+        ]
+      ]
+    },
+    {
+      "id": "rail-orosz-moreland",
+      "kind": "railroad",
+      "name": "Orosz – Moreland",
+      "since": 7,
+      "telegraph": 7,
+      "points": [
+        [
+          63.41,
+          270.14
+        ],
+        [
+          63.17,
+          270.26
+        ],
+        [
+          62.95,
+          270.46
+        ],
+        [
+          62.78,
+          270.66
+        ],
+        [
+          62.63,
+          270.92
+        ],
+        [
+          62.57,
+          271.15
+        ],
+        [
+          62.36,
+          271.42
+        ],
+        [
+          62.16,
+          271.61
+        ],
+        [
+          61.94,
+          271.76
+        ]
+      ]
+    },
+    {
+      "id": "rail-moreland-hanslow",
+      "kind": "railroad",
+      "name": "Moreland – Hanslow",
+      "since": 7,
+      "telegraph": 7,
+      "points": [
+        [
+          61.94,
+          271.76
+        ],
+        [
+          61.74,
+          271.92
+        ],
+        [
+          61.48,
+          272.03
+        ],
+        [
+          61.18,
+          272.13
+        ],
+        [
+          60.93,
+          272.17
+        ],
+        [
+          60.68,
+          272.34
+        ]
+      ]
+    },
+    {
+      "id": "rail-hanslow-preddi",
+      "kind": "railroad",
+      "name": "Hanslow – Preddi",
+      "since": 7,
+      "telegraph": 7,
+      "points": [
+        [
+          60.68,
+          272.34
+        ],
+        [
+          60.51,
+          272.48
+        ],
+        [
+          60.4,
+          272.74
+        ],
+        [
+          60.33,
+          273.01
+        ],
+        [
+          60.31,
+          273.34
+        ],
+        [
+          60.37,
+          273.62
+        ],
+        [
+          60.37,
+          273.93
+        ],
+        [
+          60.25,
+          274.27
+        ],
+        [
+          60.25,
+          274.65
+        ]
+      ]
+    },
+    {
+      "id": "rail-sellmor-preddi",
+      "kind": "railroad",
+      "name": "Sellmor – Preddi",
+      "since": 7,
+      "points": [
+        [
+          57.96,
+          273.13
+        ],
+        [
+          58.11,
+          273.23
+        ],
+        [
+          58.25,
+          273.48
+        ],
+        [
+          58.34,
+          273.67
+        ],
+        [
+          58.5,
+          273.81
+        ],
+        [
+          58.73,
+          273.98
+        ],
+        [
+          58.89,
+          274.2
+        ],
+        [
+          59.13,
+          274.35
+        ],
+        [
+          59.57,
+          274.35
+        ],
+        [
+          59.83,
+          274.38
+        ],
+        [
+          60.12,
+          274.44
+        ],
+        [
+          60.25,
+          274.65
+        ]
+      ]
+    },
+    {
+      "id": "tel-shullick-devanyo",
+      "kind": "telegraph",
+      "name": "Shullick – Devanyo",
+      "since": 9,
+      "points": [
+        [
+          57.58,
+          266.44
+        ],
+        [
+          58.01,
+          266.3
+        ],
+        [
+          58.17,
+          266.16
+        ],
+        [
+          58.38,
+          266.05
+        ],
+        [
+          58.62,
+          265.99
+        ],
+        [
+          58.85,
+          266.05
+        ],
+        [
+          59.08,
+          266.1
+        ],
+        [
+          59.43,
+          266.17
+        ],
+        [
+          59.68,
+          266.2
+        ],
+        [
+          59.92,
+          266.23
+        ],
+        [
+          60.16,
+          266.19
+        ],
+        [
+          60.37,
+          266.12
+        ],
+        [
+          60.61,
+          266.07
+        ],
+        [
+          60.85,
+          266.11
+        ],
+        [
+          61.08,
+          266.15
+        ],
+        [
+          61.36,
+          266.22
+        ]
+      ]
+    },
+    {
+      "id": "tel-devanyo-morstryd",
+      "kind": "telegraph",
+      "name": "Devanyo – Morstryd",
+      "since": 9,
+      "points": [
+        [
+          61.36,
+          266.22
+        ],
+        [
+          61.75,
+          266.37
+        ],
+        [
+          61.99,
+          266.36
+        ],
+        [
+          62.23,
+          266.33
+        ],
+        [
+          62.47,
+          266.29
+        ],
+        [
+          62.7,
+          266.29
+        ],
+        [
+          62.96,
+          266.38
+        ]
+      ]
+    },
+    {
+      "id": "tel-morstryd-cherona",
+      "kind": "telegraph",
+      "name": "Morstryd – Cherona",
+      "since": 9,
+      "points": [
+        [
+          62.96,
+          266.38
+        ],
+        [
+          62.94,
+          266.59
+        ],
+        [
+          62.96,
+          266.82
+        ],
+        [
+          63,
+          267.06
+        ],
+        [
+          63,
+          267.3
+        ],
+        [
+          62.95,
+          267.54
+        ],
+        [
+          62.89,
+          267.89
+        ],
+        [
+          62.85,
+          268.12
+        ],
+        [
+          62.77,
+          268.35
+        ],
+        [
+          62.71,
+          268.58
+        ],
+        [
+          62.66,
+          268.69
+        ],
+        [
+          62.57,
+          268.9
+        ]
+      ]
+    },
+    {
+      "id": "tel-vandork-cherona",
+      "kind": "telegraph",
+      "name": "Vandork – Cherona",
+      "since": 9,
+      "points": [
+        [
+          61,
+          268.4
+        ],
+        [
+          61.52,
+          268.55
+        ],
+        [
+          61.75,
+          268.6
+        ],
+        [
+          61.98,
+          268.66
+        ],
+        [
+          62.2,
+          268.75
+        ],
+        [
+          62.39,
+          268.87
+        ],
+        [
+          62.57,
+          268.9
+        ]
+      ]
+    },
+    {
+      "id": "tel-montron-hartreth",
+      "kind": "telegraph",
+      "name": "Montron – Hartreth",
+      "since": 9,
+      "points": [
+        [
+          67.19,
+          267.17
+        ],
+        [
+          66.91,
+          267.85
+        ],
+        [
+          66.86,
+          268.08
+        ],
+        [
+          67,
+          268.27
+        ],
+        [
+          67.19,
+          268.41
+        ],
+        [
+          67.3,
+          268.46
+        ],
+        [
+          67.54,
+          268.44
+        ]
+      ]
+    },
+    {
+      "id": "tel-hartreth-adris",
+      "kind": "telegraph",
+      "name": "Hartreth – Adris City",
+      "since": 9,
+      "points": [
+        [
+          67.54,
+          268.44
+        ],
+        [
+          67.51,
+          268.71
+        ],
+        [
+          67.41,
+          268.91
+        ],
+        [
+          67.21,
+          269.03
+        ],
+        [
+          67.01,
+          269.17
+        ],
+        [
+          66.82,
+          269.31
+        ],
+        [
+          66.39,
+          269.55
+        ],
+        [
+          66.19,
+          269.66
+        ],
+        [
+          65.97,
+          269.76
+        ],
+        [
+          65.87,
+          269.81
+        ],
+        [
+          65.56,
+          270.04
+        ]
+      ]
+    },
+    {
+      "id": "tel-adris-seapont",
+      "kind": "telegraph",
+      "name": "Adris City – Seapont",
+      "since": 9,
+      "points": [
+        [
+          65.56,
+          270.04
+        ],
+        [
+          65.94,
+          269.99
+        ],
+        [
+          66.18,
+          270
+        ],
+        [
+          66.42,
+          270.01
+        ],
+        [
+          66.65,
+          270.03
+        ],
+        [
+          66.9,
+          270.04
+        ],
+        [
+          67.14,
+          270.05
+        ],
+        [
+          67.38,
+          270.07
+        ],
+        [
+          67.72,
+          270.17
+        ],
+        [
+          67.95,
+          270.22
+        ],
+        [
+          68.19,
+          270.24
+        ],
+        [
+          68.42,
+          270.25
+        ],
+        [
+          68.55,
+          270.25
+        ],
+        [
+          68.76,
+          270.18
+        ]
+      ]
+    },
+    {
+      "id": "tel-normot-fort",
+      "kind": "telegraph",
+      "name": "Normot Gap fort line",
+      "since": 9,
+      "text": "Runs from the western floating fort at the Normot Gap on poles set on rock outcrops and anchored platforms into Hewell, joining the island network. The course past the shore is approximate.",
+      "points": [
+        [
+          66.75,
+          271.68
+        ],
+        [
+          66.15,
+          271.55
+        ],
+        [
+          65.6,
+          271.25
+        ],
+        [
+          65.3,
+          271
+        ],
+        [
+          65.2,
+          270.6
+        ],
+        [
+          65.56,
+          270.04
+        ]
+      ]
+    },
+    {
+      "id": "tel-orosz-norwyt",
+      "kind": "telegraph",
+      "name": "Orosz City – Norwyt",
+      "since": 8,
+      "points": [
+        [
+          63.41,
+          270.14
+        ],
+        [
+          63.6,
+          270.32
+        ],
+        [
+          63.8,
+          270.48
+        ],
+        [
+          64.02,
+          270.58
+        ],
+        [
+          64.23,
+          270.69
+        ],
+        [
+          64.47,
+          270.78
+        ],
+        [
+          64.69,
+          270.85
+        ],
+        [
+          64.91,
+          270.93
+        ],
+        [
+          65.18,
+          271.11
+        ],
+        [
+          65.44,
+          271.37
+        ]
+      ]
+    },
+    {
+      "id": "tel-norwyt-caernford",
+      "kind": "telegraph",
+      "name": "Norwyt – Caernford",
+      "since": 8,
+      "points": [
+        [
+          65.44,
+          271.37
+        ],
+        [
+          65.48,
+          271.62
+        ],
+        [
+          65.54,
+          271.85
+        ],
+        [
+          65.61,
+          272.08
+        ],
+        [
+          65.66,
+          272.32
+        ],
+        [
+          65.67,
+          272.55
+        ],
+        [
+          65.64,
+          272.78
+        ],
+        [
+          65.59,
+          273.02
+        ],
+        [
+          65.48,
+          273.37
+        ],
+        [
+          65.4,
+          273.59
+        ],
+        [
+          65.32,
+          273.81
+        ],
+        [
+          65.28,
+          273.93
+        ],
+        [
+          65.27,
+          274.31
+        ]
+      ]
+    },
+    {
+      "id": "tel-caernford-kilporth",
+      "kind": "telegraph",
+      "name": "Caernford – Kilporth",
+      "since": 8,
+      "points": [
+        [
+          65.27,
+          274.31
+        ],
+        [
+          65.56,
+          274.58
+        ],
+        [
+          65.91,
+          274.99
+        ],
+        [
+          66.07,
+          275.22
+        ],
+        [
+          66.21,
+          275.4
+        ],
+        [
+          66.32,
+          275.62
+        ],
+        [
+          66.38,
+          275.73
+        ],
+        [
+          66.53,
+          276.06
+        ]
+      ]
+    },
+    {
+      "id": "tel-caernford-strindmar",
+      "kind": "telegraph",
+      "name": "Caernford – Strindmar",
+      "since": 8,
+      "points": [
+        [
+          65.27,
+          274.31
+        ],
+        [
+          64.79,
+          274.66
+        ],
+        [
+          64.73,
+          275.36
+        ],
+        [
+          64.45,
+          275.51
+        ],
+        [
+          64.2,
+          275.77
+        ],
+        [
+          63.88,
+          276.04
+        ]
+      ]
+    },
+    {
+      "id": "tel-sellmor-preddi",
+      "kind": "telegraph",
+      "name": "Sellmor – Preddi City",
+      "since": 9,
+      "points": [
+        [
+          57.96,
+          273.13
+        ],
+        [
+          58.35,
+          273.45
+        ],
+        [
+          58.57,
+          273.57
+        ],
+        [
+          58.78,
+          273.64
+        ],
+        [
+          59.01,
+          273.75
+        ],
+        [
+          59.22,
+          273.87
+        ],
+        [
+          59.41,
+          274.01
+        ],
+        [
+          59.74,
+          274.36
+        ],
+        [
+          59.89,
+          274.55
+        ],
+        [
+          60.05,
+          274.73
+        ],
+        [
+          60.15,
+          274.79
+        ],
+        [
+          60.25,
+          274.65
+        ]
+      ]
+    },
+    {
+      "id": "tel-brudermyn-semaphore",
+      "kind": "telegraph",
+      "name": "Brudermyn – Seaborn Strait",
+      "since": 9,
+      "text": "Links Brudermyn to the South Point semaphore station on the eastern tip of South Island.",
+      "points": [
+        [
+          52.83,
+          268.6
+        ],
+        [
+          53,
+          268.69
+        ],
+        [
+          53.24,
+          268.72
+        ],
+        [
+          53.32,
+          268.95
+        ],
+        [
+          53.48,
+          269.12
+        ],
+        [
+          53.71,
+          269.18
+        ],
+        [
+          53.86,
+          269.36
+        ],
+        [
+          53.94,
+          269.43
+        ]
+      ]
+    },
+    {
+      "id": "sem-seaborn-strait",
+      "kind": "semaphore",
+      "name": "Seaborn Strait semaphore",
+      "since": 7,
+      "text": "A 32-mile semaphore link from a station northwest of Penmawr to a mountaintop at the eastern tip of Seaborn's South Island, read through ten-foot telescopes made in Norwyt. It first connected Seaborn Province to the rest of Caedellium.",
+      "points": [
+        [
+          53.94,
+          269.43
+        ],
+        [
+          54.26,
+          269.41
+        ],
+        [
+          54.77,
+          269.24
+        ],
+        [
+          55.31,
+          269.05
+        ]
+      ]
+    },
+    {
+      "id": "sem-caernford-moreland",
+      "kind": "semaphore",
+      "name": "Caernford – Moreland City",
+      "since": 3,
+      "points": [
+        [
+          65.27,
+          274.31
+        ],
+        [
+          64.46,
+          273.94
+        ],
+        [
+          63.85,
+          273.57
+        ],
+        [
+          63.78,
+          273.35
+        ],
+        [
+          62.89,
+          272.77
+        ],
+        [
+          61.94,
+          271.76
+        ]
+      ]
+    },
+    {
+      "id": "sem-moreland-orosz",
+      "kind": "semaphore",
+      "name": "Moreland City – Orosz City",
+      "since": 3,
+      "points": [
+        [
+          61.94,
+          271.76
+        ],
+        [
+          62.61,
+          270.92
+        ],
+        [
+          63.41,
+          270.14
+        ]
+      ]
+    },
+    {
+      "id": "sem-moreland-clitwyth",
+      "kind": "semaphore",
+      "name": "Moreland City – Clitwyth",
+      "since": 3,
+      "points": [
+        [
+          61.94,
+          271.76
+        ],
+        [
+          60.97,
+          271.13
+        ],
+        [
+          59.74,
+          270.14
+        ]
+      ]
+    },
+    {
+      "id": "sem-keelan-norwyt",
+      "kind": "semaphore",
+      "name": "Keelan border – Norwyt",
+      "since": 3,
+      "points": [
+        [
+          63.78,
+          273.35
+        ],
+        [
+          64.53,
+          272.37
+        ],
+        [
+          65.44,
+          271.37
+        ]
+      ]
+    },
+    {
+      "id": "sem-norwyt-adris",
+      "kind": "semaphore",
+      "name": "Norwyt – Adris City",
+      "since": 3,
+      "points": [
+        [
+          65.44,
+          271.37
+        ],
+        [
+          65.08,
+          270.72
+        ],
+        [
+          65.56,
+          270.04
+        ]
+      ]
+    },
+    {
+      "id": "sem-caernford-abersford",
+      "kind": "semaphore",
+      "name": "Caernford – Abersford",
+      "since": 3,
+      "points": [
+        [
+          65.27,
+          274.31
+        ],
+        [
+          64.94,
+          274.83
+        ],
+        [
+          64.73,
+          275.36
+        ]
+      ]
+    },
+    {
+      "id": "sem-abersford-strindmar",
+      "kind": "semaphore",
+      "name": "Abersford – Strindmar",
+      "since": 3,
+      "points": [
+        [
+          64.73,
+          275.36
+        ],
+        [
+          64.26,
+          275.72
+        ],
+        [
+          63.88,
+          276.04
+        ]
+      ]
+    },
+    {
+      "id": "sem-caernford-kilporth",
+      "kind": "semaphore",
+      "name": "Caernford – Kilporth",
+      "since": 3,
+      "points": [
+        [
+          65.27,
+          274.31
+        ],
+        [
+          65.32,
+          274.83
+        ],
+        [
+          65.52,
+          275.13
+        ],
+        [
+          66.11,
+          275.58
+        ],
+        [
+          66.53,
+          276.06
+        ]
+      ]
+    },
+    {
+      "id": "sem-preddi-hanslow",
+      "kind": "semaphore",
+      "name": "Preddi City – Hanslow",
+      "since": 3,
+      "points": [
+        [
+          60.25,
+          274.65
+        ],
+        [
+          60.42,
+          273.46
+        ],
+        [
+          60.68,
+          272.34
+        ]
+      ]
+    },
+    {
+      "id": "sem-preddi-sellmor",
+      "kind": "semaphore",
+      "name": "Preddi City – Sellmor",
+      "since": 3,
+      "points": [
+        [
+          60.25,
+          274.65
+        ],
+        [
+          59.06,
+          274.28
+        ],
+        [
+          57.96,
+          273.13
+        ]
+      ]
+    },
+    {
+      "id": "sem-moreland-hanslow",
+      "kind": "semaphore",
+      "name": "Moreland City – Hanslow",
+      "since": 4,
+      "points": [
+        [
+          61.94,
+          271.76
+        ],
+        [
+          61.4,
+          271.97
+        ],
+        [
+          61.02,
+          272.16
+        ],
+        [
+          60.68,
+          272.34
+        ]
+      ]
+    },
+    {
+      "id": "sem-sellmor-clitwyth",
+      "kind": "semaphore",
+      "name": "Sellmor – Clitwyth",
+      "since": 4,
+      "points": [
+        [
+          57.96,
+          273.13
+        ],
+        [
+          58.22,
+          272.59
+        ],
+        [
+          58.7,
+          271.86
+        ],
+        [
+          59.19,
+          271.04
+        ],
+        [
+          59.74,
+          270.14
+        ]
+      ]
+    },
+    {
+      "id": "sem-orosz-cherona",
+      "kind": "semaphore",
+      "name": "Orosz City – Cherona",
+      "since": 5,
+      "points": [
+        [
+          63.41,
+          270.14
+        ],
+        [
+          63,
+          269.5
+        ],
+        [
+          62.57,
+          268.9
+        ]
+      ]
+    },
+    {
+      "id": "sem-cherona-morstryd",
+      "kind": "semaphore",
+      "name": "Cherona – Morstryd",
+      "since": 5,
+      "points": [
+        [
+          62.57,
+          268.9
+        ],
+        [
+          62.66,
+          268.69
+        ],
+        [
+          62.71,
+          268.58
+        ],
+        [
+          62.77,
+          268.35
+        ],
+        [
+          62.85,
+          268.12
+        ],
+        [
+          62.89,
+          267.89
+        ],
+        [
+          62.95,
+          267.54
+        ],
+        [
+          63,
+          267.3
+        ],
+        [
+          63,
+          267.06
+        ],
+        [
+          62.96,
+          266.82
+        ],
+        [
+          62.94,
+          266.59
+        ],
+        [
+          62.96,
+          266.38
+        ]
+      ]
+    },
+    {
+      "id": "sem-morstryd-devanyo",
+      "kind": "semaphore",
+      "name": "Morstryd – Devanyo",
+      "since": 5,
+      "points": [
+        [
+          62.96,
+          266.38
+        ],
+        [
+          62.7,
+          266.29
+        ],
+        [
+          62.47,
+          266.29
+        ],
+        [
+          62.23,
+          266.33
+        ],
+        [
+          61.99,
+          266.36
+        ],
+        [
+          61.75,
+          266.37
+        ],
+        [
+          61.36,
+          266.22
+        ]
+      ]
+    },
+    {
+      "id": "sem-vandork-cherona",
+      "kind": "semaphore",
+      "name": "Vandork – Cherona",
+      "since": 5,
+      "points": [
+        [
+          61,
+          268.4
+        ],
+        [
+          61.52,
+          268.55
+        ],
+        [
+          61.75,
+          268.6
+        ],
+        [
+          61.98,
+          268.66
+        ],
+        [
+          62.2,
+          268.75
+        ],
+        [
+          62.39,
+          268.87
+        ],
+        [
+          62.57,
+          268.9
+        ]
+      ]
+    },
+    {
+      "id": "sem-vandork-clitwyth",
+      "kind": "semaphore",
+      "name": "Vandork – Clitwyth",
+      "since": 5,
+      "points": [
+        [
+          61,
+          268.4
+        ],
+        [
+          60.64,
+          268.93
+        ],
+        [
+          60.22,
+          269.57
+        ],
+        [
+          59.74,
+          270.14
+        ]
+      ]
+    },
+    {
+      "id": "tel-penmawr-strait",
+      "kind": "telegraph",
+      "name": "Seaborn Strait spur",
+      "since": 8,
+      "text": "A spur off the Penmawr – Shullick telegraph to the mainland semaphore station on the Seaborn Strait, which lets Seaborn's hetman take part in the Senate from South Island.",
+      "points": [
+        [
+          56.67,
+          269.35
+        ],
+        [
+          56.5,
+          269.3
+        ],
+        [
+          56.1,
+          268.95
+        ],
+        [
+          55.8,
+          268.95
+        ],
+        [
+          55.31,
+          269.05
+        ]
+      ],
+      "sources": [
+        "b8-caedellium-rail-telegraph"
+      ]
+    },
+    {
+      "id": "tel-caernford-abersford",
+      "kind": "telegraph",
+      "name": "Caernford – Abersford",
+      "since": 8,
+      "points": [
+        [
+          65.27,
+          274.31
+        ],
+        [
+          64.94,
+          274.83
+        ],
+        [
+          64.73,
+          275.36
+        ]
+      ],
+      "sources": [
+        "b8-caedellium-rail-telegraph"
+      ]
+    },
+    {
+      "id": "tel-abersford-strindmar",
+      "kind": "telegraph",
+      "name": "Abersford – Strindmar",
+      "since": 8,
+      "points": [
+        [
+          64.73,
+          275.36
+        ],
+        [
+          64.26,
+          275.72
+        ],
+        [
+          63.88,
+          276.04
+        ]
+      ],
+      "sources": [
+        "b8-caedellium-rail-telegraph"
+      ]
+    },
+    {
+      "id": "rail-clitwyth-hilstrom",
+      "kind": "railroad",
+      "name": "Clitwyth – Hilstrom",
+      "since": 9,
+      "text": "A forty-mile spur to the Hilstrom shipyard, under construction during book 8.",
+      "points": [
+        [
+          59.74,
+          270.15
+        ],
+        [
+          59.45,
+          270.6
+        ],
+        [
+          59.2,
+          271
+        ],
+        [
+          58.95,
+          271.32
+        ]
+      ]
+    },
+    {
+      "id": "river-zamzul",
+      "kind": "river",
+      "name": "Zamzul River",
+      "since": 8,
+      "text": "Runs out of the northern Kolinkan mountains past Chikawan's north side and on into Ponomyna. Only three bridges cross it, and Tasman Gangala's column takes the lower and middle ones. The course follows the book's campaign map.",
+      "points": [
+        [
+          253.24,
+          185.51
+        ],
+        [
+          252.98,
+          186.14
+        ],
+        [
+          252.51,
+          186.96
+        ],
+        [
+          251.67,
+          187.43
+        ],
+        [
+          250.84,
+          187.68
+        ],
+        [
+          249.98,
+          188.25
+        ],
+        [
+          249.69,
+          189.31
+        ],
+        [
+          249.4,
+          190.36
+        ],
+        [
+          248.93,
+          191.19
+        ],
+        [
+          247.87,
+          191.75
+        ],
+        [
+          246.61,
+          192.39
+        ],
+        [
+          246.65,
+          193.15
+        ],
+        [
+          246.29,
+          193.77
+        ],
+        [
+          244.96,
+          194.04
+        ],
+        [
+          243.64,
+          194.13
+        ],
+        [
+          241.63,
+          194.13
+        ],
+        [
+          239.61,
+          194.19
+        ],
+        [
+          238.18,
+          194.37
+        ],
+        [
+          237.37,
+          194.52
+        ],
+        [
+          236.67,
+          194.46
+        ],
+        [
+          235.93,
+          194.87
+        ],
+        [
+          234.84,
+          195.77
+        ],
+        [
+          233.84,
+          196.85
+        ],
+        [
+          232.87,
+          197.59
+        ],
+        [
+          232.22,
+          198.18
+        ],
+        [
+          231.74,
+          199.11
+        ],
+        [
+          231.44,
+          200.71
+        ],
+        [
+          231.15,
+          202.41
+        ],
+        [
+          230.94,
+          203.69
+        ],
+        [
+          231.13,
+          204.78
+        ]
+      ],
+      "sources": [
+        "b8-kolinka-campaign-plan",
+        "b8-badlands-approach"
+      ]
+    },
+    {
+      "id": "river-wambal",
+      "kind": "river",
+      "name": "Wambal River",
+      "since": 8,
+      "text": "Formed from several streams near the Mukamon border, it runs southwest past Chikawan and down to the sea at Penabak. Its upper and middle bridges are Mukamon's objectives, and wounded go downriver to Penabak by barge. The course follows the book's campaign map.",
+      "points": [
+        [
+          251.75,
+          195.85
+        ],
+        [
+          250.51,
+          196.29
+        ],
+        [
+          249.45,
+          196.85
+        ],
+        [
+          247.42,
+          197.1
+        ],
+        [
+          245.36,
+          197.58
+        ],
+        [
+          243.87,
+          198.57
+        ],
+        [
+          243.02,
+          199.1
+        ],
+        [
+          242.36,
+          199.69
+        ],
+        [
+          241.87,
+          200.73
+        ],
+        [
+          241.36,
+          201.98
+        ],
+        [
+          240.37,
+          202.98
+        ],
+        [
+          238.38,
+          203.89
+        ],
+        [
+          236.34,
+          204.15
+        ],
+        [
+          234.32,
+          204.3
+        ],
+        [
+          232.69,
+          204.48
+        ],
+        [
+          231.13,
+          204.78
+        ],
+        [
+          230.2,
+          205.35
+        ],
+        [
+          228.78,
+          207.82
+        ],
+        [
+          228.09,
+          211.21
+        ],
+        [
+          227.02,
+          214.23
+        ],
+        [
+          227.21,
+          216.75
+        ],
+        [
+          227.41,
+          217.72
+        ]
+      ],
+      "sources": [
+        "b8-kolinka-campaign-plan",
+        "b8-badlands-approach"
+      ]
+    },
+    {
+      "id": "river-chikok",
+      "kind": "river",
+      "name": "Chikok River",
+      "since": 8,
+      "text": "Curves around the west and south of Chikawan before spreading into wetlands and joining the Wambal. The Kolinkans fortify its far bank and destroy its four bridges, and the Alliance fords it south of the city. The course follows the book's campaign map.",
+      "points": [
+        [
+          242.4,
+          195.66
+        ],
+        [
+          242.34,
+          196.03
+        ],
+        [
+          242.14,
+          196.9
+        ],
+        [
+          241.77,
+          197.51
+        ],
+        [
+          241.5,
+          198.06
+        ],
+        [
+          241.42,
+          198.49
+        ],
+        [
+          241.69,
+          198.95
+        ],
+        [
+          242.29,
+          199.62
+        ],
+        [
+          242.64,
+          200.08
+        ],
+        [
+          242.36,
+          199.69
+        ]
+      ],
+      "sources": [
+        "b8-badlands-approach",
+        "b8-chikok-defenses",
+        "b8-chikok-assault"
+      ]
+    },
+    {
+      "id": "stream-tahpulta",
+      "kind": "stream",
+      "name": "Tahpulta Stream",
+      "since": 8,
+      "text": "A seasonal stream that has cut a ravine 20 to 30 feet deep through the badlands, running southeast into the Wambal. Rakatek uses it as his defensive line. The course follows the book's campaign map.",
+      "points": [
+        [
+          237.35,
+          197.07
+        ],
+        [
+          237.64,
+          197.65
+        ],
+        [
+          238.24,
+          198.06
+        ],
+        [
+          238.71,
+          198.6
+        ],
+        [
+          239,
+          199.12
+        ],
+        [
+          239.18,
+          199.63
+        ],
+        [
+          239.53,
+          200.16
+        ],
+        [
+          239.88,
+          200.68
+        ],
+        [
+          240.23,
+          201.46
+        ],
+        [
+          240.83,
+          202
+        ],
+        [
+          241.36,
+          202.16
+        ],
+        [
+          241.36,
+          201.98
+        ]
+      ],
+      "sources": [
+        "b8-badlands-approach"
+      ]
+    }
+  ]
+}
