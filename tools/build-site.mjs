@@ -5,7 +5,7 @@ const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..")
 const OUT = path.join(ROOT, "dist");
 const PAGES = ["index.html", "src/main.js", "src/data.js", "src/spoilers.js", "src/geo.js", "src/landing.js"];
 const DATA = ["src/world.json", "src/vectors.json", "src/features.json", "src/events.json", "src/minerals.json"];
-const DIRS = ["assets/covers", "assets/books", "assets/icons"];
+const DIRS = ["assets/covers", "assets/books", "assets/icons", "assets/fonts"];
 const STATIC = ["_headers"];
 const ROOT_FILES = ["favicon.ico"];
 
